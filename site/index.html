@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Pronos - Pronostics Football Gratuits & Fiables</title>
+    <meta name="description" content="Pronostics football gratuits avec analyse statistique avancée. BetScan Pro détecte les value bets pour maximiser vos gains.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">GG<span class="accent">Pronos</span></span>
+            </a>
+            <nav class="nav">
+                <a href="#pronos" class="nav-link">Pronos du Jour</a>
+                <a href="#stats" class="nav-link">Statistiques</a>
+                <a href="#historique" class="nav-link">Historique</a>
+                <a href="#affiliations" class="nav-link">Bookmakers</a>
+            </nav>
+            <div class="header-right">
+                <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Pronostics Football <span class="accent">Gratuits & Fiables</span></h1>
+            <p class="hero-subtitle">BetScan Pro analyse chaque match et détecte les value bets pour maximiser vos gains</p>
+            
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="win-rate">70%</div>
+                    <div class="stat-label">Taux de Réussite</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="total-bets">156</div>
+                    <div class="stat-label">Paris Analysés</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="profit">+23.5%</div>
+                    <div class="stat-label">Profit Simulé</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="edge">+8.2%</div>
+                    <div class="stat-label">Edge Moyen</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pronos du Jour -->
+    <section id="pronos" class="section pronos-section">
+        <div class="container">
+            <h2 class="section-title">🎯 Pronos du Jour</h2>
+            <p class="section-subtitle">Analyses mis à jour à 12h00 et 20h00</p>
+            
+            <div class="pronos-grid" id="pronos-container">
+                <!-- Les pronos seront chargés ici via JavaScript -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    Chargement des pronos...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comment ça marche -->
+    <section class="section how-section">
+        <div class="container">
+            <h2 class="section-title">🧠 Comment ça marche ?</h2>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📡</div>
+                    <h3>Récupération</h3>
+                    <p>BetScan récupère les cotes de 10+ bookmakers pour chaque match</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">📊</div>
+                    <h3>Analyse</h3>
+                    <p>Notre modèle calcule les xG, la forme, le H2H et l'avantage domicile</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">🎯</div>
+                    <h3>Comparaison</h3>
+                    <p>On compare notre analyse avec les cotes pour trouver la valeur</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">✅</div>
+                    <h3>Sélection</h3>
+                    <p>Seuls les paris avec edge > 3% et EV positive sont retenus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistiques -->
+    <section id="stats" class="section stats-section">
+        <div class="container">
+            <h2 class="section-title">📈 Statistiques</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-detail-card">
+                    <h3>Bilan Global</h3>
+                    <div class="stat-row">
+                        <span>Total paris</span>
+                        <span class="stat-value" id="stats-total">156</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Gagnés</span>
+                        <span class="stat-value won" id="stats-won">109</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Perdus</span>
+                        <span class="stat-value lost" id="stats-lost">47</span>
+                    </div>
+                    <div class="stat-row highlight">
+                        <span>Taux réussite</span>
+                        <span class="stat-value" id="stats-winrate">70%</span>
+                    </div>
+                </div>
+                
+                <div class="stat-detail-card">
+                    <h3>Performance</h3>
+                    <div class="stat-row">
+                        <span>Profit simulé</span>
+                        <span class="stat-value profit" id="stats-profit">+23.5%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Edge moyen</span>
+                        <span class="stat-value" id="stats-edge">+8.2%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Cote moyenne</span>
+                        <span class="stat-value" id="stats-odds">1.85</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Paris en cours</span>
+                        <span class="stat-value" id="stats-pending">5</span>
+                    </div>
+                </div>
+                
+                <div class="stat-detail-card">
+                    <h3>Par Ligue</h3>
+                    <div class="stat-row">
+                        <span>🏆 Ligue 1</span>
+                        <span class="stat-value">72%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</span>
+                        <span class="stat-value">68%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>🇪🇸 La Liga</span>
+                        <span class="stat-value">71%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>🇮🇹 Serie A</span>
+                        <span class="stat-value">69%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historique -->
+    <section id="historique" class="section history-section">
+        <div class="container">
+            <h2 class="section-title">🏆 Historique des Pronos</h2>
+            
+            <div class="history-table-container">
+                <table class="history-table" id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Match</th>
+                            <th>Pari</th>
+                            <th>Cote</th>
+                            <th>Score</th>
+                            <th>Résultat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-body">
+                        <!-- L'historique sera chargé ici -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliations -->
+    <section id="affiliations" class="section affiliations-section">
+        <div class="container">
+            <h2 class="section-title">💰 Nos Partenaires</h2>
+            <p class="section-subtitle">Inscrivez-vous via nos liens pour nous soutenir</p>
+            
+            <div class="affiliations-grid">
+                <a href="https://www.winamax.fr/parrainage/invite.php?code=GG7H9E" target="_blank" class="affiliation-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Winamax_logo.svg/1200px-Winamax_logo.svg.png" alt="Winamax">
+                    <div class="affiliation-info">
+                        <h3>Winamax</h3>
+                        <p>Meilleure app de paris sportifs en France</p>
+                        <span class="bonus">Jusqu'à 100€ de bonus</span>
+                    </div>
+                </a>
+                
+                <a href="https://www.betclic.fr/" target="_blank" class="affiliation-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5c/Betclic_logo_2021.svg/1200px-Betclic_logo_2021.svg.png" alt="Betclic">
+                    <div class="affiliation-info">
+                        <h3>Betclic</h3>
+                        <p>Les meilleures cotes du marché</p>
+                        <span class="bonus">100€ remboursés</span>
+                    </div>
+                </a>
+                
+                <a href="https://www.unibet.fr/" target="_blank" class="affiliation-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Unibet_logo.svg/1200px-Unibet_logo.svg.png" alt="Unibet">
+                    <div class="affiliation-info">
+                        <h3>Unibet</h3>
+                        <p>Le leader européen des paris</p>
+                        <span class="bonus">100€ de bonus</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Rejoignez notre communauté</h2>
+            <p>Suivez-nous sur les réseaux sociaux pour ne rien manquer</p>
+            
+            <div class="social-links">
+                <a href="https://twitter.com/ggpronos" target="_blank" class="social-btn twitter">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://t.me/ggpronos" target="_blank" class="social-btn telegram">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚽</span>
+                    <span class="logo-text">GG<span class="accent">Pronos</span></span>
+                    <p>Pronostics football gratuits avec analyse statistique avancée</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="#pronos">Pronos du Jour</a>
+                    <a href="#stats">Statistiques</a>
+                    <a href="#historique">Historique</a>
+                    <a href="#affiliations">Bookmakers</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Légal</h4>
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Jeu responsable</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>⚠️ Les paris sportifs comportent des risques. Jouez responsablement. Interdit aux moins de 18 ans.</p>
+                <p>© 2026 GG Pronos - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

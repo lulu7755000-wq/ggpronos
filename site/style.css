@@ -1,0 +1,604 @@
+/* GG Pronos - Style Complet */
+:root {
+    --primary: #1a73e8;
+    --primary-dark: #1557b0;
+    --accent: #00c853;
+    --danger: #ff5252;
+    --warning: #ffc107;
+    --bg-dark: #0d1117;
+    --bg-card: #161b22;
+    --bg-card-hover: #1c2333;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --border: #30363d;
+    --gradient: linear-gradient(135deg, #1a73e8, #00c853);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: rgba(13, 17, 23, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo-icon {
+    font-size: 2rem;
+}
+
+.logo-text {
+    color: var(--text);
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.live-badge {
+    background: var(--danger);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* Hero */
+.hero {
+    background: var(--gradient);
+    padding: 150px 0 80px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 50px;
+}
+
+/* Pronos Grid */
+.pronos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.prono-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prono-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 200, 83, 0.2);
+}
+
+.prono-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.prono-league {
+    background: var(--primary);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.prono-confidence {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.prono-match {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.prono-analysis {
+    background: rgba(26, 115, 232, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.prono-analysis-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.prono-analysis-row:last-child {
+    margin-bottom: 0;
+}
+
+.prono-bet {
+    background: var(--accent);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.prono-bet-type {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.prono-odds {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.prono-edge {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.prono-bookmaker {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.prono-bookmaker a {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.prono-bookmaker a:hover {
+    background: var(--primary-dark);
+}
+
+/* How Section */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.step-card {
+    text-align: center;
+    padding: 30px;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: var(--gradient);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto 20px;
+}
+
+.step-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.step-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* Stats Section */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.stat-detail-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.stat-detail-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+}
+
+.stat-row:last-child {
+    border-bottom: none;
+}
+
+.stat-row.highlight {
+    background: rgba(0, 200, 83, 0.1);
+    margin: 10px -15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.stat-value.won {
+    color: var(--accent);
+}
+
+.stat-value.lost {
+    color: var(--danger);
+}
+
+.stat-value.profit {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* History Table */
+.history-table-container {
+    overflow-x: auto;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.history-table th,
+.history-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.history-table th {
+    background: rgba(26, 115, 232, 0.2);
+    font-weight: 600;
+}
+
+.history-table tr:hover {
+    background: var(--bg-card-hover);
+}
+
+.result-won {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.result-lost {
+    color: var(--danger);
+    font-weight: 600;
+}
+
+/* Affiliations */
+.affiliations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.affiliation-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 25px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.affiliation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(26, 115, 232, 0.3);
+}
+
+.affiliation-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.affiliation-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.affiliation-info p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.bonus {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* CTA Section */
+.cta-section {
+    background: var(--gradient);
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.social-btn:hover {
+    transform: scale(1.05);
+}
+
+.social-btn.twitter {
+    background: #1da1f2;
+    color: white;
+}
+
+.social-btn.telegram {
+    background: #0088cc;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 60px 0 30px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-brand p {
+    color: var(--text-muted);
+    margin-top: 10px;
+}
+
+.footer-links h4 {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    display: block;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--accent);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 50px;
+    color: var(--text-muted);
+}
+
+.loading i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .nav {
+        display: none;
+    }
+    
+    .pronos-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .steps-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .affiliations-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
