@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-01T12:48:57.957660",
+  "last_update": "2026-09-01T13:09:14.368291",
   "stats": {
     "total": 2,
     "won": 0,
@@ -11,98 +11,48 @@
   },
   "pronos_today": [
     {
-      "match_id": "9a31fb300796d3e97b63f1db49badedc",
-      "match": "Toulouse vs Lille",
-      "home": "Toulouse",
-      "away": "Lille",
-      "league": "Ligue 1",
-      "time": "2026-09-03 18:45",
-      "hours_until": 53.9,
-      "analysis": {
-        "home_xg": 1.12,
-        "away_xg": 1.66,
-        "home_win": 25.7,
-        "draw": 24.3,
-        "away_win": 49.9,
-        "over_25": 52.6,
-        "btts_yes": 54.6,
-        "confidence": 65,
-        "score": 55,
-        "grade": "orange",
-        "bookmaker_count": 23
-      },
-      "best_bet": {
-        "type": "away",
-        "outcome": "Lille",
-        "odds": 2.25,
-        "bookmaker": "1xBet",
-        "model_prob": 49.9,
-        "implied_prob": 44.4,
-        "edge": 5.5,
-        "ev": 12.3,
-        "composite": 48.243333333333325
-      },
-      "all_candidates": [
-        {
-          "type": "away",
-          "outcome": "Lille",
-          "odds": 2.25,
-          "bookmaker": "1xBet",
-          "model_prob": 49.9,
-          "implied_prob": 44.4,
-          "edge": 5.5,
-          "ev": 12.3,
-          "composite": 48.243333333333325
-        }
-      ],
-      "created_at": "2026-09-01T12:48:57.957588"
-    },
-    {
-      "match_id": "5a4aaa142d12a350f302f2fb62fef0b3",
       "match": "Real Sociedad vs Celta Vigo",
       "home": "Real Sociedad",
       "away": "Celta Vigo",
       "league": "La Liga",
-      "time": "2026-09-03 19:00",
-      "hours_until": 54.2,
-      "analysis": {
-        "home_xg": 1.95,
-        "away_xg": 0.9,
-        "home_win": 61.8,
-        "draw": 21.4,
-        "away_win": 16.7,
-        "over_25": 54.0,
-        "btts_yes": 50.7,
-        "confidence": 75,
-        "score": 70,
-        "grade": "green",
-        "bookmaker_count": 20
-      },
+      "emoji": "🇪🇸",
+      "time": "2026-09-03 19:00:00",
+      "hours_until": 55.9,
+      "confidence": 72,
+      "prob_home": 48.7,
+      "prob_draw": 26.6,
+      "prob_away": 24.8,
       "best_bet": {
-        "type": "home",
-        "outcome": "Real Sociedad",
-        "odds": 2.04,
-        "bookmaker": "1xBet",
-        "model_prob": 61.8,
-        "implied_prob": 49.0,
-        "edge": 12.8,
-        "ev": 26.1,
-        "composite": 55.13468235294118
+        "outcome": "Celta Vigo",
+        "odds": 4.1,
+        "bookmaker": "Betfair",
+        "edge": 1.6,
+        "ev": 1.6,
+        "prob": 24.8
       },
-      "all_candidates": [
-        {
-          "type": "home",
-          "outcome": "Real Sociedad",
-          "odds": 2.04,
-          "bookmaker": "1xBet",
-          "model_prob": 61.8,
-          "implied_prob": 49.0,
-          "edge": 12.8,
-          "ev": 26.1,
-          "composite": 55.13468235294118
-        }
-      ],
-      "created_at": "2026-09-01T12:48:57.957657"
+      "odds_count": 60
+    },
+    {
+      "match": "Toulouse vs Lille",
+      "home": "Toulouse",
+      "away": "Lille",
+      "league": "Ligue 1",
+      "emoji": "🇫🇷",
+      "time": "2026-09-03 18:45:00",
+      "hours_until": 55.6,
+      "confidence": 75,
+      "prob_home": 27.8,
+      "prob_draw": 28.2,
+      "prob_away": 44.0,
+      "best_bet": {
+        "outcome": "Toulouse",
+        "odds": 3.6,
+        "bookmaker": "Betfair",
+        "edge": 0.2,
+        "ev": 0.2,
+        "prob": 27.8
+      },
+      "odds_count": 69
     }
   ],
   "history": []
