@@ -14,15 +14,32 @@ async function loadPronos() {
     const container = document.getElementById('pronos-container');
     
     try {
-        // Charger les pronos depuis le fichier JSON
-        const response = await fetch('pronos.json');
-        const pronos = await response.json();
+        // D'abord essayer data.json (système unifié)
+        let pronos = [];
+        let stats = null;
         
-        // Filtrer les pronos du jour
-        const today = new Date().toISOString().split('T')[0];
-        const todayPronos = pronos.filter(p => 
-            p.timestamp && p.timestamp.startsWith(today)
-        ).slice(0, 6);
+        try {
+            const dataResponse = await fetch('data.json');
+            const data = await dataResponse.json();
+            pronos = data.pronos_today || [];
+            stats = data.stats || null;
+        } catch(e) {
+            // Fallback vers pronos.json
+            const response = await fetch('pronos.json');
+            pronos = await response.json();
+        }
+        
+        // Mettre à jour les stats si disponibles
+        if (stats) {
+            updateStats(stats);
+        }
+        
+        // Filtrer les pronos du jour ou à venir
+        const now = new Date();
+        const todayPronos = pronos.filter(p => {
+            const t = p.time || p.timestamp || '';
+            return t >= now.toISOString().split('T')[0];
+        }).slice(0, 6);
         
         if (todayPronos.length === 0) {
             container.innerHTML = `
@@ -55,6 +72,7 @@ async function loadPronos() {
 function createProntoCard(prono) {
     const analysis = prono.analysis || {};
     const bestBet = prono.best_bet || {};
+    const matchTime = prono.time || prono.timestamp || '';
     
     const betTypeLabels = {
         'home': 'Victoire domicile',
@@ -74,12 +92,21 @@ function createProntoCard(prono) {
         'Betfair': 'https://www.betfair.com/'
     };
     
+    // Format date
+    let dateStr = '';
+    if (matchTime) {
+        const d = new Date(matchTime.replace(' ', 'T'));
+        dateStr = d.toLocaleDateString('fr-FR', {weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'});
+    }
+    
     return `
         <div class="prono-card">
             <div class="prono-header">
                 <span class="prono-league">${prono.league || 'Ligue inconnue'}</span>
-                <span class="prono-confidence">🎯 ${analysis.confidence || 65}%</span>
+                <span class="prono-confidence">🎯 ${analysis.confidence || 0}%</span>
             </div>
+            
+            ${dateStr ? `<div class="prono-date" style="font-size:0.8em;color:#888;margin-bottom:5px;">📅 ${dateStr}</div>` : ''}
             
             <div class="prono-match">${prono.match || 'Match inconnu'}</div>
             
@@ -113,49 +140,63 @@ function createProntoCard(prono) {
     `;
 }
 
-function getExamplePronos() {
-    const examples = [
-        {
-            match: "Arsenal vs Chelsea",
-            league: "Premier League",
-            analysis: { home_xg: 2.67, away_xg: 0.62, home_win: 58, draw: 22, away_win: 20, confidence: 65 },
-            best_bet: { bet_type: "home", outcome: "Arsenal", odds: 1.76, edge: 19.2, ev: 33.8, bookmaker: "1xBet" }
-        },
-        {
-            match: "Marseille vs Paris FC",
-            league: "Ligue 1",
-            analysis: { home_xg: 2.5, away_xg: 0.65, home_win: 56, draw: 24, away_win: 20, confidence: 65 },
-            best_bet: { bet_type: "home", outcome: "Marseille", odds: 1.80, edge: 18.8, ev: 33.9, bookmaker: "1xBet" }
-        },
-        {
-            match: "Fiorentina vs Torino",
-            league: "Serie A",
-            analysis: { home_xg: 2.34, away_xg: 0.72, home_win: 54, draw: 25, away_win: 21, confidence: 65 },
-            best_bet: { bet_type: "home", outcome: "Fiorentina", odds: 1.97, edge: 20.6, ev: 40.7, bookmaker: "Unibet" }
-        }
-    ];
+function updateStats(stats) {
+    // Mettre à jour les stats dans le hero
+    const winRateEl = document.getElementById('win-rate');
+    const totalBetsEl = document.getElementById('total-bets');
+    const profitEl = document.getElementById('profit');
     
-    return examples.map(prono => createProntoCard(prono)).join('');
+    if (winRateEl) winRateEl.textContent = (stats.win_rate || 0) + '%';
+    if (totalBetsEl) totalBetsEl.textContent = stats.total || 0;
+    if (profitEl) profitEl.textContent = (stats.profit >= 0 ? '+' : '') + (stats.profit || 0) + '%';
+    
+    // Mettre à jour les stats détaillées
+    const statsTotal = document.getElementById('stats-total');
+    const statsWon = document.getElementById('stats-won');
+    const statsLost = document.getElementById('stats-lost');
+    const statsWinrate = document.getElementById('stats-winrate');
+    const statsProfit = document.getElementById('stats-profit');
+    const statsPending = document.getElementById('stats-pending');
+    
+    if (statsTotal) statsTotal.textContent = stats.total || 0;
+    if (statsWon) statsWon.textContent = stats.won || 0;
+    if (statsLost) statsLost.textContent = stats.lost || 0;
+    if (statsWinrate) statsWinrate.textContent = (stats.win_rate || 0) + '%';
+    if (statsProfit) statsProfit.textContent = '+' + (stats.profit || 0) + '%';
+    if (statsPending) statsPending.textContent = stats.pending || 0;
+}
+
+function getExamplePronos() {
+    return '<div class="loading"><i class="fas fa-calendar-day"></i><p>Aucun prono pour aujourd\'hui</p><p>Les prochains matchs arrivent bientôt !</p></div>';
 }
 
 // ==================== CHARGEMENT DES STATISTIQUES ====================
 
 async function loadStats() {
     try {
-        const response = await fetch('stats.json');
-        const stats = await response.json();
+        // Essayer data.json d'abord
+        let stats = null;
+        try {
+            const dataResponse = await fetch('data.json');
+            const data = await dataResponse.json();
+            stats = data.stats;
+        } catch(e) {
+            const response = await fetch('stats.json');
+            stats = await response.json();
+        }
         
-        document.getElementById('stats-total').textContent = stats.total || 0;
-        document.getElementById('stats-won').textContent = stats.won || 0;
-        document.getElementById('stats-lost').textContent = stats.lost || 0;
-        document.getElementById('stats-winrate').textContent = (stats.win_rate || 0) + '%';
-        document.getElementById('stats-profit').textContent = '+' + (stats.profit || 0) + '%';
-        document.getElementById('stats-pending').textContent = stats.pending || 0;
+        if (stats) updateStats(stats);
         
         // Hero stats
-        document.getElementById('win-rate').textContent = (stats.win_rate || 70) + '%';
-        document.getElementById('total-bets').textContent = stats.total || 156;
-        document.getElementById('profit').textContent = '+' + (stats.profit || 23.5) + '%';
+        const winRateEl = document.getElementById('win-rate');
+        const totalBetsEl = document.getElementById('total-bets');
+        const profitEl = document.getElementById('profit');
+        const edgeEl = document.getElementById('edge');
+        
+        if (winRateEl) winRateEl.textContent = (stats.win_rate || 0) + '%';
+        if (totalBetsEl) totalBetsEl.textContent = stats.total || 0;
+        if (profitEl) profitEl.textContent = (stats.profit >= 0 ? '+' : '') + (stats.profit || 0) + '%';
+        if (edgeEl) edgeEl.textContent = '—';
         
     } catch (error) {
         // Utiliser les valeurs par défaut
@@ -169,9 +210,16 @@ async function loadHistory() {
     const tbody = document.getElementById('history-body');
     
     try {
-        const response = await fetch('stats.json');
-        const stats = await response.json();
-        const history = (stats.history || []).slice(-20).reverse();
+        let history = [];
+        try {
+            const dataResponse = await fetch('data.json');
+            const data = await dataResponse.json();
+            history = (data.history || []).slice(-20).reverse();
+        } catch(e) {
+            const response = await fetch('stats.json');
+            const stats = await response.json();
+            history = (stats.history || []).slice(-20).reverse();
+        }
         
         if (history.length === 0) {
             tbody.innerHTML = `

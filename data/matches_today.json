@@ -1,0 +1,689 @@
+[
+  {
+    "id": "9a31fb300796d3e97b63f1db49badedc",
+    "home": "Toulouse",
+    "away": "Lille",
+    "league": "Ligue 1",
+    "league_key": "soccer_france_ligue_one",
+    "time": "2026-09-03 18:45",
+    "hours_until": 53.9,
+    "h2h_odds": {
+      "away": 2.25,
+      "away_bk": "1xBet",
+      "home": 3.6,
+      "home_bk": "Betfair",
+      "draw": 3.5,
+      "draw_bk": "1xBet"
+    },
+    "all_odds": [
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Lille",
+        "price": 2.1
+      },
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Toulouse",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Draw",
+        "price": 3.35
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Lille",
+        "price": 2.18
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Toulouse",
+        "price": 3.55
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Lille",
+        "price": 2.25
+      },
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Toulouse",
+        "price": 3.52
+      },
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Draw",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "GTbets",
+        "outcome": "Lille",
+        "price": 2.17
+      },
+      {
+        "bookmaker": "GTbets",
+        "outcome": "Toulouse",
+        "price": 3.39
+      },
+      {
+        "bookmaker": "GTbets",
+        "outcome": "Draw",
+        "price": 3.39
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Lille",
+        "price": 2.19
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Toulouse",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Draw",
+        "price": 3.35
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Lille",
+        "price": 2.0
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Toulouse",
+        "price": 3.1
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Draw",
+        "price": 3.2
+      },
+      {
+        "bookmaker": "Suprabets",
+        "outcome": "Lille",
+        "price": 2.12
+      },
+      {
+        "bookmaker": "Suprabets",
+        "outcome": "Toulouse",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Suprabets",
+        "outcome": "Draw",
+        "price": 3.23
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Lille",
+        "price": 2.0
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Toulouse",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Draw",
+        "price": 3.3
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Lille",
+        "price": 2.12
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Toulouse",
+        "price": 3.37
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Draw",
+        "price": 3.3
+      },
+      {
+        "bookmaker": "888sport",
+        "outcome": "Lille",
+        "price": 2.15
+      },
+      {
+        "bookmaker": "888sport",
+        "outcome": "Toulouse",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "888sport",
+        "outcome": "Draw",
+        "price": 3.2
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Lille",
+        "price": 2.15
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Toulouse",
+        "price": 3.3
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Draw",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Lille",
+        "price": 2.05
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Toulouse",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Lille",
+        "price": 2.24
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Toulouse",
+        "price": 3.6
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Draw",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "Marathon Bet",
+        "outcome": "Lille",
+        "price": 2.21
+      },
+      {
+        "bookmaker": "Marathon Bet",
+        "outcome": "Toulouse",
+        "price": 3.46
+      },
+      {
+        "bookmaker": "Marathon Bet",
+        "outcome": "Draw",
+        "price": 3.44
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Lille",
+        "price": 2.22
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Toulouse",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Draw",
+        "price": 3.42
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Lille",
+        "price": 2.16
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Toulouse",
+        "price": 3.35
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Draw",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Lille",
+        "price": 2.18
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Toulouse",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Draw",
+        "price": 3.3
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Lille",
+        "price": 2.23
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Toulouse",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Lille",
+        "price": 2.23
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Toulouse",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Lille",
+        "price": 2.2
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Toulouse",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Lille",
+        "price": 2.1
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Toulouse",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Draw",
+        "price": 3.25
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Lille",
+        "price": 2.12
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Toulouse",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Lille",
+        "price": 2.12
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Toulouse",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Draw",
+        "price": 3.4
+      }
+    ],
+    "bookmaker_count": 23,
+    "scanned_at": "2026-09-01T12:48:55.949593"
+  },
+  {
+    "id": "5a4aaa142d12a350f302f2fb62fef0b3",
+    "home": "Real Sociedad",
+    "away": "Celta Vigo",
+    "league": "La Liga",
+    "league_key": "soccer_spain_la_liga",
+    "time": "2026-09-03 19:00",
+    "hours_until": 54.2,
+    "h2h_odds": {
+      "away": 4.1,
+      "away_bk": "Betfair",
+      "home": 2.04,
+      "home_bk": "1xBet",
+      "draw": 3.7,
+      "draw_bk": "1xBet"
+    },
+    "all_odds": [
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Celta Vigo",
+        "price": 3.91
+      },
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Real Sociedad",
+        "price": 2.04
+      },
+      {
+        "bookmaker": "1xBet",
+        "outcome": "Draw",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Celta Vigo",
+        "price": 4.1
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Real Sociedad",
+        "price": 2.02
+      },
+      {
+        "bookmaker": "Betfair",
+        "outcome": "Draw",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Matchbook",
+        "outcome": "Celta Vigo",
+        "price": 4.1
+      },
+      {
+        "bookmaker": "Matchbook",
+        "outcome": "Real Sociedad",
+        "price": 2.02
+      },
+      {
+        "bookmaker": "Matchbook",
+        "outcome": "Draw",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Celta Vigo",
+        "price": 3.95
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Real Sociedad",
+        "price": 1.92
+      },
+      {
+        "bookmaker": "Nordic Bet",
+        "outcome": "Draw",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Celta Vigo",
+        "price": 3.95
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Real Sociedad",
+        "price": 1.92
+      },
+      {
+        "bookmaker": "Betsson",
+        "outcome": "Draw",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Real Sociedad",
+        "price": 1.9
+      },
+      {
+        "bookmaker": "Unibet (FR)",
+        "outcome": "Draw",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Celta Vigo",
+        "price": 3.78
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Real Sociedad",
+        "price": 1.92
+      },
+      {
+        "bookmaker": "Betclic (FR)",
+        "outcome": "Draw",
+        "price": 3.53
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Celta Vigo",
+        "price": 3.8
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Real Sociedad",
+        "price": 1.99
+      },
+      {
+        "bookmaker": "Codere (IT)",
+        "outcome": "Draw",
+        "price": 3.55
+      },
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Real Sociedad",
+        "price": 1.92
+      },
+      {
+        "bookmaker": "Winamax (DE)",
+        "outcome": "Draw",
+        "price": 3.65
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Celta Vigo",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Real Sociedad",
+        "price": 1.84
+      },
+      {
+        "bookmaker": "Winamax (FR)",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Celta Vigo",
+        "price": 3.9
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Real Sociedad",
+        "price": 1.93
+      },
+      {
+        "bookmaker": "Tipico",
+        "outcome": "Draw",
+        "price": 3.5
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Celta Vigo",
+        "price": 3.75
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Real Sociedad",
+        "price": 1.9
+      },
+      {
+        "bookmaker": "Everygame",
+        "outcome": "Draw",
+        "price": 3.45
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Celta Vigo",
+        "price": 4.02
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Real Sociedad",
+        "price": 1.95
+      },
+      {
+        "bookmaker": "Pinnacle",
+        "outcome": "Draw",
+        "price": 3.64
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Real Sociedad",
+        "price": 1.95
+      },
+      {
+        "bookmaker": "William Hill",
+        "outcome": "Draw",
+        "price": 3.4
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Real Sociedad",
+        "price": 1.93
+      },
+      {
+        "bookmaker": "LeoVegas (SE)",
+        "outcome": "Draw",
+        "price": 3.6
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Real Sociedad",
+        "price": 1.93
+      },
+      {
+        "bookmaker": "PMU (FR)",
+        "outcome": "Draw",
+        "price": 3.6
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Real Sociedad",
+        "price": 1.93
+      },
+      {
+        "bookmaker": "Unibet (NL)",
+        "outcome": "Draw",
+        "price": 3.6
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Celta Vigo",
+        "price": 3.7
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Real Sociedad",
+        "price": 1.93
+      },
+      {
+        "bookmaker": "Unibet (SE)",
+        "outcome": "Draw",
+        "price": 3.6
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Celta Vigo",
+        "price": 3.9
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Real Sociedad",
+        "price": 1.98
+      },
+      {
+        "bookmaker": "BetOnline.ag",
+        "outcome": "Draw",
+        "price": 3.65
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Celta Vigo",
+        "price": 4.0
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Real Sociedad",
+        "price": 2.0
+      },
+      {
+        "bookmaker": "Coolbet",
+        "outcome": "Draw",
+        "price": 3.6
+      }
+    ],
+    "bookmaker_count": 20,
+    "scanned_at": "2026-09-01T12:48:55.949593"
+  }
+]
