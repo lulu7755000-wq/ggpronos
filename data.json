@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-09-03T11:03:47.562Z",
+  "last_update": "2026-09-03T11:13:16.587Z",
   "stats": {
     "total": 9,
     "won": 0,
     "lost": 0,
-    "pending": 27,
+    "pending": 28,
     "win_rate": 0,
     "profit": 0,
     "roi": 0
@@ -12,17 +12,10 @@
   "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 39,
+    "values": 37,
     "boosts": 0
   },
   "history": [
-    {
-      "match": "Bologna vs Lazio",
-      "bet_on": "Bologna",
-      "odds": 2.27,
-      "result": "loss",
-      "profit": 0
-    },
     {
       "match": "CA Osasuna vs Levante",
       "bet_on": "CA Osasuna",
@@ -154,6 +147,13 @@
       "bet_on": "Estudiantes",
       "odds": 1.66,
       "result": "loss",
+      "profit": 0
+    },
+    {
+      "match": "Real Sociedad vs Celta Vigo",
+      "bet_on": "Real Sociedad",
+      "odds": 1.84,
+      "result": "pending",
       "profit": 0
     }
   ]
