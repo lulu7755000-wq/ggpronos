@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "match": "Anderlecht vs KV Kortrijk",
+    "home": "Anderlecht",
+    "away": "KV Kortrijk",
+    "league": "Belgium First Div",
+    "time": "2026-09-03T18:30:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 44,
+      "score": 19,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Anderlecht",
+      "odds": 1.4,
+      "edge": -4,
+      "ev": -4,
+      "bookmaker": "pmu_fr"
+    }
+  },
+  {
+    "match": "Toulouse vs Lille",
+    "home": "Toulouse",
+    "away": "Lille",
+    "league": "Ligue 1 - France",
+    "time": "2026-09-03T18:45:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 34,
+      "score": 16,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "away",
+      "outcome": "Lille",
+      "odds": 1.96,
+      "edge": 0,
+      "ev": 0,
+      "bookmaker": "betclic_fr"
+    }
+  },
+  {
+    "match": "Gent vs Leuven",
+    "home": "Gent",
+    "away": "Leuven",
+    "league": "Belgium First Div",
+    "time": "2026-09-03T18:30:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 38,
+      "score": 15,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Gent",
+      "odds": 1.67,
+      "edge": 1.4,
+      "ev": 1.4,
+      "bookmaker": "betclic_fr"
+    }
+  },
+  {
+    "match": "Real Sociedad vs Celta Vigo",
+    "home": "Real Sociedad",
+    "away": "Celta Vigo",
+    "league": "La Liga - Spain",
+    "time": "2026-09-03T19:00:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 35,
+      "score": 13,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Real Sociedad",
+      "odds": 1.84,
+      "edge": 6.4,
+      "ev": 6.4,
+      "bookmaker": "betclic_fr"
+    }
+  },
+  {
+    "match": "FC Lugano vs Servette",
+    "home": "FC Lugano",
+    "away": "Servette",
+    "league": "Swiss Superleague",
+    "time": "2026-09-03T18:30:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 28,
+      "score": 8,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "FC Lugano",
+      "odds": 2.05,
+      "edge": -1.8,
+      "ev": -1.8,
+      "bookmaker": "betclic_fr"
+    }
+  }
+]
