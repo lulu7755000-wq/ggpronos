@@ -1,7 +1,7 @@
 {
-  "last_update": "2026-09-02T09:31:34.731Z",
+  "last_update": "2026-09-03T10:25:30.325Z",
   "stats": {
-    "total": 26,
+    "total": 9,
     "won": 0,
     "lost": 0,
     "pending": 27,
@@ -12,7 +12,7 @@
   "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 99,
+    "values": 38,
     "boosts": 0
   },
   "history": [
