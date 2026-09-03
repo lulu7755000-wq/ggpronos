@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-09-03T11:13:16.587Z",
+  "last_update": "2026-09-03T11:18:37.686Z",
   "stats": {
     "total": 9,
     "won": 0,
     "lost": 0,
-    "pending": 28,
+    "pending": 32,
     "win_rate": 0,
     "profit": 0,
     "roi": 0
@@ -12,38 +12,10 @@
   "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 37,
+    "values": 36,
     "boosts": 0
   },
   "history": [
-    {
-      "match": "CA Osasuna vs Levante",
-      "bet_on": "CA Osasuna",
-      "odds": 1.88,
-      "result": "loss",
-      "profit": 0
-    },
-    {
-      "match": "Fulham vs Chelsea",
-      "bet_on": "Chelsea",
-      "odds": 1.82,
-      "result": "win",
-      "profit": 0
-    },
-    {
-      "match": "Kocaelispor vs Amed SK",
-      "bet_on": "Kocaelispor",
-      "odds": 2.18,
-      "result": "win",
-      "profit": 0
-    },
-    {
-      "match": "AEK Athens vs PFC Levski Sofia",
-      "bet_on": "AEK Athens",
-      "odds": 1.47,
-      "result": "win",
-      "profit": 0
-    },
     {
       "match": "FC Anyang vs Incheon United",
       "bet_on": "Incheon United",
@@ -150,9 +122,37 @@
       "profit": 0
     },
     {
+      "match": "Toulouse vs Lille",
+      "bet_on": "Lille",
+      "odds": 1.96,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "Gent vs Leuven",
+      "bet_on": "Gent",
+      "odds": 1.65,
+      "result": "pending",
+      "profit": 0
+    },
+    {
       "match": "Real Sociedad vs Celta Vigo",
       "bet_on": "Real Sociedad",
       "odds": 1.84,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "FC Basel vs FC Sion",
+      "bet_on": "FC Sion",
+      "odds": 2.48,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "FC Lugano vs Servette",
+      "bet_on": "FC Lugano",
+      "odds": 1.92,
       "result": "pending",
       "profit": 0
     }
