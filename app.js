@@ -239,8 +239,8 @@ async function loadHistory() {
                 <td>${h.bet || '-'}</td>
                 <td>@ ${h.odds || '-'}</td>
                 <td>${h.score || 'En attente'}</td>
-                <td class="${h.won ? 'result-won' : 'result-lost'}">
-                    ${h.won ? '✅ Gagné' : '❌ Perdu'}
+                <td class="${h.won ? 'result-won' : (h.pending ? '' : 'result-lost')}">
+                    ${h.won ? '✅ Gagné' : (h.pending ? '⏳ En attente' : '❌ Perdu')}
                 </td>
             </tr>
         `).join('');
