@@ -103,7 +103,7 @@ function createProntoCard(prono) {
         <div class="prono-card" ${prono.has_bet ? 'style="border:2px solid #f59e0b;"' : ''}>
             <div class="prono-header">
                 <span class="prono-league">${prono.league || 'Ligue inconnue'}</span>
-                ${prono.has_bet ? '<span class="prono-pick" style="background:#f59e0b;color:#000;font-weight:bold;padding:2px 8px;border-radius:10px;font-size:0.8em;">⭐ PICK</span>' : '<span class="prono-confidence">📊 Analysé</span>'}
+                ${prono.top_pick ? '<span class="prono-pick" style="background:#f59e0b;color:#000;font-weight:bold;padding:2px 8px;border-radius:10px;font-size:0.8em;">⭐ TOP PICK</span>' : (prono.has_bet ? '<span class="prono-pick" style="background:#334155;color:#fff;font-weight:bold;padding:2px 8px;border-radius:10px;font-size:0.8em;">PICK</span>' : '<span class="prono-confidence">📊 Analysé</span>')}
                 <span class="prono-confidence">🎯 ${analysis.confidence || 0}%</span>
             </div>
             
