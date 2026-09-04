@@ -1,19 +1,19 @@
 {
-  "last_update": "2026-09-04T09:04:25.068Z",
+  "last_update": "2026-09-04T10:03:42.376Z",
   "stats": {
-    "total": 27,
+    "total": 32,
     "won": 0,
     "lost": 0,
-    "pending": 37,
+    "pending": 42,
     "win_rate": 0,
     "profit": 0,
     "roi": 0
   },
   "pronos_today": [
     {
-      "match": "Grenoble vs Annecy FC",
-      "home": "Grenoble",
-      "away": "Annecy FC",
+      "match": "Boulogne vs Dijon",
+      "home": "Boulogne",
+      "away": "Dijon",
       "league": "Ligue 2 - France",
       "time": "2026-09-04T18:00:00Z",
       "hours_until": 0,
@@ -25,25 +25,53 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 39,
-        "score": 26,
+        "confidence": 34,
+        "score": 18,
         "grade": "orange"
       },
       "best_bet": {
-        "bet_type": "home",
-        "outcome": "Grenoble",
-        "odds": 3.2,
-        "edge": 67,
-        "ev": 67,
+        "bet_type": "away",
+        "outcome": "Dijon",
+        "odds": 2.6,
+        "edge": 27.7,
+        "ev": 27.7,
+        "bookmaker": "unibet_fr"
+      }
+    },
+    {
+      "match": "Pau FC vs Sochaux",
+      "home": "Pau FC",
+      "away": "Sochaux",
+      "league": "Ligue 2 - France",
+      "time": "2026-09-04T18:00:00Z",
+      "hours_until": 0,
+      "analysis": {
+        "home_xg": 1.5,
+        "away_xg": 1.2,
+        "home_win": 50,
+        "draw": 25,
+        "away_win": 25,
+        "over_25": 50,
+        "btts_yes": 50,
+        "confidence": 31,
+        "score": 18,
+        "grade": "orange"
+      },
+      "best_bet": {
+        "bet_type": "away",
+        "outcome": "Sochaux",
+        "odds": 3.3,
+        "edge": 43.9,
+        "ev": 43.9,
         "bookmaker": "pmu_fr"
       }
     },
     {
-      "match": "Arminia Bielefeld vs FC St. Pauli",
-      "home": "Arminia Bielefeld",
-      "away": "FC St. Pauli",
-      "league": "Bundesliga 2 - Germany",
-      "time": "2026-09-04T16:30:00Z",
+      "match": "USL Dunkerque vs Clermont",
+      "home": "USL Dunkerque",
+      "away": "Clermont",
+      "league": "Ligue 2 - France",
+      "time": "2026-09-04T18:00:00Z",
       "hours_until": 0,
       "analysis": {
         "home_xg": 1.5,
@@ -54,52 +82,24 @@
         "over_25": 50,
         "btts_yes": 50,
         "confidence": 43,
-        "score": 25,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "under25",
-        "outcome": "Under 2.5",
-        "odds": 2.04,
-        "edge": 25.7,
-        "ev": 25.7,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "FC Porto vs Moreirense FC",
-      "home": "FC Porto",
-      "away": "Moreirense FC",
-      "league": "Primeira Liga - Portugal",
-      "time": "2026-09-04T19:15:00Z",
-      "hours_until": 0,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 39,
-        "score": 24,
+        "score": 13,
         "grade": "green"
       },
       "best_bet": {
         "bet_type": "under25",
         "outcome": "Under 2.5",
-        "odds": 2.3,
-        "edge": 26.3,
-        "ev": 26.3,
+        "odds": 1.93,
+        "edge": 42.6,
+        "ev": 42.6,
         "bookmaker": "pmu_fr"
       }
     },
     {
-      "match": "Lyon vs Auxerre",
-      "home": "Lyon",
-      "away": "Auxerre",
-      "league": "Ligue 1 - France",
-      "time": "2026-09-04T17:00:00Z",
+      "match": "Genoa vs Como",
+      "home": "Genoa",
+      "away": "Como",
+      "league": "Serie A - Italy",
+      "time": "2026-09-04T18:45:00Z",
       "hours_until": 0,
       "analysis": {
         "home_xg": 1.5,
@@ -109,25 +109,25 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 45,
-        "score": 19,
+        "confidence": 36,
+        "score": 11,
         "grade": "green"
       },
       "best_bet": {
-        "bet_type": "home",
-        "outcome": "Lyon",
-        "odds": 1.43,
-        "edge": 1.5,
-        "ev": 1.5,
+        "bet_type": "away",
+        "outcome": "Como",
+        "odds": 1.75,
+        "edge": 5.9,
+        "ev": 5.9,
         "bookmaker": "betclic_fr"
       }
     },
     {
-      "match": "VfB Stuttgart vs 1. FC Köln",
-      "home": "VfB Stuttgart",
-      "away": "1. FC Köln",
-      "league": "Bundesliga - Germany",
-      "time": "2026-09-04T18:30:00Z",
+      "match": "Shamrock Rovers vs Shelbourne Dublin",
+      "home": "Shamrock Rovers",
+      "away": "Shelbourne Dublin",
+      "league": "League of Ireland",
+      "time": "2026-09-04T19:00:00Z",
       "hours_until": 0,
       "analysis": {
         "home_xg": 1.5,
@@ -137,61 +137,26 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 42,
-        "score": 19,
+        "confidence": 35,
+        "score": 10,
         "grade": "green"
       },
       "best_bet": {
         "bet_type": "home",
-        "outcome": "VfB Stuttgart",
-        "odds": 1.47,
-        "edge": -3.9,
-        "ev": -3.9,
-        "bookmaker": "betclic_fr"
+        "outcome": "Shamrock Rovers",
+        "odds": 1.63,
+        "edge": -3.8,
+        "ev": -3.8,
+        "bookmaker": "pmu_fr"
       }
     }
   ],
   "summary": {
     "surebets": 0,
-    "values": 104,
+    "values": 131,
     "boosts": 0
   },
   "history": [
-    {
-      "match": "Rodez AF vs Pau FC",
-      "bet_on": "Rodez AF",
-      "odds": 1.69,
-      "result": "loss",
-      "profit": 0
-    },
-    {
-      "match": "Juventus vs Parma",
-      "bet_on": "Under 2.5",
-      "odds": 2.02,
-      "result": "win",
-      "profit": 0
-    },
-    {
-      "match": "Atletico Mineiro vs Vitoria",
-      "bet_on": "Atletico Mineiro",
-      "odds": 1.73,
-      "result": "win",
-      "profit": 0
-    },
-    {
-      "match": "Liverpool vs Nottingham Forest",
-      "bet_on": "Liverpool",
-      "odds": 1.45,
-      "result": "loss",
-      "profit": 0
-    },
-    {
-      "match": "Napoli vs Como",
-      "bet_on": "Napoli",
-      "odds": 2.52,
-      "result": "loss",
-      "profit": 0
-    },
     {
       "match": "Atletico Paranaense vs Fluminense",
       "bet_on": "Atletico Paranaense",
@@ -294,6 +259,41 @@
       "match": "VfB Stuttgart vs 1. FC Köln",
       "bet_on": "VfB Stuttgart",
       "odds": 1.47,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "Boulogne vs Dijon",
+      "bet_on": "Dijon",
+      "odds": 2.6,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "Pau FC vs Sochaux",
+      "bet_on": "Sochaux",
+      "odds": 3.3,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "USL Dunkerque vs Clermont",
+      "bet_on": "Under 2.5",
+      "odds": 1.93,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "Genoa vs Como",
+      "bet_on": "Como",
+      "odds": 1.75,
+      "result": "pending",
+      "profit": 0
+    },
+    {
+      "match": "Shamrock Rovers vs Shelbourne Dublin",
+      "bet_on": "Shamrock Rovers",
+      "odds": 1.63,
       "result": "pending",
       "profit": 0
     }
