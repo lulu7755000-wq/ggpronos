@@ -34,12 +34,12 @@ async function loadPronos() {
             updateStats(stats);
         }
         
-        // Filtrer les pronos du jour ou à venir
+        // Filtrer les pronos du jour ou à venir (tous, sans limite)
         const now = new Date();
         const todayPronos = pronos.filter(p => {
             const t = p.time || p.timestamp || '';
             return t >= now.toISOString().split('T')[0];
-        }).slice(0, 6);
+        });
         
         if (todayPronos.length === 0) {
             container.innerHTML = `
@@ -100,9 +100,10 @@ function createProntoCard(prono) {
     }
     
     return `
-        <div class="prono-card">
+        <div class="prono-card" ${prono.has_bet ? 'style="border:2px solid #f59e0b;"' : ''}>
             <div class="prono-header">
                 <span class="prono-league">${prono.league || 'Ligue inconnue'}</span>
+                ${prono.has_bet ? '<span class="prono-pick" style="background:#f59e0b;color:#000;font-weight:bold;padding:2px 8px;border-radius:10px;font-size:0.8em;">⭐ PICK</span>' : '<span class="prono-confidence">📊 Analysé</span>'}
                 <span class="prono-confidence">🎯 ${analysis.confidence || 0}%</span>
             </div>
             
