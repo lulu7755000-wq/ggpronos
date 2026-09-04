@@ -1,661 +1,24 @@
 {
-  "last_update": "2026-09-04T12:42:55.396162",
+  "last_update": "2026-09-04T10:43:21.373Z",
   "stats": {
-    "total": 0,
+    "total": 4,
     "won": 0,
     "lost": 0,
-    "pending": 0,
+    "pending": 4,
     "win_rate": 0,
     "profit": 0,
     "roi": 0
   },
   "pronos_today": [
     {
-      "match": "Arminia Bielefeld vs FC St. Pauli",
-      "home": "Arminia Bielefeld",
-      "away": "FC St. Pauli",
-      "league": "Bundesliga 2 - Germany",
-      "time": "2026-09-04T16:30:00Z",
-      "hours_until": 6.1,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 65,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Draw",
-        "odds": 3.5,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Hannover 96 vs Karlsruher SC",
-      "home": "Hannover 96",
-      "away": "Karlsruher SC",
-      "league": "Bundesliga 2 - Germany",
-      "time": "2026-09-04T16:30:00Z",
-      "hours_until": 6.1,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 80,
-        "score": 88.76615746180963,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Karlsruher SC",
-        "odds": 5.1,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Lyon vs Auxerre",
-      "home": "Lyon",
-      "away": "Auxerre",
-      "league": "Ligue 1 - France",
-      "time": "2026-09-04T17:00:00Z",
-      "hours_until": 6.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 95,
-        "score": 97,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Auxerre",
-        "odds": 7,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Basaksehir vs Galatasaray",
-      "home": "Basaksehir",
-      "away": "Galatasaray",
-      "league": "Turkey Super League",
-      "time": "2026-09-04T17:00:00Z",
-      "hours_until": 6.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 70,
-        "score": 87.8456277479238,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Basaksehir",
-        "odds": 4.75,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Viborg FF vs Lyngby",
-      "home": "Viborg FF",
-      "away": "Lyngby",
-      "league": "Denmark Superliga",
-      "time": "2026-09-04T17:00:00Z",
-      "hours_until": 6.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 80,
-        "score": 78.60171535781292,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Lyngby",
-        "odds": 3.98,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Aalesund vs IK Start",
-      "home": "Aalesund",
-      "away": "IK Start",
-      "league": "Eliteserien - Norway",
-      "time": "2026-09-04T17:00:00Z",
-      "hours_until": 6.6,
-      "has_bet": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 27,
-        "score": 65.73298429319371,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Aalesund",
-        "odds": 2.1,
-        "edge": -4,
-        "ev": -4,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Fredrikstad FK vs Bodø/Glimt",
-      "home": "Fredrikstad FK",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien - Norway",
-      "time": "2026-09-04T17:00:00Z",
-      "hours_until": 6.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 95,
-        "score": 97,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Fredrikstad FK",
-        "odds": 7.5,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Sparta Rotterdam vs FC Zwolle",
-      "home": "Sparta Rotterdam",
-      "away": "FC Zwolle",
-      "league": "Dutch Eredivisie",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 30,
-        "score": 77.39431913116124,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Sparta Rotterdam",
-        "odds": 1.88,
-        "edge": -1.7,
-        "ev": -1.7,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Grenoble vs Annecy FC",
-      "home": "Grenoble",
-      "away": "Annecy FC",
-      "league": "Ligue 2 - France",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 67.49560632688927,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Grenoble",
-        "odds": 3.2,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Boulogne vs Dijon",
-      "home": "Boulogne",
-      "away": "Dijon",
-      "league": "Ligue 2 - France",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 65.85093722106515,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Draw",
-        "odds": 3.1,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "USL Dunkerque vs Clermont",
-      "home": "USL Dunkerque",
-      "away": "Clermont",
-      "league": "Ligue 2 - France",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 70,
-        "score": 81.12738853503184,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Clermont",
-        "odds": 4.6,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "Pau FC vs Sochaux",
-      "home": "Pau FC",
-      "away": "Sochaux",
-      "league": "Ligue 2 - France",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 68.1375985977213,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Sochaux",
-        "odds": 3.3,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Stade Lavallois vs Red Star",
-      "home": "Stade Lavallois",
-      "away": "Red Star",
-      "league": "Ligue 2 - France",
-      "time": "2026-09-04T18:00:00Z",
-      "hours_until": 7.6,
-      "has_bet": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 24,
-        "score": 66.7353198948291,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "away",
-        "outcome": "Red Star",
-        "odds": 2.4,
-        "edge": -2.3,
-        "ev": -2.3,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "VfB Stuttgart vs 1. FC Köln",
-      "home": "VfB Stuttgart",
-      "away": "1. FC Köln",
-      "league": "Bundesliga - Germany",
-      "time": "2026-09-04T18:30:00Z",
-      "hours_until": 8.1,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 90,
-        "score": 89.92518703241895,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "1. FC Köln",
-        "odds": 6,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Genoa vs Como",
-      "home": "Genoa",
-      "away": "Como",
-      "league": "Serie A - Italy",
-      "time": "2026-09-04T18:45:00Z",
-      "hours_until": 8.3,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 60,
-        "score": 83.85966201322557,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Genoa",
-        "odds": 5.25,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Lommel SK vs Club Brugge",
-      "home": "Lommel SK",
-      "away": "Club Brugge",
-      "league": "Belgium First Div",
-      "time": "2026-09-04T18:45:00Z",
-      "hours_until": 8.3,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 85,
-        "score": 100,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Lommel SK",
-        "odds": 9,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "Ipswich Town vs Liverpool",
-      "home": "Ipswich Town",
-      "away": "Liverpool",
-      "league": "EPL",
-      "time": "2026-09-04T19:00:00Z",
-      "hours_until": 8.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 70,
-        "score": 89.18164516811166,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Ipswich Town",
-        "odds": 5.75,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Real Betis vs Real Madrid",
-      "home": "Real Betis",
-      "away": "Real Madrid",
-      "league": "La Liga - Spain",
-      "time": "2026-09-04T19:00:00Z",
-      "hours_until": 8.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 80,
-        "score": 96.5541601255887,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Real Betis",
-        "odds": 6.7,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "Sandefjord vs Viking FK",
-      "home": "Sandefjord",
-      "away": "Viking FK",
-      "league": "Eliteserien - Norway",
-      "time": "2026-09-04T19:00:00Z",
-      "hours_until": 8.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 60,
-        "score": 85.05179282868527,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Draw",
-        "odds": 4,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Shamrock Rovers vs Shelbourne Dublin",
-      "home": "Shamrock Rovers",
-      "away": "Shelbourne Dublin",
-      "league": "League of Ireland",
-      "time": "2026-09-04T19:00:00Z",
-      "hours_until": 8.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 70,
-        "score": 78.83802816901408,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Shelbourne Dublin",
-        "odds": 4.55,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "Paris Saint Germain vs AS Monaco",
-      "home": "Paris Saint Germain",
-      "away": "AS Monaco",
-      "league": "Ligue 1 - France",
-      "time": "2026-09-04T19:05:00Z",
-      "hours_until": 8.7,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 95,
-        "score": 96.91489361702128,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "AS Monaco",
-        "odds": 7.75,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "FC Porto vs Moreirense FC",
-      "home": "FC Porto",
-      "away": "Moreirense FC",
-      "league": "Primeira Liga - Portugal",
-      "time": "2026-09-04T19:15:00Z",
-      "hours_until": 8.8,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 95,
-        "score": 87,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Moreirense FC",
-        "odds": 20,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
       "match": "Estudiantes de Río Cuarto vs Sarmiento de Junin",
       "home": "Estudiantes de Río Cuarto",
       "away": "Sarmiento de Junin",
       "league": "Primera División - Argentina",
       "time": "2026-09-04T19:45:00Z",
-      "hours_until": 9.3,
-      "has_bet": false,
+      "hours_until": 9,
+      "has_bet": true,
+      "top_pick": true,
       "analysis": {
         "home_xg": 1.5,
         "away_xg": 1.2,
@@ -664,16 +27,16 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 50,
+        "confidence": 21,
         "score": 46.69117647058823,
         "grade": "yellow"
       },
       "best_bet": {
-        "bet_type": "home",
-        "outcome": "Estudiantes de Río Cuarto",
-        "odds": 2.95,
-        "edge": 0,
-        "ev": 0,
+        "bet_type": "away",
+        "outcome": "Sarmiento de Junin",
+        "odds": 2.52,
+        "edge": 5.6,
+        "ev": 5.6,
         "bookmaker": "betclic_fr"
       }
     },
@@ -683,8 +46,9 @@
       "away": "Atlético Huracán",
       "league": "Primera División - Argentina",
       "time": "2026-09-04T22:00:00Z",
-      "hours_until": 11.6,
-      "has_bet": false,
+      "hours_until": 11.3,
+      "has_bet": true,
+      "top_pick": true,
       "analysis": {
         "home_xg": 1.5,
         "away_xg": 1.2,
@@ -693,16 +57,16 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 50,
+        "confidence": 29,
         "score": 57.81381152231972,
         "grade": "orange"
       },
       "best_bet": {
         "bet_type": "home",
-        "outcome": "Atlético Huracán",
-        "odds": 4.05,
-        "edge": 0,
-        "ev": 0,
+        "outcome": "Belgrano de Cordoba",
+        "odds": 2.02,
+        "edge": 6.7,
+        "ev": 6.7,
         "bookmaker": "betclic_fr"
       }
     },
@@ -712,8 +76,9 @@
       "away": "Deportivo Riestra",
       "league": "Primera División - Argentina",
       "time": "2026-09-04T22:00:00Z",
-      "hours_until": 11.6,
-      "has_bet": false,
+      "hours_until": 11.3,
+      "has_bet": true,
+      "top_pick": true,
       "analysis": {
         "home_xg": 1.5,
         "away_xg": 1.2,
@@ -722,75 +87,17 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 50,
+        "confidence": 22,
         "score": 47.24052718286656,
         "grade": "yellow"
       },
       "best_bet": {
         "bet_type": "home",
-        "outcome": "Deportivo Riestra",
-        "odds": 3,
-        "edge": 0,
-        "ev": 0,
+        "outcome": "Platense",
+        "odds": 2.53,
+        "edge": 6.5,
+        "ev": 6.5,
         "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "New York City FC vs Nashville SC",
-      "home": "New York City FC",
-      "away": "Nashville SC",
-      "league": "MLS",
-      "time": "2026-09-04T23:30:00Z",
-      "hours_until": 13.1,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 65,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Draw",
-        "odds": 3.35,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "winamax_fr"
-      }
-    },
-    {
-      "match": "FC Juárez vs Pachuca",
-      "home": "FC Juárez",
-      "away": "Pachuca",
-      "league": "Liga MX",
-      "time": "2026-09-05T03:00:00Z",
-      "hours_until": 16.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 55,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "FC Juárez",
-        "odds": 3.15,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
       }
     },
     {
@@ -799,8 +106,9 @@
       "away": "Mito HollyHock",
       "league": "J League",
       "time": "2026-09-05T10:00:00Z",
-      "hours_until": 23.6,
+      "hours_until": 23.3,
       "has_bet": true,
+      "top_pick": true,
       "analysis": {
         "home_xg": 1.5,
         "away_xg": 1.2,
@@ -821,128 +129,513 @@
         "ev": 2.6,
         "bookmaker": "betclic_fr"
       }
-    },
-    {
-      "match": "Bucheon FC 1995 vs Daejeon Citizen",
-      "home": "Bucheon FC 1995",
-      "away": "Daejeon Citizen",
-      "league": "K League 1",
-      "time": "2026-09-05T10:00:00Z",
-      "hours_until": 23.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 71.46048109965636,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Bucheon FC 1995",
-        "odds": 3.85,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
-    },
-    {
-      "match": "FC Seoul vs Incheon United",
-      "home": "FC Seoul",
-      "away": "Incheon United",
-      "league": "K League 1",
-      "time": "2026-09-05T10:00:00Z",
-      "hours_until": 23.6,
-      "has_bet": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 31,
-        "score": 78.9515570934256,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "FC Seoul",
-        "odds": 1.83,
-        "edge": -2.6,
-        "ev": -2.6,
-        "bookmaker": "betclic_fr"
-      }
-    },
-    {
-      "match": "Jeju United FC vs Ulsan Hyundai FC",
-      "home": "Jeju United FC",
-      "away": "Ulsan Hyundai FC",
-      "league": "K League 1",
-      "time": "2026-09-05T10:00:00Z",
-      "hours_until": 23.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 50,
-        "score": 66.36935830518883,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Draw",
-        "odds": 3.3,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "winamax_fr"
-      }
-    },
-    {
-      "match": "Jeonbuk Hyundai Motors vs Pohang Steelers",
-      "home": "Jeonbuk Hyundai Motors",
-      "away": "Pohang Steelers",
-      "league": "K League 1",
-      "time": "2026-09-05T10:00:00Z",
-      "hours_until": 23.6,
-      "has_bet": false,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 62,
-        "score": 88.77056035684416,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Pohang Steelers",
-        "odds": 4.3,
-        "edge": 0,
-        "ev": 0,
-        "bookmaker": "pmu_fr"
-      }
     }
   ],
   "summary": {
     "surebets": 0,
-    "values": 130,
+    "values": 131,
     "boosts": 0
   },
-  "history": []
+  "history": [
+    {
+      "date": "",
+      "match": "Bologna vs Lazio",
+      "bet": "Bologna",
+      "odds": 2.27,
+      "score": "0-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "CA Osasuna vs Levante",
+      "bet": "CA Osasuna",
+      "odds": 1.88,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Fulham vs Chelsea",
+      "bet": "Chelsea",
+      "odds": 1.82,
+      "score": "2-3",
+      "won": true,
+      "pending": false,
+      "profit": 8.2
+    },
+    {
+      "date": "",
+      "match": "Kocaelispor vs Amed SK",
+      "bet": "Kocaelispor",
+      "odds": 2.18,
+      "score": "2-0",
+      "won": true,
+      "pending": false,
+      "profit": 11.8
+    },
+    {
+      "date": "",
+      "match": "AEK Athens vs PFC Levski Sofia",
+      "bet": "AEK Athens",
+      "odds": 1.47,
+      "score": "4-0",
+      "won": true,
+      "pending": false,
+      "profit": 4.699999999999999
+    },
+    {
+      "date": "",
+      "match": "FC Anyang vs Incheon United",
+      "bet": "Incheon United",
+      "odds": 2.17,
+      "score": "2-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Lyon vs Fenerbahce",
+      "bet": "Lyon",
+      "odds": 1.9,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Celta Vigo vs CA Osasuna",
+      "bet": "Celta Vigo",
+      "odds": 1.98,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Montpellier vs Boulogne",
+      "bet": "Montpellier",
+      "odds": 1.71,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Nancy vs USL Dunkerque",
+      "bet": "Nancy",
+      "odds": 2.6,
+      "score": "2-0",
+      "won": true,
+      "pending": false,
+      "profit": 16
+    },
+    {
+      "date": "",
+      "match": "Rodez AF vs Pau FC",
+      "bet": "Rodez AF",
+      "odds": 1.69,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Juventus vs Parma",
+      "bet": "Under 2.5",
+      "odds": 2.02,
+      "score": "2-0",
+      "won": true,
+      "pending": false,
+      "profit": 10.2
+    },
+    {
+      "date": "",
+      "match": "Atletico Mineiro vs Vitoria",
+      "bet": "Atletico Mineiro",
+      "odds": 1.73,
+      "score": "2-1",
+      "won": true,
+      "pending": false,
+      "profit": 7.300000000000001
+    },
+    {
+      "date": "",
+      "match": "Liverpool vs Nottingham Forest",
+      "bet": "Liverpool",
+      "odds": 1.45,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Napoli vs Como",
+      "bet": "Napoli",
+      "odds": 2.52,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Atletico Paranaense vs Fluminense",
+      "bet": "Atletico Paranaense",
+      "odds": 2.12,
+      "score": "3-3",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC St. Pauli vs 1. FC Kaiserslautern",
+      "bet": "Under 2.5",
+      "odds": 2.15,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC Inter Turku vs KuPS Kuopio",
+      "bet": "FC Inter Turku",
+      "odds": 2.25,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 12.5
+    },
+    {
+      "date": "",
+      "match": "CA Osasuna vs Getafe",
+      "bet": "CA Osasuna",
+      "odds": 2.17,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 11.7
+    },
+    {
+      "date": "",
+      "match": "Estudiantes vs Newells Old Boys",
+      "bet": "Estudiantes",
+      "odds": 1.66,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Anderlecht vs KV Kortrijk",
+      "bet": "Anderlecht",
+      "odds": 1.4,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 4
+    },
+    {
+      "date": "",
+      "match": "Toulouse vs Lille",
+      "bet": "Lille",
+      "odds": 1.96,
+      "score": "0-1",
+      "won": true,
+      "pending": false,
+      "profit": 9.600000000000001
+    },
+    {
+      "date": "",
+      "match": "Gent vs Leuven",
+      "bet": "Gent",
+      "odds": 1.67,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 6.699999999999999
+    },
+    {
+      "date": "",
+      "match": "Real Sociedad vs Celta Vigo",
+      "bet": "Real Sociedad",
+      "odds": 1.84,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC Lugano vs Servette",
+      "bet": "FC Lugano",
+      "odds": 2.05,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 10.5
+    },
+    {
+      "date": "",
+      "match": "Grenoble vs Annecy FC",
+      "bet": "Grenoble",
+      "odds": 3.2,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Arminia Bielefeld vs FC St. Pauli",
+      "bet": "Under 2.5",
+      "odds": 2.04,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "FC Porto vs Moreirense FC",
+      "bet": "Under 2.5",
+      "odds": 2.3,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Lyon vs Auxerre",
+      "bet": "Lyon",
+      "odds": 1.43,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "VfB Stuttgart vs 1. FC Köln",
+      "bet": "VfB Stuttgart",
+      "odds": 1.47,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Boulogne vs Dijon",
+      "bet": "Dijon",
+      "odds": 2.6,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Pau FC vs Sochaux",
+      "bet": "Sochaux",
+      "odds": 3.3,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "USL Dunkerque vs Clermont",
+      "bet": "Under 2.5",
+      "odds": 1.93,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Genoa vs Como",
+      "bet": "Como",
+      "odds": 1.75,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Shamrock Rovers vs Shelbourne Dublin",
+      "bet": "Shamrock Rovers",
+      "odds": 1.63,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Avispa Fukuoka vs Mito HollyHock",
+      "bet": "Avispa Fukuoka",
+      "odds": 2.02,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Aalesund vs IK Start",
+      "bet": "Aalesund",
+      "odds": 2.1,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Sparta Rotterdam vs FC Zwolle",
+      "bet": "Sparta Rotterdam",
+      "odds": 1.88,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Stade Lavallois vs Red Star",
+      "bet": "Red Star",
+      "odds": 2.4,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "FC Seoul vs Incheon United",
+      "bet": "FC Seoul",
+      "odds": 1.83,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Basaksehir vs Galatasaray",
+      "bet": "Galatasaray",
+      "odds": 1.6,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Belgrano de Cordoba vs Atlético Huracán",
+      "bet": "Belgrano de Cordoba",
+      "odds": 2.02,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Bucheon FC 1995 vs Daejeon Citizen",
+      "bet": "Daejeon Citizen",
+      "odds": 1.83,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Real Betis vs Real Madrid",
+      "bet": "Real Madrid",
+      "odds": 1.45,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Jeju United FC vs Ulsan Hyundai FC",
+      "bet": "Under 2.5",
+      "odds": 1.81,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Jeonbuk Hyundai Motors vs Pohang Steelers",
+      "bet": "Jeonbuk Hyundai Motors",
+      "odds": 1.78,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Sandefjord vs Viking FK",
+      "bet": "Viking FK",
+      "odds": 1.74,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Platense vs Deportivo Riestra",
+      "bet": "Platense",
+      "odds": 2.53,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Ipswich Town vs Liverpool",
+      "bet": "Liverpool",
+      "odds": 1.49,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Estudiantes de Río Cuarto vs Sarmiento de Junin",
+      "bet": "Sarmiento de Junin",
+      "odds": 2.52,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    }
+  ]
 }
