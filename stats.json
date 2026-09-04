@@ -1,9 +1,9 @@
 {
-  "total": 42,
-  "won": 16,
-  "lost": 15,
-  "pending": 11,
-  "win_rate": 52,
-  "profit": 3.3,
+  "total": 32,
+  "won": 0,
+  "lost": 0,
+  "pending": 47,
+  "win_rate": 0,
+  "profit": 0,
   "roi": 0
 }
