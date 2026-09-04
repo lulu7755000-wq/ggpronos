@@ -1,10 +1,10 @@
 [
   {
-    "match": "Anderlecht vs KV Kortrijk",
-    "home": "Anderlecht",
-    "away": "KV Kortrijk",
-    "league": "Belgium First Div",
-    "time": "2026-09-03T18:30:00Z",
+    "match": "Grenoble vs Annecy FC",
+    "home": "Grenoble",
+    "away": "Annecy FC",
+    "league": "Ligue 2 - France",
+    "time": "2026-09-04T18:00:00Z",
     "hours_until": 0,
     "analysis": {
       "home_xg": 1.5,
@@ -14,53 +14,109 @@
       "away_win": 25,
       "over_25": 50,
       "btts_yes": 50,
-      "confidence": 44,
+      "confidence": 39,
+      "score": 26,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Grenoble",
+      "odds": 3.2,
+      "edge": 67,
+      "ev": 67,
+      "bookmaker": "pmu_fr"
+    }
+  },
+  {
+    "match": "Arminia Bielefeld vs FC St. Pauli",
+    "home": "Arminia Bielefeld",
+    "away": "FC St. Pauli",
+    "league": "Bundesliga 2 - Germany",
+    "time": "2026-09-04T16:30:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 43,
+      "score": 25,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "under25",
+      "outcome": "Under 2.5",
+      "odds": 2.04,
+      "edge": 25.7,
+      "ev": 25.7,
+      "bookmaker": "pmu_fr"
+    }
+  },
+  {
+    "match": "FC Porto vs Moreirense FC",
+    "home": "FC Porto",
+    "away": "Moreirense FC",
+    "league": "Primeira Liga - Portugal",
+    "time": "2026-09-04T19:15:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 39,
+      "score": 24,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "under25",
+      "outcome": "Under 2.5",
+      "odds": 2.3,
+      "edge": 26.3,
+      "ev": 26.3,
+      "bookmaker": "pmu_fr"
+    }
+  },
+  {
+    "match": "Lyon vs Auxerre",
+    "home": "Lyon",
+    "away": "Auxerre",
+    "league": "Ligue 1 - France",
+    "time": "2026-09-04T17:00:00Z",
+    "hours_until": 0,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 45,
       "score": 19,
       "grade": "green"
     },
     "best_bet": {
       "bet_type": "home",
-      "outcome": "Anderlecht",
-      "odds": 1.4,
-      "edge": -4,
-      "ev": -4,
-      "bookmaker": "pmu_fr"
-    }
-  },
-  {
-    "match": "Toulouse vs Lille",
-    "home": "Toulouse",
-    "away": "Lille",
-    "league": "Ligue 1 - France",
-    "time": "2026-09-03T18:45:00Z",
-    "hours_until": 0,
-    "analysis": {
-      "home_xg": 1.5,
-      "away_xg": 1.2,
-      "home_win": 50,
-      "draw": 25,
-      "away_win": 25,
-      "over_25": 50,
-      "btts_yes": 50,
-      "confidence": 34,
-      "score": 16,
-      "grade": "orange"
-    },
-    "best_bet": {
-      "bet_type": "away",
-      "outcome": "Lille",
-      "odds": 1.96,
-      "edge": 0,
-      "ev": 0,
+      "outcome": "Lyon",
+      "odds": 1.43,
+      "edge": 1.5,
+      "ev": 1.5,
       "bookmaker": "betclic_fr"
     }
   },
   {
-    "match": "Gent vs Leuven",
-    "home": "Gent",
-    "away": "Leuven",
-    "league": "Belgium First Div",
-    "time": "2026-09-03T18:30:00Z",
+    "match": "VfB Stuttgart vs 1. FC Köln",
+    "home": "VfB Stuttgart",
+    "away": "1. FC Köln",
+    "league": "Bundesliga - Germany",
+    "time": "2026-09-04T18:30:00Z",
     "hours_until": 0,
     "analysis": {
       "home_xg": 1.5,
@@ -70,72 +126,16 @@
       "away_win": 25,
       "over_25": 50,
       "btts_yes": 50,
-      "confidence": 38,
-      "score": 15,
+      "confidence": 42,
+      "score": 19,
       "grade": "green"
     },
     "best_bet": {
       "bet_type": "home",
-      "outcome": "Gent",
-      "odds": 1.67,
-      "edge": 1.4,
-      "ev": 1.4,
-      "bookmaker": "betclic_fr"
-    }
-  },
-  {
-    "match": "Real Sociedad vs Celta Vigo",
-    "home": "Real Sociedad",
-    "away": "Celta Vigo",
-    "league": "La Liga - Spain",
-    "time": "2026-09-03T19:00:00Z",
-    "hours_until": 0,
-    "analysis": {
-      "home_xg": 1.5,
-      "away_xg": 1.2,
-      "home_win": 50,
-      "draw": 25,
-      "away_win": 25,
-      "over_25": 50,
-      "btts_yes": 50,
-      "confidence": 35,
-      "score": 13,
-      "grade": "green"
-    },
-    "best_bet": {
-      "bet_type": "home",
-      "outcome": "Real Sociedad",
-      "odds": 1.84,
-      "edge": 6.4,
-      "ev": 6.4,
-      "bookmaker": "betclic_fr"
-    }
-  },
-  {
-    "match": "FC Lugano vs Servette",
-    "home": "FC Lugano",
-    "away": "Servette",
-    "league": "Swiss Superleague",
-    "time": "2026-09-03T18:30:00Z",
-    "hours_until": 0,
-    "analysis": {
-      "home_xg": 1.5,
-      "away_xg": 1.2,
-      "home_win": 50,
-      "draw": 25,
-      "away_win": 25,
-      "over_25": 50,
-      "btts_yes": 50,
-      "confidence": 28,
-      "score": 8,
-      "grade": "orange"
-    },
-    "best_bet": {
-      "bet_type": "home",
-      "outcome": "FC Lugano",
-      "odds": 2.05,
-      "edge": -1.8,
-      "ev": -1.8,
+      "outcome": "VfB Stuttgart",
+      "odds": 1.47,
+      "edge": -3.9,
+      "ev": -3.9,
       "bookmaker": "betclic_fr"
     }
   }
