@@ -36,10 +36,14 @@ async function loadPronos() {
         
         // Filtrer les pronos du jour ou à venir (tous, sans limite)
         const now = new Date();
-        const todayPronos = pronos.filter(p => {
+        let todayPronos = pronos.filter(p => {
             const t = p.time || p.timestamp || '';
             return t >= now.toISOString().split('T')[0];
         });
+        // Si des TOP PICKS existent, n'afficher qu'eux (le reste = labo prive)
+        if (todayPronos.some(p => p.top_pick)) {
+            todayPronos = todayPronos.filter(p => p.top_pick);
+        }
         
         if (todayPronos.length === 0) {
             container.innerHTML = `
