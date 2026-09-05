@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-05T10:50:20.039904",
+  "last_update": "2026-09-05T10:53:54.867707",
   "stats": {
     "total": 8,
-    "won": 1,
-    "lost": 0,
-    "pending": 7,
-    "win_rate": 100,
-    "profit": 8.5,
+    "won": 3,
+    "lost": 2,
+    "pending": 3,
+    "win_rate": 60,
+    "profit": 12.5,
     "roi": 0
   },
   "pronos_today": [
@@ -145,47 +145,47 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0
+      "profit": 0.0
     },
     {
       "date": "",
       "match": "Belgrano de Cordoba vs Atlético Huracán",
       "bet": "Belgrano de Cordoba",
       "odds": 2.02,
-      "score": "",
+      "score": "1-1",
       "won": false,
-      "pending": true,
-      "profit": 0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
       "match": "Platense vs Deportivo Riestra",
       "bet": "Platense",
       "odds": 2.53,
-      "score": "",
+      "score": "1-1",
       "won": false,
-      "pending": true,
-      "profit": 0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
       "match": "Estudiantes de Río Cuarto vs Sarmiento de Junin",
       "bet": "Sarmiento de Junin",
       "odds": 2.52,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "0-2",
+      "won": true,
+      "pending": false,
+      "profit": 15.2
     },
     {
       "date": "",
       "match": "New York City FC vs Nashville SC",
       "bet": "Under 2.5",
       "odds": 1.88,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "0-0",
+      "won": true,
+      "pending": false,
+      "profit": 8.8
     },
     {
       "date": "",
@@ -195,7 +195,7 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0
+      "profit": 0.0
     },
     {
       "date": "",
@@ -205,7 +205,7 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0
+      "profit": 0.0
     },
     {
       "date": "",
