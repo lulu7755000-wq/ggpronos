@@ -1,11 +1,11 @@
 [
   {
-    "match": "New York City FC vs Nashville SC",
-    "home": "New York City FC",
-    "away": "Nashville SC",
-    "league": "MLS",
-    "time": "2026-09-04T23:30:00Z",
-    "hours_until": 12.1,
+    "match": "Newcastle United vs Bournemouth",
+    "home": "Newcastle United",
+    "away": "Bournemouth",
+    "league": "EPL",
+    "time": "2026-09-05T11:30:00Z",
+    "hours_until": 2.5,
     "has_bet": true,
     "top_pick": true,
     "analysis": {
@@ -16,26 +16,26 @@
       "away_win": 25,
       "over_25": 50,
       "btts_yes": 50,
-      "confidence": 28,
-      "score": 65,
+      "confidence": 33,
+      "score": 70.47091412742382,
       "grade": "orange"
     },
     "best_bet": {
       "bet_type": "under25",
       "outcome": "Under 2.5",
-      "odds": 1.88,
-      "edge": -0.5,
-      "ev": -0.5,
+      "odds": 2.17,
+      "edge": 15.4,
+      "ev": 15.4,
       "bookmaker": "pmu_fr"
     }
   },
   {
-    "match": "FC Juárez vs Pachuca",
-    "home": "FC Juárez",
-    "away": "Pachuca",
-    "league": "Liga MX",
-    "time": "2026-09-05T03:00:00Z",
-    "hours_until": 15.6,
+    "match": "Borussia Monchengladbach vs Elversberg",
+    "home": "Borussia Monchengladbach",
+    "away": "Elversberg",
+    "league": "Bundesliga - Germany",
+    "time": "2026-09-05T13:30:00Z",
+    "hours_until": 4.5,
     "has_bet": true,
     "top_pick": true,
     "analysis": {
@@ -46,26 +46,56 @@
       "away_win": 25,
       "over_25": 50,
       "btts_yes": 50,
-      "confidence": 27,
-      "score": 55,
-      "grade": "orange"
+      "confidence": 33,
+      "score": 77.88038277511961,
+      "grade": "green"
     },
     "best_bet": {
       "bet_type": "under25",
       "outcome": "Under 2.5",
+      "odds": 2.23,
+      "edge": 18.6,
+      "ev": 18.6,
+      "bookmaker": "pmu_fr"
+    }
+  },
+  {
+    "match": "Inter Milan vs Napoli",
+    "home": "Inter Milan",
+    "away": "Napoli",
+    "league": "Serie A - Italy",
+    "time": "2026-09-05T16:00:00Z",
+    "hours_until": 7,
+    "has_bet": true,
+    "top_pick": true,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 55,
+      "score": 90.3726271385048,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "over25",
+      "outcome": "Over 2.5",
       "odds": 1.85,
-      "edge": -1.9,
-      "ev": -1.9,
+      "edge": 31.9,
+      "ev": 31.9,
       "bookmaker": "pmu_fr"
     }
   },
   {
-    "match": "1. FC Kaiserslautern vs SV Darmstadt 98",
-    "home": "1. FC Kaiserslautern",
-    "away": "SV Darmstadt 98",
-    "league": "Bundesliga 2 - Germany",
-    "time": "2026-09-05T11:00:00Z",
-    "hours_until": 23.6,
+    "match": "FC Utrecht vs Go Ahead Eagles",
+    "home": "FC Utrecht",
+    "away": "Go Ahead Eagles",
+    "league": "Dutch Eredivisie",
+    "time": "2026-09-05T16:45:00Z",
+    "hours_until": 7.8,
     "has_bet": true,
     "top_pick": true,
     "analysis": {
@@ -76,46 +106,16 @@
       "away_win": 25,
       "over_25": 50,
       "btts_yes": 50,
-      "confidence": 28,
-      "score": 65.65894924309885,
+      "confidence": 30,
+      "score": 65.98513552900029,
       "grade": "orange"
     },
     "best_bet": {
       "bet_type": "under25",
       "outcome": "Under 2.5",
-      "odds": 2.12,
-      "edge": 12.1,
-      "ev": 12.1,
-      "bookmaker": "pmu_fr"
-    }
-  },
-  {
-    "match": "Holstein Kiel vs 1. FC Nürnberg",
-    "home": "Holstein Kiel",
-    "away": "1. FC Nürnberg",
-    "league": "Bundesliga 2 - Germany",
-    "time": "2026-09-05T11:00:00Z",
-    "hours_until": 23.6,
-    "has_bet": true,
-    "top_pick": true,
-    "analysis": {
-      "home_xg": 1.5,
-      "away_xg": 1.2,
-      "home_win": 50,
-      "draw": 25,
-      "away_win": 25,
-      "over_25": 50,
-      "btts_yes": 50,
-      "confidence": 28,
-      "score": 65.00601865783929,
-      "grade": "orange"
-    },
-    "best_bet": {
-      "bet_type": "under25",
-      "outcome": "Under 2.5",
-      "odds": 2.04,
-      "edge": 7.9,
-      "ev": 7.9,
+      "odds": 2.25,
+      "edge": 19,
+      "ev": 19,
       "bookmaker": "pmu_fr"
     }
   }
