@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-05T14:01:59.255846",
+  "last_update": "2026-09-05T15:01:59.326976",
   "stats": {
     "total": 16,
     "won": 3,
-    "lost": 3,
-    "pending": 10,
-    "win_rate": 50,
-    "profit": 2.5,
+    "lost": 5,
+    "pending": 8,
+    "win_rate": 38,
+    "profit": -17.5,
     "roi": 0
   },
   "pronos_today": [],
@@ -71,20 +71,20 @@
       "match": "1. FC Kaiserslautern vs SV Darmstadt 98",
       "bet": "Under 2.5",
       "odds": 2.12,
-      "score": "",
+      "score": "3-0",
       "won": false,
-      "pending": true,
-      "profit": 0.0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
       "match": "Holstein Kiel vs 1. FC Nürnberg",
       "bet": "Under 2.5",
       "odds": 2.04,
-      "score": "",
+      "score": "2-2",
       "won": false,
-      "pending": true,
-      "profit": 0.0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
