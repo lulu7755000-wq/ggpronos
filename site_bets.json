@@ -792,7 +792,7 @@
     "cote": 1.63,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "0-0",
     "date": "",
     "published": false
@@ -830,7 +830,7 @@
     "cote": 2.1,
     "stake": 10,
     "result": "win",
-    "pnl": 11.0,
+    "pnl": 11,
     "score": "2-0",
     "date": "",
     "published": false
@@ -849,7 +849,7 @@
     "cote": 1.88,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "2-2",
     "date": "",
     "published": false
@@ -868,7 +868,7 @@
     "cote": 2.4,
     "stake": 10,
     "result": "win",
-    "pnl": 14.0,
+    "pnl": 14,
     "score": "1-2",
     "date": "",
     "published": false
@@ -906,7 +906,7 @@
     "cote": 1.6,
     "stake": 10,
     "result": "win",
-    "pnl": 6.0,
+    "pnl": 6,
     "score": "2-3",
     "date": "",
     "published": false
@@ -925,7 +925,7 @@
     "cote": 2.02,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "1-1",
     "date": "",
     "published": true
@@ -963,7 +963,7 @@
     "cote": 1.45,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "1-0",
     "date": "",
     "published": false
@@ -1020,7 +1020,7 @@
     "cote": 1.74,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "1-1",
     "date": "",
     "published": false
@@ -1039,7 +1039,7 @@
     "cote": 2.53,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "1-1",
     "date": "",
     "published": true
@@ -1115,7 +1115,7 @@
     "cote": 1.88,
     "stake": 10,
     "result": "win",
-    "pnl": 8.8,
+    "pnl": 8.799999999999997,
     "score": "0-0",
     "date": "",
     "published": true

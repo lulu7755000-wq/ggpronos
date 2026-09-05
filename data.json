@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-05T10:53:54.867707",
+  "last_update": "2026-09-05T10:56:47.054766",
   "stats": {
     "total": 8,
     "won": 3,
@@ -145,7 +145,7 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0.0
+      "profit": 0
     },
     {
       "date": "",
@@ -155,7 +155,7 @@
       "score": "1-1",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -165,7 +165,7 @@
       "score": "1-1",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -185,7 +185,7 @@
       "score": "0-0",
       "won": true,
       "pending": false,
-      "profit": 8.8
+      "profit": 8.799999999999997
     },
     {
       "date": "",
@@ -195,7 +195,7 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0.0
+      "profit": 0
     },
     {
       "date": "",
@@ -205,7 +205,7 @@
       "score": "",
       "won": false,
       "pending": true,
-      "profit": 0.0
+      "profit": 0
     },
     {
       "date": "",
