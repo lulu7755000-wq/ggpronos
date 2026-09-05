@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-05T17:01:59.168255",
+  "last_update": "2026-09-05T18:01:59.618510",
   "stats": {
     "total": 16,
     "won": 3,
-    "lost": 6,
-    "pending": 7,
-    "win_rate": 33,
-    "profit": -27.5,
+    "lost": 8,
+    "pending": 5,
+    "win_rate": 27,
+    "profit": -47.5,
     "roi": 0
   },
   "pronos_today": [],
@@ -121,10 +121,10 @@
       "match": "Borussia Monchengladbach vs Elversberg",
       "bet": "Under 2.5",
       "odds": 2.23,
-      "score": "",
+      "score": "3-4",
       "won": false,
-      "pending": true,
-      "profit": 0.0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
@@ -151,10 +151,10 @@
       "match": "Werder Bremen vs RB Leipzig",
       "bet": "RB Leipzig",
       "odds": 1.74,
-      "score": "",
+      "score": "3-1",
       "won": false,
-      "pending": true,
-      "profit": 0.0
+      "pending": false,
+      "profit": -10.0
     },
     {
       "date": "",
