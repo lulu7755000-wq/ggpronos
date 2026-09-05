@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-04T13:32:10.243211",
+  "last_update": "2026-09-05T10:50:20.039904",
   "stats": {
     "total": 8,
-    "won": 0,
+    "won": 1,
     "lost": 0,
-    "pending": 8,
-    "win_rate": 0,
-    "profit": 0,
+    "pending": 7,
+    "win_rate": 100,
+    "profit": 8.5,
     "roi": 0
   },
   "pronos_today": [
@@ -212,10 +212,10 @@
       "match": "FC Juárez vs Pachuca",
       "bet": "Under 2.5",
       "odds": 1.85,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "0-2",
+      "won": true,
+      "pending": false,
+      "profit": 8.5
     }
   ],
   "all_bets": [
