@@ -1,9 +1,9 @@
 {
-  "total": 8,
+  "total": 9,
   "won": 3,
   "lost": 2,
-  "pending": 3,
+  "pending": 4,
   "win_rate": 60,
-  "profit": 12.5,
+  "profit": 0,
   "roi": 0
 }

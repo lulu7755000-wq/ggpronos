@@ -1518,5 +1518,24 @@
     "score": "",
     "date": "",
     "published": true
+  },
+  {
+    "id": "sim_1788601216972_rzlyni",
+    "match": "Inter Milan vs Napoli",
+    "home": "Inter Milan",
+    "away": "Napoli",
+    "sport": "soccer_italy_serie_a",
+    "competition": "Serie A - Italy",
+    "time": "2026-09-05T16:00:00Z",
+    "matchId": "0a38804cd2bc164ea02c56cf06ae2545",
+    "betOn": "Over 2.5",
+    "betOnType": "over25",
+    "cote": 1.85,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
