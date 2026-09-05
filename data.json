@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-05T09:02:16.644Z",
+  "last_update": "2026-09-05T11:04:23.603053",
   "stats": {
-    "total": 15,
+    "total": 8,
     "won": 3,
     "lost": 2,
-    "pending": 10,
+    "pending": 3,
     "win_rate": 60,
-    "profit": 0,
+    "profit": 12.5,
     "roi": 0
   },
   "pronos_today": [
@@ -109,126 +109,6 @@
   "history": [
     {
       "date": "",
-      "match": "Real Sociedad vs Celta Vigo",
-      "bet": "Real Sociedad",
-      "odds": 1.84,
-      "score": "0-0",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "FC Lugano vs Servette",
-      "bet": "FC Lugano",
-      "odds": 2.05,
-      "score": "1-0",
-      "won": true,
-      "pending": false,
-      "profit": 10.5
-    },
-    {
-      "date": "",
-      "match": "Grenoble vs Annecy FC",
-      "bet": "Grenoble",
-      "odds": 3.2,
-      "score": "1-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Arminia Bielefeld vs FC St. Pauli",
-      "bet": "Under 2.5",
-      "odds": 2.04,
-      "score": "2-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "FC Porto vs Moreirense FC",
-      "bet": "Under 2.5",
-      "odds": 2.3,
-      "score": "2-1",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Lyon vs Auxerre",
-      "bet": "Lyon",
-      "odds": 1.43,
-      "score": "3-1",
-      "won": true,
-      "pending": false,
-      "profit": 4.299999999999999
-    },
-    {
-      "date": "",
-      "match": "VfB Stuttgart vs 1. FC Köln",
-      "bet": "VfB Stuttgart",
-      "odds": 1.47,
-      "score": "4-1",
-      "won": true,
-      "pending": false,
-      "profit": 4.699999999999999
-    },
-    {
-      "date": "",
-      "match": "Boulogne vs Dijon",
-      "bet": "Dijon",
-      "odds": 2.6,
-      "score": "1-1",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Pau FC vs Sochaux",
-      "bet": "Sochaux",
-      "odds": 3.3,
-      "score": "1-1",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "USL Dunkerque vs Clermont",
-      "bet": "Under 2.5",
-      "odds": 1.93,
-      "score": "1-1",
-      "won": true,
-      "pending": false,
-      "profit": 9.3
-    },
-    {
-      "date": "",
-      "match": "Genoa vs Como",
-      "bet": "Como",
-      "odds": 1.75,
-      "score": "1-4",
-      "won": true,
-      "pending": false,
-      "profit": 7.5
-    },
-    {
-      "date": "",
-      "match": "Shamrock Rovers vs Shelbourne Dublin",
-      "bet": "Shamrock Rovers",
-      "odds": 1.63,
-      "score": "0-0",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
       "match": "Avispa Fukuoka vs Mito HollyHock",
       "bet": "Avispa Fukuoka",
       "odds": 2.02,
@@ -239,109 +119,9 @@
     },
     {
       "date": "",
-      "match": "Aalesund vs IK Start",
-      "bet": "Aalesund",
-      "odds": 2.1,
-      "score": "2-0",
-      "won": true,
-      "pending": false,
-      "profit": 11
-    },
-    {
-      "date": "",
-      "match": "Sparta Rotterdam vs FC Zwolle",
-      "bet": "Sparta Rotterdam",
-      "odds": 1.88,
-      "score": "2-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Stade Lavallois vs Red Star",
-      "bet": "Red Star",
-      "odds": 2.4,
-      "score": "1-2",
-      "won": true,
-      "pending": false,
-      "profit": 14
-    },
-    {
-      "date": "",
-      "match": "FC Seoul vs Incheon United",
-      "bet": "FC Seoul",
-      "odds": 1.83,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Basaksehir vs Galatasaray",
-      "bet": "Galatasaray",
-      "odds": 1.6,
-      "score": "2-3",
-      "won": true,
-      "pending": false,
-      "profit": 6
-    },
-    {
-      "date": "",
       "match": "Belgrano de Cordoba vs Atlético Huracán",
       "bet": "Belgrano de Cordoba",
       "odds": 2.02,
-      "score": "1-1",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Bucheon FC 1995 vs Daejeon Citizen",
-      "bet": "Daejeon Citizen",
-      "odds": 1.83,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Real Betis vs Real Madrid",
-      "bet": "Real Madrid",
-      "odds": 1.45,
-      "score": "1-0",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Jeju United FC vs Ulsan Hyundai FC",
-      "bet": "Under 2.5",
-      "odds": 1.81,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Jeonbuk Hyundai Motors vs Pohang Steelers",
-      "bet": "Jeonbuk Hyundai Motors",
-      "odds": 1.78,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Sandefjord vs Viking FK",
-      "bet": "Viking FK",
-      "odds": 1.74,
       "score": "1-1",
       "won": false,
       "pending": false,
@@ -359,16 +139,6 @@
     },
     {
       "date": "",
-      "match": "Ipswich Town vs Liverpool",
-      "bet": "Liverpool",
-      "odds": 1.49,
-      "score": "0-2",
-      "won": true,
-      "pending": false,
-      "profit": 4.9
-    },
-    {
-      "date": "",
       "match": "Estudiantes de Río Cuarto vs Sarmiento de Junin",
       "bet": "Sarmiento de Junin",
       "odds": 2.52,
@@ -376,16 +146,6 @@
       "won": true,
       "pending": false,
       "profit": 15.2
-    },
-    {
-      "date": "",
-      "match": "Wuhan Three Towns vs Qingdao West Coast FC",
-      "bet": "Wuhan Three Towns",
-      "odds": 1.8,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
     },
     {
       "date": "",
@@ -426,186 +186,6 @@
       "won": true,
       "pending": false,
       "profit": 8.5
-    },
-    {
-      "date": "",
-      "match": "Inter Milan vs Napoli",
-      "bet": "Over 2.5",
-      "odds": 1.85,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "RC Lens vs Lorient",
-      "bet": "RC Lens",
-      "odds": 1.53,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Villarreal vs Deportivo La Coruña",
-      "bet": "Villarreal",
-      "odds": 1.48,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Bayer Leverkusen vs Union Berlin",
-      "bet": "Bayer Leverkusen",
-      "odds": 1.44,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Newcastle United vs Bournemouth",
-      "bet": "Under 2.5",
-      "odds": 2.17,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Fiorentina vs Torino",
-      "bet": "Fiorentina",
-      "odds": 1.91,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Borussia Monchengladbach vs Elversberg",
-      "bet": "Under 2.5",
-      "odds": 2.23,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Brighton and Hove Albion vs Leeds United",
-      "bet": "Brighton and Hove Albion",
-      "odds": 2.03,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Rayo Vallecano vs Real Racing Club de Santander",
-      "bet": "Rayo Vallecano",
-      "odds": 2.07,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "SC Paderborn vs SC Freiburg",
-      "bet": "Under 2.5",
-      "odds": 2.12,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Hull City vs Aston Villa",
-      "bet": "Aston Villa",
-      "odds": 1.9,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Brentford vs Sunderland",
-      "bet": "Brentford",
-      "odds": 1.72,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Nottingham Forest vs Tottenham Hotspur",
-      "bet": "Under 2.5",
-      "odds": 1.81,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "FC Utrecht vs Go Ahead Eagles",
-      "bet": "Under 2.5",
-      "odds": 2.25,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Nice vs Le Mans FC",
-      "bet": "Nice",
-      "odds": 1.81,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "AS Roma vs Atalanta BC",
-      "bet": "AS Roma",
-      "odds": 1.7,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Werder Bremen vs RB Leipzig",
-      "bet": "RB Leipzig",
-      "odds": 1.74,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Willem II vs Excelsior",
-      "bet": "Under 2.5",
-      "odds": 2.02,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
     }
   ],
   "all_bets": [
