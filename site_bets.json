@@ -1537,5 +1537,24 @@
     "score": "3-2",
     "date": "",
     "published": true
+  },
+  {
+    "id": "sim_1788683403418_8utmic",
+    "match": "Juventus vs AC Milan",
+    "home": "Juventus",
+    "away": "AC Milan",
+    "sport": "soccer_italy_serie_a",
+    "competition": "Serie A - Italy",
+    "time": "2026-09-06T18:45:00Z",
+    "matchId": "9837f5ef9e30ed8b1729c4cf606137ec",
+    "betOn": "Juventus",
+    "betOnType": "home",
+    "cote": 2.13,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]

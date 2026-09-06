@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "match": "Juventus vs AC Milan",
+    "home": "Juventus",
+    "away": "AC Milan",
+    "league": "Serie A - Italy",
+    "time": "2026-09-06T18:45:00Z",
+    "hours_until": 10.2,
+    "has_bet": true,
+    "top_pick": true,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 57,
+      "score": 69.40677966101694,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Juventus",
+      "odds": 2.13,
+      "edge": 35.5,
+      "ev": 35.5,
+      "bookmaker": "betclic_fr"
+    }
+  }
+]
