@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-05T18:01:59.618510",
+  "last_update": "2026-09-06T10:29:43.201950",
   "stats": {
-    "total": 16,
-    "won": 3,
-    "lost": 8,
-    "pending": 5,
-    "win_rate": 27,
-    "profit": -47.5,
+    "total": 9,
+    "won": 4,
+    "lost": 5,
+    "pending": 0,
+    "win_rate": 44,
+    "profit": -9,
     "roi": 0
   },
   "pronos_today": [],
@@ -24,7 +24,7 @@
       "score": "1-1",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -34,7 +34,7 @@
       "score": "1-1",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -44,7 +44,7 @@
       "score": "1-1",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -74,7 +74,7 @@
       "score": "3-0",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -84,7 +84,7 @@
       "score": "2-2",
       "won": false,
       "pending": false,
-      "profit": -10.0
+      "profit": -10
     },
     {
       "date": "",
@@ -101,80 +101,10 @@
       "match": "Inter Milan vs Napoli",
       "bet": "Over 2.5",
       "odds": 1.85,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0.0
-    },
-    {
-      "date": "",
-      "match": "Newcastle United vs Bournemouth",
-      "bet": "Under 2.5",
-      "odds": 2.17,
-      "score": "2-2",
-      "won": false,
+      "score": "3-2",
+      "won": true,
       "pending": false,
-      "profit": -10.0
-    },
-    {
-      "date": "",
-      "match": "Borussia Monchengladbach vs Elversberg",
-      "bet": "Under 2.5",
-      "odds": 2.23,
-      "score": "3-4",
-      "won": false,
-      "pending": false,
-      "profit": -10.0
-    },
-    {
-      "date": "",
-      "match": "FC Utrecht vs Go Ahead Eagles",
-      "bet": "Under 2.5",
-      "odds": 2.25,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0.0
-    },
-    {
-      "date": "",
-      "match": "AS Roma vs Atalanta BC",
-      "bet": "AS Roma",
-      "odds": 1.7,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0.0
-    },
-    {
-      "date": "",
-      "match": "Werder Bremen vs RB Leipzig",
-      "bet": "RB Leipzig",
-      "odds": 1.74,
-      "score": "3-1",
-      "won": false,
-      "pending": false,
-      "profit": -10.0
-    },
-    {
-      "date": "",
-      "match": "Willem II vs Excelsior",
-      "bet": "Under 2.5",
-      "odds": 2.02,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0.0
-    },
-    {
-      "date": "",
-      "match": "Inter Milan vs Napoli",
-      "bet": "Over 2.5",
-      "odds": 1.85,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0.0
+      "profit": 8.5
     }
   ],
   "all_bets": [

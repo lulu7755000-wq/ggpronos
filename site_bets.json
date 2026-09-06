@@ -811,7 +811,7 @@
     "cote": 2.02,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "1-1",
     "date": "",
     "published": true
@@ -982,7 +982,7 @@
     "cote": 1.81,
     "stake": 10,
     "result": "win",
-    "pnl": 8.1,
+    "pnl": 8.100000000000001,
     "score": "0-0",
     "date": "",
     "published": false
@@ -1001,7 +1001,7 @@
     "cote": 1.78,
     "stake": 10,
     "result": "win",
-    "pnl": 7.8,
+    "pnl": 7.800000000000001,
     "score": "2-0",
     "date": "",
     "published": false
@@ -1096,7 +1096,7 @@
     "cote": 1.8,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "2-2",
     "date": "",
     "published": false
@@ -1134,7 +1134,7 @@
     "cote": 2.12,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "3-0",
     "date": "",
     "published": true
@@ -1153,7 +1153,7 @@
     "cote": 2.04,
     "stake": 10,
     "result": "loss",
-    "pnl": -10.0,
+    "pnl": -10,
     "score": "2-2",
     "date": "",
     "published": true
@@ -1532,9 +1532,9 @@
     "betOnType": "over25",
     "cote": 1.85,
     "stake": 10,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 8.5,
+    "score": "3-2",
     "date": "",
     "published": true
   }
