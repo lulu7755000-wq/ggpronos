@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankroll — GG Pronos</title>
+    <meta name="description" content="Bankroll GG Pronos : courbe des profits, ROI, winrate, historique transparent (gagnés et perdus).">
+    <link rel="stylesheet" href="style.css?v=20260901">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        .page-hero{background:var(--gradient);padding:120px 0 60px;text-align:center}
+        .page-hero h1{font-size:2.6rem;margin-bottom:10px}
+        .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:860px;margin:22px auto 0}
+        .kpi{background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border-radius:14px;padding:18px;text-align:center}
+        .kpi .v{font-size:1.9rem;font-weight:800}
+        .kpi .l{font-size:.85rem;opacity:.85}
+        .content{max-width:980px;margin:0 auto;padding:40px 20px}
+        .card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:18px;margin:18px 0}
+        .warn{background:rgba(255,82,82,.08);border:1px solid rgba(255,82,82,.25);border-radius:12px;padding:14px;margin:16px 0}
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo"><span class="logo-icon">⚽</span><span class="logo-text">GG<span class="accent">Pronos</span></span></a>
+        <nav class="nav">
+            <a href="index.html#pronos" class="nav-link">Pronos du Jour</a>
+            <a href="methode.html" class="nav-link">Méthode</a>
+            <a href="bankroll.html" class="nav-link">Bankroll</a>
+            <a href="index.html#affiliations" class="nav-link">Bookmakers</a>
+        </nav>
+        <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <h1>Bankroll</h1>
+        <p>Transparence totale : tous les paris, gagnés et perdus (même Juventus 1-1).</p>
+        <div class="grid4">
+            <div class="kpi"><div class="v" id="k_winrate">—</div><div class="l">Winrate</div></div>
+            <div class="kpi"><div class="v" id="k_profit">—</div><div class="l">Profit</div></div>
+            <div class="kpi"><div class="v" id="k_roi">—</div><div class="l">ROI</div></div>
+            <div class="kpi"><div class="v" id="k_total">—</div><div class="l">Paris</div></div>
+        </div>
+    </div>
+</section>
+
+<div class="content">
+    <div class="card"><canvas id="chart" height="120"></canvas></div>
+    <div class="card">
+        <h3 style="margin-bottom:12px">Historique</h3>
+        <div style="overflow:auto">
+            <table class="history-table" style="min-width:640px">
+                <thead><tr><th>Date</th><th>Match</th><th>Pari</th><th>Cote</th><th>Score</th><th>Résultat</th></tr></thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="warn"><strong>18+ • Jouez responsable.</strong> Les paris peuvent causer dépendance. <a href="https://www.joueurs-info-service.fr" target="_blank">Joueurs Info Service — 09 74 75 13 13</a></div>
+    <p style="text-align:center"><a href="methode.html" style="color:var(--accent)">→ Comprendre la méthode</a></p>
+</div>
+
+<script>
+async function load(){
+    const [bets, stats] = await Promise.all([
+        fetch('site_bets.json').then(r=>r.json()).catch(()=>[]),
+        fetch('stats.json').then(r=>r.json()).catch(()=>null)
+    ]);
+    // KPIs depuis stats.json si dispo, sinon calcule depuis bets
+    let total=bets.length, won=bets.filter(b=>b.result==='win').length, lost=bets.filter(b=>b.result==='loss').length;
+    let profit=bets.reduce((s,b)=> s + (Number(b.pnl)||0), 0);
+    let pending=bets.filter(b=>b.result==='pending').length;
+    let winrate = (won+lost)>0 ? Math.round(won/(won+lost)*100) : 0;
+    let roi = (won+lost)>0 ? Math.round(profit / ((won+lost)*10) *100) : 0;
+    if(stats){
+        total = stats.total ?? total;
+        won = stats.won ?? won;
+        lost = stats.lost ?? lost;
+        winrate = stats.win_rate ?? winrate;
+        profit = stats.profit ?? profit;
+        roi = stats.roi ?? roi;
+    }
+    document.getElementById('k_winrate').textContent = winrate + '%';
+    document.getElementById('k_profit').textContent = (profit>0?'+':'') + profit.toFixed(1) + '€';
+    document.getElementById('k_total').textContent = total;
+    document.getElementById('k_roi').textContent = roi + '%';
+    // courbe cumulative (trie par time)
+    const sorted=[...bets].filter(b=>b.time).sort((a,b)=> new Date(a.time)-new Date(b.time));
+    let cum=0;
+    const labels=[], data=[];
+    for(const b of sorted){
+        if(b.result==='pending') continue;
+        cum += Number(b.pnl)||0;
+        labels.push((b.match||'').split(' vs ')[0]);
+        data.push(Number(cum.toFixed(2)));
+    }
+    new Chart(document.getElementById('chart'), {
+        type:'line',
+        data:{labels, datasets:[{label:'Bankroll (€)', data, borderColor:'#00c853', backgroundColor:'rgba(0,200,83,.12)', fill:true, tension:.25, pointRadius:0}]},
+        options:{responsive:true, plugins:{legend:{display:false}}, scales:{x:{display:false}, y:{grid:{color:'rgba(255,255,255,.08)'}}}}
+    });
+    // tableau
+    const tbody=document.getElementById('tbody');
+    for(const b of [...bets].reverse().slice(0,60)){
+        const tr=document.createElement('tr');
+        const res = b.result==='win' ? '<span class="result-won">Gagné</span>' : b.result==='loss' ? '<span class="result-lost">Perdu</span>' : 'En attente';
+        tr.innerHTML = `<td>${(b.time||'').slice(0,10)}</td><td>${b.match||''}</td><td>${b.betOn||''}</td><td>${b.cote||''}</td><td>${b.score||''}</td><td>${res}</td>`;
+        tbody.appendChild(tr);
+    }
+}
+load();
+</script>
+
+<footer class="footer">
+    <div class="container"><p>© 2026 GG Pronos — <a href="index.html">Accueil</a> · <a href="methode.html">Méthode</a></p></div>
+</footer>
+</body>
+</html>

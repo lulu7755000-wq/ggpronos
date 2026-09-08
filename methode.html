@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méthode Value Bet — GG Pronos</title>
+    <meta name="description" content="Comment GG Pronos détecte les value bets : xG, cotes, edge et EV expliqués simplement. Méthode transparente, 18+ Jouez responsable.">
+    <link rel="stylesheet" href="style.css?v=20260901">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-hero{background:var(--gradient);padding:120px 0 60px;text-align:center}
+        .page-hero h1{font-size:2.6rem;margin-bottom:12px}
+        .page-hero p{opacity:.9;max-width:720px;margin:0 auto}
+        .content{max-width:820px;margin:0 auto;padding:50px 20px}
+        .content h2{font-size:1.6rem;margin:36px 0 14px;color:var(--accent)}
+        .content h3{font-size:1.2rem;margin:22px 0 10px}
+        .callout{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:12px;padding:18px 20px;margin:22px 0}
+        .example{background:linear-gradient(135deg,#0f1a2e,#0d1b2a);border:1px solid var(--border);border-radius:14px;padding:22px;margin:22px 0}
+        .example .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+        .badge{display:inline-block;background:var(--accent);color:#fff;padding:4px 12px;border-radius:20px;font-size:.8rem;font-weight:700}
+        .warn{background:rgba(255,82,82,.08);border:1px solid rgba(255,82,82,.25);border-radius:12px;padding:16px;margin:22px 0}
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo"><span class="logo-icon">⚽</span><span class="logo-text">GG<span class="accent">Pronos</span></span></a>
+        <nav class="nav">
+            <a href="index.html#pronos" class="nav-link">Pronos du Jour</a>
+            <a href="methode.html" class="nav-link">Méthode</a>
+            <a href="bankroll.html" class="nav-link">Bankroll</a>
+            <a href="index.html#affiliations" class="nav-link">Bookmakers</a>
+        </nav>
+        <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <h1>La Méthode Value Bet</h1>
+        <p>Pas de feeling. Des cotes, des modèles, et de la discipline. Voilà comment BetScan Pro trouve ses paris.</p>
+    </div>
+</section>
+
+<div class="content">
+    <p><span class="badge">18+ • Jouez responsable</span></p>
+
+    <h2>1. C'est quoi une value bet ?</h2>
+    <p>Une value bet, c'est quand <strong>notre probabilité estimée</strong> est supérieure à celle implicite dans la cote du bookmaker.</p>
+    <div class="callout">Probabilité implicite = 1 / cote. Exemple cote 2.13 → 1/2.13 = 46,9%.</div>
+    <div class="example">
+        <h3>Exemple réel : Juventus vs AC Milan — 06/09</h3>
+        <div class="row"><span>Notre modèle estime Juventus à</span><strong>50%</strong></div>
+        <div class="row"><span>Meilleure cote Betclic</span><strong>2.13</strong></div>
+        <div class="row"><span>Probabilité implicite bookmaker</span><strong>46,9%</strong></div>
+        <div class="row"><span><strong>Edge = (50% × 2.13) − 1</strong></span><strong style="color:var(--accent)">+6,5% → value</strong></div>
+        <p style="margin-top:12px;color:var(--text-muted)">Si edge &gt; 0, le pari est mathématiquement rentable long terme. Nous ne postons que si edge significatif et confiance suffisante.</p>
+    </div>
+
+    <h2>2. Comment on calcule ?</h2>
+    <h3>xG + forme + H2H + domicile</h3>
+    <p>BetScan récupère les cotes de 10+ bookmakers, calcule les xG attendus, la forme récente, l'historique face-à-face et l'avantage domicile pour sortir une probabilité propre, puis compare à la meilleure cote disponible.</p>
+    <ul style="margin:12px 0 0 18px;color:var(--text-muted)">
+        <li><strong>Confiance</strong> = solidité du modèle (nombre de bookmakers + edge)</li>
+        <li><strong>EV</strong> = espérance de gain = (probabilité × cote) − 1</li>
+        <li><strong>Edge</strong> = EV en % — on filtre edge &gt; 30% pour la publication</li>
+    </ul>
+
+    <h2>3. Pourquoi si peu de paris ?</h2>
+    <p>La discipline fait le profit. Sur 30 matchs analysés, le bot peut ne retenir que 1 ou 2 values. Certains jours : <strong>zéro value</strong> → on poste <em>“Aucune value aujourd'hui”</em>. On préfère skip qu'inventer.</p>
+    <div class="callout"><i class="fas fa-shield-alt"></i> Règle BetScan : 1 pari = 10€, edge &gt; 30% minimum, cote ≥ 1.40. Jamais plus.</div>
+
+    <h2>4. Transl transparent</h2>
+    <p>Tous les résultats sont publiés, <strong>gagnés ET perdus</strong> (ex: Juventus 1-1 → PERDU -10€). <a href="bankroll.html">Voir la courbe bankroll →</a></p>
+
+    <div class="warn"><strong>⚠️ Jouez responsable.</strong> Les paris sportifs comportent des risques : endettement, isolement, dépendance. Besoin d'aide ? <a href="https://www.joueurs-info-service.fr" target="_blank">Joueurs Info Service — 09 74 75 13 13</a> (appel non surtaxé). Interdit aux moins de 18 ans.</div>
+
+    <p style="text-align:center;margin-top:30px"><a href="bankroll.html" style="display:inline-block;background:var(--accent);color:#fff;padding:12px 22px;border-radius:25px;text-decoration:none;font-weight:700">Voir la bankroll →</a></p>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 GG Pronos — <a href="index.html">Accueil</a> · <a href="methode.html">Méthode</a> · <a href="bankroll.html">Bankroll</a></p>
+        <p style="margin-top:10px;color:var(--text-muted);font-size:.9rem">18+ • Jouez responsable — Les paris comportent des risques.</p>
+    </div>
+</footer>
+</body>
+</html>
