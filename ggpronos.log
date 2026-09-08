@@ -210,3 +210,242 @@ Votez 👇
 [2026-09-07 10:59:10] GGPRONOS run | Posts: 0/12 | Stage: 0
 [2026-09-07 10:59:10] MATCH: Juventus vs AC Milan | dans -14.24h | conf: 57%
 [2026-09-07 10:59:10] Rien a poster ce run
+[2026-09-07 11:01:50] Carte PRO HS: list indices must be integers or slices, not str
+[2026-09-07 11:02:01] Carte PRO OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_card_card.png (70KB)
+[2026-09-07 11:05:53] Carte PRO OK: C:\Users\gg_77\Documents\Default Project\ggpronos\psg_marseille_card.png (64KB)
+[2026-09-07 11:05:56] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 11:05:56] MATCH: PSG vs Marseille | dans 10.9h | conf: 68%
+[2026-09-07 11:05:56] Match dans 10.9h, pas encore pret (attendre T-2h)
+[2026-09-07 11:06:46] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 11:06:46] MATCH: PSG vs Marseille | dans 1.49h | conf: 68%
+[2026-09-07 11:06:54] Carte PRO OK: C:\Users\gg_77\Documents\Default Project\ggpronos\hype_PSG_card.png (64KB)
+[2026-09-07 11:06:54] SONDAGE (T-2h):
+⚽ LIGUE 1
+🔥 PSG vs Marseille
+🎯 Confiance : 68%
+⚔️ Qui va gagner ? Votez 👇
+🔗 http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+[2026-09-07 11:06:54] Carte hype: C:\Users\gg_77\Documents\Default Project\ggpronos\hype_PSG_card.png
+[2026-09-07 11:07:11] Post Ggpronos OK
+[2026-09-07 11:07:11] === SONDAGE OK (1/12) ===
+[2026-09-07 11:10:56] Carte PRO OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_hype_card.png (96KB)
+[2026-09-07 11:10:56] Carte PRO OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_bet_card.png (96KB)
+[2026-09-07 11:23:07] Brand assets: profil=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_profile.png, banniere=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_banner.png
+[2026-09-07 11:23:57] Brand assets: profil=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_profile.png, banniere=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_banner.png
+[2026-09-07 11:24:10] Profile images HS: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("text=\"Enregistrer\"").first
+
+[2026-09-07 11:29:11] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 11:29:11] MATCH: Juventus vs AC Milan | dans -14.74h | conf: 57%
+[2026-09-07 11:29:11] Rien a poster ce run
+[2026-09-07 11:36:21] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 11:36:21] MATCH: Juventus vs AC Milan | dans -14.86h | conf: 57%
+[2026-09-07 11:36:21] Rien a poster ce run
+[2026-09-07 11:36:33] Brand assets: profil=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_profile.png, banniere=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_banner.png
+[2026-09-07 11:36:40] File inputs trouves: 0
+[2026-09-07 11:36:45] Profile images HS: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[aria-label=\"Changer la photo de profil\"]").first
+
+[2026-09-07 11:38:52] Brand assets: profil=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_profile.png, banniere=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_banner.png
+[2026-09-07 11:39:11] Banniere uploade
+[2026-09-07 11:39:20] Logo profil uploade
+[2026-09-07 11:39:24] Profil GG Pronos mis a jour OK
+[2026-09-07 11:39:35] Bio: champ non trouve, on ne touche a rien
+[2026-09-07 11:42:04] Brand assets: profil=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_profile.png, banniere=C:\Users\gg_77\Documents\Default Project\ggpronos\ggpronos_banner.png
+[2026-09-07 11:42:23] Banniere uploade
+[2026-09-07 11:42:31] Logo profil uploade
+[2026-09-07 11:42:35] Profil GG Pronos mis a jour OK
+[2026-09-07 11:42:47] Bio: champ non trouve, on ne touche a rien
+[2026-09-07 11:59:11] Pause humaine : on saute ce run
+[2026-09-07 12:29:11] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 12:29:11] MATCH: Juventus vs AC Milan | dans -15.74h | conf: 57%
+[2026-09-07 12:29:17] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 12:29:39] Post HS: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"tweetButt
+[2026-09-07 12:59:11] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 12:59:11] MATCH: Juventus vs AC Milan | dans -16.24h | conf: 57%
+[2026-09-07 12:59:17] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 12:59:39] Post HS: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"tweetButt
+[2026-09-07 13:00:36] Pause humaine : on saute ce run
+[2026-09-07 13:00:51] Pause humaine : on saute ce run
+[2026-09-07 13:00:57] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 13:00:57] MATCH: Juventus vs AC Milan | dans -16.27h | conf: 57%
+[2026-09-07 13:01:02] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 13:01:24] Post HS: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"tweetButt
+[2026-09-07 13:02:18] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 13:02:18] MATCH: Juventus vs AC Milan | dans -16.29h | conf: 57%
+[2026-09-07 13:02:23] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 13:02:48] Click Poster HS, fallback clavier: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiti
+[2026-09-07 13:02:53] Fallback clavier HS: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waitin
+[2026-09-07 13:03:13] Pause humaine : on saute ce run
+[2026-09-07 13:03:20] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 13:03:20] MATCH: Juventus vs AC Milan | dans -16.31h | conf: 57%
+[2026-09-07 13:03:26] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 13:03:51] Click Poster HS, fallback clavier: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiti
+[2026-09-07 13:03:56] Fallback clavier HS: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waitin
+[2026-09-07 13:04:28] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 13:04:28] MATCH: Juventus vs AC Milan | dans -16.32h | conf: 57%
+[2026-09-07 13:04:33] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 13:05:00] Click Poster HS, fallback clavier: Locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiti
+[2026-09-07 13:05:05] Fallback clavier HS: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waitin
+[2026-09-07 13:05:42] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-07 13:05:42] MATCH: Juventus vs AC Milan | dans -16.35h | conf: 57%
+[2026-09-07 13:05:47] RESULTAT:
+🔴 ❌ PERDU: Juventus vs AC Milan (1-1)
+💰 PnL: -10.0€
+📊 Suivez les pronos: http://lulu7755000-wq.github.io/valuebet-track
+👉 http://lulu7755000-wq.github.io/valuebet-track/parrainage
+#foot #resultats #record
+[2026-09-07 13:06:10] Post Ggpronos OK
+[2026-09-07 13:06:10] === RESULTAT OK (1/12) ===
+[2026-09-07 13:10:50] Carte resultat OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_res_result.png
+[2026-09-07 13:12:48] Carte resultat OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_res2_result.png
+[2026-09-07 13:13:46] Carte resultat OK: C:\Users\gg_77\Documents\Default Project\ggpronos\test_res3_result.png
+[2026-09-07 13:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 13:29:11] MATCH: Juventus vs AC Milan | dans -16.74h | conf: 57%
+[2026-09-07 13:29:11] Rien a poster ce run
+[2026-09-07 14:01:38] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 14:01:38] MATCH: Juventus vs AC Milan | dans -17.28h | conf: 57%
+[2026-09-07 14:01:38] Rien a poster ce run
+[2026-09-07 14:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 14:29:11] MATCH: Juventus vs AC Milan | dans -17.74h | conf: 57%
+[2026-09-07 14:29:11] Rien a poster ce run
+[2026-09-07 14:59:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 14:59:11] MATCH: Juventus vs AC Milan | dans -18.24h | conf: 57%
+[2026-09-07 14:59:11] Rien a poster ce run
+[2026-09-07 15:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 15:29:11] MATCH: Juventus vs AC Milan | dans -18.74h | conf: 57%
+[2026-09-07 15:29:11] Rien a poster ce run
+[2026-09-07 16:01:31] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 16:01:31] MATCH: Juventus vs AC Milan | dans -19.28h | conf: 57%
+[2026-09-07 16:01:31] Rien a poster ce run
+[2026-09-07 16:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 16:29:11] MATCH: Juventus vs AC Milan | dans -19.74h | conf: 57%
+[2026-09-07 16:29:11] Rien a poster ce run
+[2026-09-07 16:59:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 16:59:11] MATCH: Juventus vs AC Milan | dans -20.24h | conf: 57%
+[2026-09-07 16:59:11] Rien a poster ce run
+[2026-09-07 17:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 17:29:11] MATCH: Juventus vs AC Milan | dans -20.74h | conf: 57%
+[2026-09-07 17:29:11] Rien a poster ce run
+[2026-09-07 17:59:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 17:59:11] MATCH: Juventus vs AC Milan | dans -21.24h | conf: 57%
+[2026-09-07 17:59:11] Rien a poster ce run
+[2026-09-07 18:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 18:29:11] MATCH: Juventus vs AC Milan | dans -21.74h | conf: 57%
+[2026-09-07 18:29:11] Rien a poster ce run
+[2026-09-07 18:59:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 18:59:11] MATCH: Juventus vs AC Milan | dans -22.24h | conf: 57%
+[2026-09-07 18:59:11] Rien a poster ce run
+[2026-09-07 19:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 19:29:11] MATCH: Juventus vs AC Milan | dans -22.74h | conf: 57%
+[2026-09-07 19:29:11] Rien a poster ce run
+[2026-09-07 19:59:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 19:59:11] MATCH: Juventus vs AC Milan | dans -23.24h | conf: 57%
+[2026-09-07 19:59:11] Rien a poster ce run
+[2026-09-07 20:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 20:29:11] MATCH: Juventus vs AC Milan | dans -23.74h | conf: 57%
+[2026-09-07 20:29:11] Rien a poster ce run
+[2026-09-07 20:59:12] Pause humaine : on saute ce run
+[2026-09-07 21:29:11] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 21:29:11] MATCH: Juventus vs AC Milan | dans -24.74h | conf: 57%
+[2026-09-07 21:29:11] Rien a poster ce run
+[2026-09-07 21:59:12] GGPRONOS run | Posts: 1/12 | Stage: 0
+[2026-09-07 21:59:12] MATCH: Juventus vs AC Milan | dans -25.24h | conf: 57%
+[2026-09-07 21:59:12] Rien a poster ce run
+[2026-09-08 11:10:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:10:00] MATCH: Juventus vs AC Milan | dans -38.42h | conf: 57%
+[2026-09-08 11:10:00] Rien a poster ce run
+[2026-09-08 11:15:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:15:00] MATCH: Juventus vs AC Milan | dans -38.5h | conf: 57%
+[2026-09-08 11:15:00] Rien a poster ce run
+[2026-09-08 11:20:01] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:20:01] MATCH: Juventus vs AC Milan | dans -38.58h | conf: 57%
+[2026-09-08 11:20:01] Rien a poster ce run
+[2026-09-08 11:25:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:25:00] MATCH: Juventus vs AC Milan | dans -38.67h | conf: 57%
+[2026-09-08 11:25:00] Rien a poster ce run
+[2026-09-08 11:30:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:30:00] MATCH: Juventus vs AC Milan | dans -38.75h | conf: 57%
+[2026-09-08 11:30:00] Rien a poster ce run
+[2026-09-08 11:35:00] Pause humaine : on saute ce run
+[2026-09-08 11:40:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:40:00] MATCH: Juventus vs AC Milan | dans -38.92h | conf: 57%
+[2026-09-08 11:40:00] Rien a poster ce run
+[2026-09-08 11:45:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:45:00] MATCH: Juventus vs AC Milan | dans -39.0h | conf: 57%
+[2026-09-08 11:45:00] Rien a poster ce run
+[2026-09-08 11:50:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:50:00] MATCH: Juventus vs AC Milan | dans -39.08h | conf: 57%
+[2026-09-08 11:50:00] Rien a poster ce run
+[2026-09-08 11:55:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 11:55:00] MATCH: Juventus vs AC Milan | dans -39.17h | conf: 57%
+[2026-09-08 11:55:00] Rien a poster ce run
+[2026-09-08 12:00:16] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:00:23] MATCH: Juventus vs AC Milan | dans -39.26h | conf: 57%
+[2026-09-08 12:00:23] Rien a poster ce run
+[2026-09-08 12:05:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:05:00] MATCH: Juventus vs AC Milan | dans -39.33h | conf: 57%
+[2026-09-08 12:05:00] Rien a poster ce run
+[2026-09-08 12:10:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:10:00] MATCH: Juventus vs AC Milan | dans -39.42h | conf: 57%
+[2026-09-08 12:10:00] Rien a poster ce run
+[2026-09-08 12:15:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:15:00] MATCH: Juventus vs AC Milan | dans -39.5h | conf: 57%
+[2026-09-08 12:15:00] Rien a poster ce run
+[2026-09-08 12:20:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:20:00] MATCH: Juventus vs AC Milan | dans -39.58h | conf: 57%
+[2026-09-08 12:20:00] Rien a poster ce run
+[2026-09-08 12:25:00] GGPRONOS run | Posts: 0/12 | Stage: 0
+[2026-09-08 12:25:00] MATCH: Juventus vs AC Milan | dans -39.67h | conf: 57%
+[2026-09-08 12:25:00] Rien a poster ce run

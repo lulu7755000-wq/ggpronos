@@ -1,41 +1,82 @@
 {
-  "last_update": "2026-09-07T09:01:32.971Z",
+  "last_update": "2026-09-08T10:27:26.711Z",
   "stats": {
-    "total": 10,
+    "total": 12,
     "won": 4,
     "lost": 6,
-    "pending": 0,
+    "pending": 2,
     "win_rate": 40,
     "profit": 0,
     "roi": 0
   },
-  "pronos_today": [],
+  "pronos_today": [
+    {
+      "match": "Wrexham AFC vs Burnley",
+      "home": "Wrexham AFC",
+      "away": "Burnley",
+      "league": "Championship",
+      "time": "2026-09-08T18:45:00Z",
+      "hours_until": 8.3,
+      "has_bet": true,
+      "top_pick": true,
+      "analysis": {
+        "home_xg": 1.5,
+        "away_xg": 1.2,
+        "home_win": 50,
+        "draw": 25,
+        "away_win": 25,
+        "over_25": 50,
+        "btts_yes": 50,
+        "confidence": 64,
+        "score": 69.05498281786942,
+        "grade": "orange"
+      },
+      "best_bet": {
+        "bet_type": "home",
+        "outcome": "Wrexham AFC",
+        "odds": 1.98,
+        "edge": 35.6,
+        "ev": 35.6,
+        "bookmaker": "betclic_fr"
+      }
+    },
+    {
+      "match": "Borussia Dortmund vs Villarreal",
+      "home": "Borussia Dortmund",
+      "away": "Villarreal",
+      "league": "UEFA Champions League",
+      "time": "2026-09-08T19:00:00Z",
+      "hours_until": 8.5,
+      "has_bet": true,
+      "top_pick": true,
+      "analysis": {
+        "home_xg": 1.5,
+        "away_xg": 1.2,
+        "home_win": 50,
+        "draw": 25,
+        "away_win": 25,
+        "over_25": 50,
+        "btts_yes": 50,
+        "confidence": 70,
+        "score": 78.26315789473684,
+        "grade": "green"
+      },
+      "best_bet": {
+        "bet_type": "home",
+        "outcome": "Borussia Dortmund",
+        "odds": 1.8,
+        "edge": 32.3,
+        "ev": 32.3,
+        "bookmaker": "betclic_fr"
+      }
+    }
+  ],
   "summary": {
     "surebets": 0,
-    "values": 13,
+    "values": 80,
     "boosts": 0
   },
   "history": [
-    {
-      "date": "",
-      "match": "Celta Vigo vs CA Osasuna",
-      "bet": "Celta Vigo",
-      "odds": 1.98,
-      "score": "1-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Montpellier vs Boulogne",
-      "bet": "Montpellier",
-      "odds": 1.71,
-      "score": "0-0",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
     {
       "date": "",
       "match": "Nancy vs USL Dunkerque",
@@ -515,6 +556,26 @@
       "won": false,
       "pending": false,
       "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Borussia Dortmund vs Villarreal",
+      "bet": "Borussia Dortmund",
+      "odds": 1.8,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Wrexham AFC vs Burnley",
+      "bet": "Wrexham AFC",
+      "odds": 1.98,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
     }
   ],
   "all_bets": [
@@ -1731,6 +1792,44 @@
       "result": "loss",
       "pnl": -10,
       "score": "1-1",
+      "date": "",
+      "published": true
+    },
+    {
+      "id": "sim_1788863246583_mcig4k",
+      "match": "Borussia Dortmund vs Villarreal",
+      "home": "Borussia Dortmund",
+      "away": "Villarreal",
+      "sport": "soccer_uefa_champs_league",
+      "competition": "UEFA Champions League",
+      "time": "2026-09-08T19:00:00Z",
+      "matchId": "33aa4b8a301a13b229e96901d831fd38",
+      "betOn": "Borussia Dortmund",
+      "betOnType": "home",
+      "cote": 1.8,
+      "stake": 10,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": true
+    },
+    {
+      "id": "sim_1788863246584_c2n563",
+      "match": "Wrexham AFC vs Burnley",
+      "home": "Wrexham AFC",
+      "away": "Burnley",
+      "sport": "soccer_efl_champ",
+      "competition": "Championship",
+      "time": "2026-09-08T18:45:00Z",
+      "matchId": "eac66ea3b6e1c69796f1efe3f2ec4287",
+      "betOn": "Wrexham AFC",
+      "betOnType": "home",
+      "cote": 1.98,
+      "stake": 10,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
       "date": "",
       "published": true
     }

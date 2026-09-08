@@ -1556,5 +1556,43 @@
     "score": "1-1",
     "date": "",
     "published": true
+  },
+  {
+    "id": "sim_1788863246583_mcig4k",
+    "match": "Borussia Dortmund vs Villarreal",
+    "home": "Borussia Dortmund",
+    "away": "Villarreal",
+    "sport": "soccer_uefa_champs_league",
+    "competition": "UEFA Champions League",
+    "time": "2026-09-08T19:00:00Z",
+    "matchId": "33aa4b8a301a13b229e96901d831fd38",
+    "betOn": "Borussia Dortmund",
+    "betOnType": "home",
+    "cote": 1.8,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
+  },
+  {
+    "id": "sim_1788863246584_c2n563",
+    "match": "Wrexham AFC vs Burnley",
+    "home": "Wrexham AFC",
+    "away": "Burnley",
+    "sport": "soccer_efl_champ",
+    "competition": "Championship",
+    "time": "2026-09-08T18:45:00Z",
+    "matchId": "eac66ea3b6e1c69796f1efe3f2ec4287",
+    "betOn": "Wrexham AFC",
+    "betOnType": "home",
+    "cote": 1.98,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
