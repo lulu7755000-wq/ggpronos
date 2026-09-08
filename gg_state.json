@@ -1,8 +1,11 @@
 {
-  "day": "2026-09-07",
-  "count": 1,
+  "day": "2026-09-08",
+  "count": 4,
   "posted_ids": [
-    "sim_1788683403418_8utmic"
+    "sondage_Borussia",
+    "sondage_Wrexham ",
+    "bet_Wrexham ",
+    "bet_Borussia"
   ],
-  "stage": 0
+  "stage": 2
 }
