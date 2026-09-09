@@ -1,17 +1,17 @@
 /* GG Pronos - Style Complet */
 :root {
-    --primary: #1a73e8;
-    --primary-dark: #1557b0;
+    --primary: #d4af37;
+    --primary-dark: #b8941f;
     --accent: #00c853;
     --danger: #ff5252;
     --warning: #ffc107;
-    --bg-dark: #0d1117;
-    --bg-card: #161b22;
-    --bg-card-hover: #1c2333;
-    --text: #e6edf3;
-    --text-muted: #8b949e;
-    --border: #30363d;
-    --gradient: linear-gradient(135deg, #1a73e8, #00c853);
+    --bg-dark: #0a0e1a;
+    --bg-card: #111a2e;
+    --bg-card-hover: #1a2548;
+    --text: #e6ebf7;
+    --text-muted: #8b9bb4;
+    --border: #1e2d50;
+    --gradient: linear-gradient(135deg, #0f1c3f 0%, #1a2332 50%, #d4af37 100%);
 }
 
 * {
