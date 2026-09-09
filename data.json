@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-08T22:57:18.291457",
+  "last_update": "2026-09-09T11:23:48.680938",
   "stats": {
     "total": 12,
-    "won": 4,
+    "won": 5,
     "lost": 7,
-    "pending": 1,
-    "win_rate": 36,
-    "profit": -29,
+    "pending": 0,
+    "win_rate": 42,
+    "profit": -21,
     "roi": 0
   },
   "pronos_today": [
@@ -182,10 +182,10 @@
       "match": "Borussia Dortmund vs Villarreal",
       "bet": "Borussia Dortmund",
       "odds": 1.8,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "3-2",
+      "won": true,
+      "pending": false,
+      "profit": 8
     },
     {
       "date": "",

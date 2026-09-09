@@ -1570,9 +1570,9 @@
     "betOnType": "home",
     "cote": 1.8,
     "stake": 10,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 8,
+    "score": "3-2",
     "date": "",
     "published": true
   },
