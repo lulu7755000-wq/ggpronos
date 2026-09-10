@@ -1594,5 +1594,24 @@
     "score": "1-1",
     "date": "",
     "published": true
+  },
+  {
+    "id": "sim_1789035970543_ee08bi",
+    "match": "Vissel Kobe vs Kashima Antlers",
+    "home": "Vissel Kobe",
+    "away": "Kashima Antlers",
+    "sport": "soccer_japan_j_league",
+    "competition": "J League",
+    "time": "2026-09-11T10:00:00Z",
+    "matchId": "3ce54113a5a6e54cbe802c99c46c06a6",
+    "betOn": "Over 2.5",
+    "betOnType": "over25",
+    "cote": 2.12,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
