@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-09-11T14:16:32.659891",
+  "last_update": "2026-09-11T14:25:29.124698",
   "stats": {
-    "total": 13,
+    "total": 12,
     "won": 5,
     "lost": 7,
-    "pending": 1,
+    "pending": 0,
     "win_rate": 42,
     "profit": -21,
     "roi": 0
@@ -166,16 +166,6 @@
       "won": false,
       "pending": false,
       "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Vissel Kobe vs Kashima Antlers",
-      "bet": "Over 2.5",
-      "odds": 2.12,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
     }
   ],
   "all_bets": [

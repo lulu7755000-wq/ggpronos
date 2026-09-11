@@ -1632,5 +1632,24 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "pro_1789129108323_hx4y1p",
+    "match": "Ried vs RB Salzburg",
+    "home": "Ried",
+    "away": "RB Salzburg",
+    "sport": "soccer",
+    "competition": "Austrian Football Bundesliga",
+    "time": "2026-09-11T17:30:00Z",
+    "matchId": null,
+    "betOn": "Ried",
+    "betOnType": "home",
+    "cote": 5.4,
+    "stake": 11,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
