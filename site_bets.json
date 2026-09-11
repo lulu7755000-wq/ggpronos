@@ -1608,7 +1608,7 @@
     "betOnType": "over25",
     "cote": 2.12,
     "stake": 10,
-    "result": "pending",
+    "result": "error",
     "pnl": 0,
     "score": "",
     "date": "",
