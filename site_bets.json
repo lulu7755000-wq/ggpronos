@@ -1613,5 +1613,24 @@
     "score": "",
     "date": "",
     "published": true
+  },
+  {
+    "id": "pro_1789128545612_ha730p",
+    "match": "Kyoto Purple Sanga vs Kashiwa Reysol",
+    "home": "Kyoto Purple Sanga",
+    "away": "Kashiwa Reysol",
+    "sport": "soccer",
+    "competition": "J League",
+    "time": "2026-09-11T10:03:00Z",
+    "matchId": null,
+    "betOn": "Kyoto Purple Sanga",
+    "betOnType": "home",
+    "cote": 1000,
+    "stake": 11,
+    "result": "error",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
