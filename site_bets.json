@@ -1651,5 +1651,24 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "pro_1789129564656_o8ul37",
+    "match": "West Ham United vs Wrexham AFC",
+    "home": "West Ham United",
+    "away": "Wrexham AFC",
+    "sport": "soccer",
+    "competition": "Championship",
+    "time": "2026-09-11T19:00:00Z",
+    "matchId": null,
+    "betOn": "Wrexham AFC",
+    "betOnType": "away",
+    "cote": 5.25,
+    "stake": 11,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
