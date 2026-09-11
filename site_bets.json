@@ -1670,5 +1670,24 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "sim_1789129892979_dfx0bs",
+    "match": "Rennes vs Marseille",
+    "home": "Rennes",
+    "away": "Marseille",
+    "sport": "soccer_france_ligue_one",
+    "competition": "Ligue 1 - France",
+    "time": "2026-09-11T18:45:00Z",
+    "matchId": "a7e7bf9a8226e86eab6e5c1cb0780a0f",
+    "betOn": "Rennes",
+    "betOnType": "home",
+    "cote": 1.95,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
