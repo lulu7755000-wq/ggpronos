@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-09-11T14:41:16.279856",
+  "last_update": "2026-09-11T12:41:58.390Z",
   "stats": {
-    "total": 12,
+    "total": 14,
     "won": 5,
     "lost": 7,
-    "pending": 0,
+    "pending": 2,
     "win_rate": 42,
-    "profit": -21,
+    "profit": 0,
     "roi": 0
   },
   "pronos_today": [
     {
-      "match": "Vissel Kobe vs Kashima Antlers",
-      "home": "Vissel Kobe",
-      "away": "Kashima Antlers",
-      "league": "J League",
-      "time": "2026-09-11T10:00:00Z",
-      "hours_until": 23.6,
+      "match": "1. FC Nürnberg vs Hannover 96",
+      "home": "1. FC Nürnberg",
+      "away": "Hannover 96",
+      "league": "Bundesliga 2 - Germany",
+      "time": "2026-09-11T16:30:00Z",
+      "hours_until": 3.8,
       "has_bet": true,
       "top_pick": true,
       "analysis": {
@@ -27,26 +27,286 @@
         "away_win": 25,
         "over_25": 50,
         "btts_yes": 50,
-        "confidence": 56,
-        "score": 66.1743230909644,
+        "confidence": 59,
+        "score": 65,
         "grade": "orange"
       },
       "best_bet": {
-        "bet_type": "over25",
-        "outcome": "Over 2.5",
-        "odds": 2.12,
-        "edge": 29.1,
-        "ev": 29.1,
+        "bet_type": "home",
+        "outcome": "1. FC Nürnberg",
+        "odds": 2.45,
+        "edge": 54.1,
+        "ev": 54.1,
+        "bookmaker": "betclic_fr"
+      }
+    },
+    {
+      "match": "Sevilla vs Valencia",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "league": "La Liga - Spain",
+      "time": "2026-09-11T19:00:00Z",
+      "hours_until": 6.3,
+      "has_bet": true,
+      "top_pick": true,
+      "analysis": {
+        "home_xg": 1.5,
+        "away_xg": 1.2,
+        "home_win": 50,
+        "draw": 25,
+        "away_win": 25,
+        "over_25": 50,
+        "btts_yes": 50,
+        "confidence": 58,
+        "score": 72.79423646646916,
+        "grade": "orange"
+      },
+      "best_bet": {
+        "bet_type": "home",
+        "outcome": "Sevilla",
+        "odds": 1.94,
+        "edge": 15,
+        "ev": 15,
         "bookmaker": "pmu_fr"
       }
     }
   ],
   "summary": {
     "surebets": 0,
-    "values": 42,
+    "values": 37,
     "boosts": 0
   },
   "history": [
+    {
+      "date": "",
+      "match": "Atletico Mineiro vs Vitoria",
+      "bet": "Atletico Mineiro",
+      "odds": 1.73,
+      "score": "2-1",
+      "won": true,
+      "pending": false,
+      "profit": 7.300000000000001
+    },
+    {
+      "date": "",
+      "match": "Liverpool vs Nottingham Forest",
+      "bet": "Liverpool",
+      "odds": 1.45,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Napoli vs Como",
+      "bet": "Napoli",
+      "odds": 2.52,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Atletico Paranaense vs Fluminense",
+      "bet": "Atletico Paranaense",
+      "odds": 2.12,
+      "score": "3-3",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC St. Pauli vs 1. FC Kaiserslautern",
+      "bet": "Under 2.5",
+      "odds": 2.15,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC Inter Turku vs KuPS Kuopio",
+      "bet": "FC Inter Turku",
+      "odds": 2.25,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 12.5
+    },
+    {
+      "date": "",
+      "match": "CA Osasuna vs Getafe",
+      "bet": "CA Osasuna",
+      "odds": 2.17,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 11.7
+    },
+    {
+      "date": "",
+      "match": "Estudiantes vs Newells Old Boys",
+      "bet": "Estudiantes",
+      "odds": 1.66,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Anderlecht vs KV Kortrijk",
+      "bet": "Anderlecht",
+      "odds": 1.4,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 4
+    },
+    {
+      "date": "",
+      "match": "Toulouse vs Lille",
+      "bet": "Lille",
+      "odds": 1.96,
+      "score": "0-1",
+      "won": true,
+      "pending": false,
+      "profit": 9.600000000000001
+    },
+    {
+      "date": "",
+      "match": "Gent vs Leuven",
+      "bet": "Gent",
+      "odds": 1.67,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 6.699999999999999
+    },
+    {
+      "date": "",
+      "match": "Real Sociedad vs Celta Vigo",
+      "bet": "Real Sociedad",
+      "odds": 1.84,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC Lugano vs Servette",
+      "bet": "FC Lugano",
+      "odds": 2.05,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 10.5
+    },
+    {
+      "date": "",
+      "match": "Grenoble vs Annecy FC",
+      "bet": "Grenoble",
+      "odds": 3.2,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Arminia Bielefeld vs FC St. Pauli",
+      "bet": "Under 2.5",
+      "odds": 2.04,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC Porto vs Moreirense FC",
+      "bet": "Under 2.5",
+      "odds": 2.3,
+      "score": "2-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Lyon vs Auxerre",
+      "bet": "Lyon",
+      "odds": 1.43,
+      "score": "3-1",
+      "won": true,
+      "pending": false,
+      "profit": 4.299999999999999
+    },
+    {
+      "date": "",
+      "match": "VfB Stuttgart vs 1. FC Köln",
+      "bet": "VfB Stuttgart",
+      "odds": 1.47,
+      "score": "4-1",
+      "won": true,
+      "pending": false,
+      "profit": 4.699999999999999
+    },
+    {
+      "date": "",
+      "match": "Boulogne vs Dijon",
+      "bet": "Dijon",
+      "odds": 2.6,
+      "score": "1-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Pau FC vs Sochaux",
+      "bet": "Sochaux",
+      "odds": 3.3,
+      "score": "1-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "USL Dunkerque vs Clermont",
+      "bet": "Under 2.5",
+      "odds": 1.93,
+      "score": "1-1",
+      "won": true,
+      "pending": false,
+      "profit": 9.3
+    },
+    {
+      "date": "",
+      "match": "Genoa vs Como",
+      "bet": "Como",
+      "odds": 1.75,
+      "score": "1-4",
+      "won": true,
+      "pending": false,
+      "profit": 7.5
+    },
+    {
+      "date": "",
+      "match": "Shamrock Rovers vs Shelbourne Dublin",
+      "bet": "Shamrock Rovers",
+      "odds": 1.63,
+      "score": "0-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
     {
       "date": "",
       "match": "Avispa Fukuoka vs Mito HollyHock",
@@ -59,9 +319,109 @@
     },
     {
       "date": "",
+      "match": "Aalesund vs IK Start",
+      "bet": "Aalesund",
+      "odds": 2.1,
+      "score": "2-0",
+      "won": true,
+      "pending": false,
+      "profit": 11
+    },
+    {
+      "date": "",
+      "match": "Sparta Rotterdam vs FC Zwolle",
+      "bet": "Sparta Rotterdam",
+      "odds": 1.88,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Stade Lavallois vs Red Star",
+      "bet": "Red Star",
+      "odds": 2.4,
+      "score": "1-2",
+      "won": true,
+      "pending": false,
+      "profit": 14
+    },
+    {
+      "date": "",
+      "match": "FC Seoul vs Incheon United",
+      "bet": "FC Seoul",
+      "odds": 1.83,
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 8.3
+    },
+    {
+      "date": "",
+      "match": "Basaksehir vs Galatasaray",
+      "bet": "Galatasaray",
+      "odds": 1.6,
+      "score": "2-3",
+      "won": true,
+      "pending": false,
+      "profit": 6
+    },
+    {
+      "date": "",
       "match": "Belgrano de Cordoba vs Atlético Huracán",
       "bet": "Belgrano de Cordoba",
       "odds": 2.02,
+      "score": "1-1",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Bucheon FC 1995 vs Daejeon Citizen",
+      "bet": "Daejeon Citizen",
+      "odds": 1.83,
+      "score": "0-5",
+      "won": true,
+      "pending": false,
+      "profit": 8.3
+    },
+    {
+      "date": "",
+      "match": "Real Betis vs Real Madrid",
+      "bet": "Real Madrid",
+      "odds": 1.45,
+      "score": "1-0",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Jeju United FC vs Ulsan Hyundai FC",
+      "bet": "Under 2.5",
+      "odds": 1.81,
+      "score": "0-0",
+      "won": true,
+      "pending": false,
+      "profit": 8.100000000000001
+    },
+    {
+      "date": "",
+      "match": "Jeonbuk Hyundai Motors vs Pohang Steelers",
+      "bet": "Jeonbuk Hyundai Motors",
+      "odds": 1.78,
+      "score": "2-0",
+      "won": true,
+      "pending": false,
+      "profit": 7.800000000000001
+    },
+    {
+      "date": "",
+      "match": "Sandefjord vs Viking FK",
+      "bet": "Viking FK",
+      "odds": 1.74,
       "score": "1-1",
       "won": false,
       "pending": false,
@@ -79,6 +439,16 @@
     },
     {
       "date": "",
+      "match": "Ipswich Town vs Liverpool",
+      "bet": "Liverpool",
+      "odds": 1.49,
+      "score": "0-2",
+      "won": true,
+      "pending": false,
+      "profit": 4.9
+    },
+    {
+      "date": "",
       "match": "Estudiantes de Río Cuarto vs Sarmiento de Junin",
       "bet": "Sarmiento de Junin",
       "odds": 2.52,
@@ -86,6 +456,16 @@
       "won": true,
       "pending": false,
       "profit": 15.2
+    },
+    {
+      "date": "",
+      "match": "Wuhan Three Towns vs Qingdao West Coast FC",
+      "bet": "Wuhan Three Towns",
+      "odds": 1.8,
+      "score": "2-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
     },
     {
       "date": "",
@@ -166,6 +546,36 @@
       "won": false,
       "pending": false,
       "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Rennes vs Marseille",
+      "bet": "Rennes",
+      "odds": 1.95,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Sevilla vs Valencia",
+      "bet": "Sevilla",
+      "odds": 1.94,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "1. FC Nürnberg vs Hannover 96",
+      "bet": "1. FC Nürnberg",
+      "odds": 2.45,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
     }
   ],
   "all_bets": [
@@ -1424,18 +1834,56 @@
       "published": true
     },
     {
-      "id": "sim_1789035970543_ee08bi",
-      "match": "Vissel Kobe vs Kashima Antlers",
-      "home": "Vissel Kobe",
-      "away": "Kashima Antlers",
-      "sport": "soccer_japan_j_league",
-      "competition": "J League",
-      "time": "2026-09-11T10:00:00Z",
-      "matchId": "3ce54113a5a6e54cbe802c99c46c06a6",
-      "betOn": "Over 2.5",
-      "betOnType": "over25",
-      "cote": 2.12,
+      "id": "sim_1789129892979_dfx0bs",
+      "match": "Rennes vs Marseille",
+      "home": "Rennes",
+      "away": "Marseille",
+      "sport": "soccer_france_ligue_one",
+      "competition": "Ligue 1 - France",
+      "time": "2026-09-11T18:45:00Z",
+      "matchId": "a7e7bf9a8226e86eab6e5c1cb0780a0f",
+      "betOn": "Rennes",
+      "betOnType": "home",
+      "cote": 1.95,
       "stake": 10,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "sim_1789130518293_l0fqhf",
+      "match": "Sevilla vs Valencia",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "sport": "soccer_spain_la_liga",
+      "competition": "La Liga - Spain",
+      "time": "2026-09-11T19:00:00Z",
+      "matchId": "79bc2eff76fa09664659765d5b1ded1a",
+      "betOn": "Sevilla",
+      "betOnType": "home",
+      "cote": 1.94,
+      "stake": 8,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": true
+    },
+    {
+      "id": "sim_1789130518294_usrjvp",
+      "match": "1. FC Nürnberg vs Hannover 96",
+      "home": "1. FC Nürnberg",
+      "away": "Hannover 96",
+      "sport": "soccer_germany_bundesliga2",
+      "competition": "Bundesliga 2 - Germany",
+      "time": "2026-09-11T16:30:00Z",
+      "matchId": "f1724928da55e743f9fcde7159333075",
+      "betOn": "1. FC Nürnberg",
+      "betOnType": "home",
+      "cote": 2.45,
+      "stake": 8,
       "result": "pending",
       "pnl": 0,
       "score": "",

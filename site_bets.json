@@ -1689,5 +1689,43 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "sim_1789130518293_l0fqhf",
+    "match": "Sevilla vs Valencia",
+    "home": "Sevilla",
+    "away": "Valencia",
+    "sport": "soccer_spain_la_liga",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-11T19:00:00Z",
+    "matchId": "79bc2eff76fa09664659765d5b1ded1a",
+    "betOn": "Sevilla",
+    "betOnType": "home",
+    "cote": 1.94,
+    "stake": 8,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
+  },
+  {
+    "id": "sim_1789130518294_usrjvp",
+    "match": "1. FC Nürnberg vs Hannover 96",
+    "home": "1. FC Nürnberg",
+    "away": "Hannover 96",
+    "sport": "soccer_germany_bundesliga2",
+    "competition": "Bundesliga 2 - Germany",
+    "time": "2026-09-11T16:30:00Z",
+    "matchId": "f1724928da55e743f9fcde7159333075",
+    "betOn": "1. FC Nürnberg",
+    "betOnType": "home",
+    "cote": 2.45,
+    "stake": 8,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
