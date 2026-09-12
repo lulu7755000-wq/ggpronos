@@ -1727,5 +1727,43 @@
     "score": "2-1",
     "date": "",
     "published": true
+  },
+  {
+    "id": "sim_1789207845649_k45baj",
+    "match": "Paris FC vs Lyon",
+    "home": "Paris FC",
+    "away": "Lyon",
+    "sport": "soccer_france_ligue_one",
+    "competition": "Ligue 1 - France",
+    "time": "2026-09-12T18:45:00Z",
+    "matchId": "52b93969a8589ad815e27897d09f747c",
+    "betOn": "Over 2.5",
+    "betOnType": "over25",
+    "cote": 1.45,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
+  },
+  {
+    "id": "sim_1789207845650_udmtvo",
+    "match": "Atalanta BC vs Cagliari",
+    "home": "Atalanta BC",
+    "away": "Cagliari",
+    "sport": "soccer_italy_serie_a",
+    "competition": "Serie A - Italy",
+    "time": "2026-09-12T18:45:00Z",
+    "matchId": "fd30ca2b96bfa088e51bffddeb3b6e56",
+    "betOn": "Under 2.5",
+    "betOnType": "under25",
+    "cote": 1.75,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
