@@ -1684,9 +1684,9 @@
     "betOnType": "home",
     "cote": 1.95,
     "stake": 10,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 9.5,
+    "score": "1-0",
     "date": "",
     "published": false
   },
@@ -1703,9 +1703,9 @@
     "betOnType": "home",
     "cote": 1.94,
     "stake": 8,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 7.52,
+    "score": "1-0",
     "date": "",
     "published": true
   },
@@ -1722,9 +1722,9 @@
     "betOnType": "home",
     "cote": 2.45,
     "stake": 8,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 11.600000000000001,
+    "score": "2-1",
     "date": "",
     "published": true
   }

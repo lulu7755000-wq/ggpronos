@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-11T17:16:36.040415",
+  "last_update": "2026-09-12T12:06:53.831134",
   "stats": {
     "total": 14,
-    "won": 5,
+    "won": 7,
     "lost": 7,
-    "pending": 2,
-    "win_rate": 42,
-    "profit": -21,
+    "pending": 0,
+    "win_rate": 50,
+    "profit": -1.88,
     "roi": 0
   },
   "pronos_today": [
@@ -202,20 +202,20 @@
       "match": "Sevilla vs Valencia",
       "bet": "Sevilla",
       "odds": 1.94,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "1-0",
+      "won": true,
+      "pending": false,
+      "profit": 7.52
     },
     {
       "date": "",
       "match": "1. FC Nürnberg vs Hannover 96",
       "bet": "1. FC Nürnberg",
       "odds": 2.45,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "2-1",
+      "won": true,
+      "pending": false,
+      "profit": 11.600000000000001
     }
   ],
   "all_bets": [
