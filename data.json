@@ -1,112 +1,51 @@
 {
-  "last_update": "2026-09-13T09:40:01.521Z",
+  "last_update": "2026-09-13T09:45:07.586Z",
   "stats": {
-    "total": 19,
+    "total": 16,
     "won": 7,
     "lost": 9,
-    "pending": 3,
+    "pending": 0,
     "win_rate": 44,
     "profit": 0,
     "roi": 0
   },
-  "pronos_today": [
-    {
-      "match": "Celta Vigo vs Málaga",
-      "home": "Celta Vigo",
-      "away": "Málaga",
-      "league": "La Liga - Spain",
-      "time": "2026-09-13T12:00:00Z",
-      "hours_until": 2.3,
-      "has_bet": true,
-      "top_pick": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 57,
-        "score": 93.0589390962672,
-        "grade": "green"
-      },
-      "best_bet": {
-        "bet_type": "draw",
-        "outcome": "Draw",
-        "odds": 3.65,
-        "edge": 123.4,
-        "ev": 123.4,
-        "bookmaker": "winamax_fr"
-      }
-    },
-    {
-      "match": "Manchester United vs Manchester City",
-      "home": "Manchester United",
-      "away": "Manchester City",
-      "league": "EPL",
-      "time": "2026-09-13T15:30:00Z",
-      "hours_until": 5.8,
-      "has_bet": true,
-      "top_pick": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 66,
-        "score": 66.57303370786516,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Manchester United",
-        "odds": 3.2,
-        "edge": 106.1,
-        "ev": 106.1,
-        "bookmaker": "unibet_fr"
-      }
-    },
-    {
-      "match": "Real Sociedad vs Atlético Madrid",
-      "home": "Real Sociedad",
-      "away": "Atlético Madrid",
-      "league": "La Liga - Spain",
-      "time": "2026-09-13T19:00:00Z",
-      "hours_until": 9.3,
-      "has_bet": true,
-      "top_pick": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 60,
-        "score": 56.69825625473843,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "Real Sociedad",
-        "odds": 3.18,
-        "edge": 122,
-        "ev": 122,
-        "bookmaker": "betclic_fr"
-      }
-    }
-  ],
+  "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 88,
+    "values": 96,
     "boosts": 0
   },
   "history": [
+    {
+      "date": "",
+      "match": "Napoli vs Como",
+      "bet": "Napoli",
+      "odds": 2.52,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Atletico Paranaense vs Fluminense",
+      "bet": "Atletico Paranaense",
+      "odds": 2.12,
+      "score": "3-3",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
+    {
+      "date": "",
+      "match": "FC St. Pauli vs 1. FC Kaiserslautern",
+      "bet": "Under 2.5",
+      "odds": 2.15,
+      "score": "1-2",
+      "won": false,
+      "pending": false,
+      "profit": -10
+    },
     {
       "date": "",
       "match": "FC Inter Turku vs KuPS Kuopio",
@@ -576,36 +515,6 @@
       "won": false,
       "pending": false,
       "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Manchester United vs Manchester City",
-      "bet": "Manchester United",
-      "odds": 3.2,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Celta Vigo vs Málaga",
-      "bet": "Draw",
-      "odds": 3.65,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
-      "match": "Real Sociedad vs Atlético Madrid",
-      "bet": "Real Sociedad",
-      "odds": 3.18,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
     }
   ],
   "all_bets": [
@@ -1955,63 +1864,6 @@
       "result": "loss",
       "pnl": -10,
       "score": "1-2",
-      "date": "",
-      "published": true
-    },
-    {
-      "id": "sim_1789292401433_hg5fh0",
-      "match": "Manchester United vs Manchester City",
-      "home": "Manchester United",
-      "away": "Manchester City",
-      "sport": "soccer_epl",
-      "competition": "EPL",
-      "time": "2026-09-13T15:30:00Z",
-      "matchId": "e40d0fb44319f7bd0ebe1ffbc61fa661",
-      "betOn": "Manchester United",
-      "betOnType": "home",
-      "cote": 3.2,
-      "stake": 10,
-      "result": "pending",
-      "pnl": 0,
-      "score": "",
-      "date": "",
-      "published": true
-    },
-    {
-      "id": "sim_1789292401433_dqn7xv",
-      "match": "Celta Vigo vs Málaga",
-      "home": "Celta Vigo",
-      "away": "Málaga",
-      "sport": "soccer_spain_la_liga",
-      "competition": "La Liga - Spain",
-      "time": "2026-09-13T12:00:00Z",
-      "matchId": "0eba3c2d3bcf1d1fe4ab3180a3d03152",
-      "betOn": "Draw",
-      "betOnType": "draw",
-      "cote": 3.65,
-      "stake": 8,
-      "result": "pending",
-      "pnl": 0,
-      "score": "",
-      "date": "",
-      "published": true
-    },
-    {
-      "id": "sim_1789292401434_pmapud",
-      "match": "Real Sociedad vs Atlético Madrid",
-      "home": "Real Sociedad",
-      "away": "Atlético Madrid",
-      "sport": "soccer_spain_la_liga",
-      "competition": "La Liga - Spain",
-      "time": "2026-09-13T19:00:00Z",
-      "matchId": "14e37b5aaf6fec05a01f7e1309025a66",
-      "betOn": "Real Sociedad",
-      "betOnType": "home",
-      "cote": 3.18,
-      "stake": 10,
-      "result": "pending",
-      "pnl": 0,
-      "score": "",
       "date": "",
       "published": true
     }
