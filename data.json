@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-12T12:33:01.465083",
+  "last_update": "2026-09-13T11:00:36.822281",
   "stats": {
     "total": 16,
     "won": 7,
-    "lost": 7,
-    "pending": 2,
-    "win_rate": 50,
-    "profit": -1.88,
+    "lost": 9,
+    "pending": 0,
+    "win_rate": 44,
+    "profit": -21.88,
     "roi": 0
   },
   "pronos_today": [
@@ -222,20 +222,20 @@
       "match": "Paris FC vs Lyon",
       "bet": "Over 2.5",
       "odds": 1.45,
-      "score": "",
+      "score": "0-0",
       "won": false,
-      "pending": true,
-      "profit": 0
+      "pending": false,
+      "profit": -10
     },
     {
       "date": "",
       "match": "Atalanta BC vs Cagliari",
       "bet": "Under 2.5",
       "odds": 1.75,
-      "score": "",
+      "score": "1-2",
       "won": false,
-      "pending": true,
-      "profit": 0
+      "pending": false,
+      "profit": -10
     }
   ],
   "all_bets": [

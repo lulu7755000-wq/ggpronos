@@ -1741,9 +1741,9 @@
     "betOnType": "over25",
     "cote": 1.45,
     "stake": 10,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "loss",
+    "pnl": -10,
+    "score": "0-0",
     "date": "",
     "published": true
   },
@@ -1760,9 +1760,9 @@
     "betOnType": "under25",
     "cote": 1.75,
     "stake": 10,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "loss",
+    "pnl": -10,
+    "score": "1-2",
     "date": "",
     "published": true
   }
