@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-09-14T09:41:27.339Z",
+  "last_update": "2026-09-14T09:44:53.831Z",
   "stats": {
-    "total": 16,
+    "total": 17,
     "won": 7,
     "lost": 9,
-    "pending": 0,
+    "pending": 1,
     "win_rate": 44,
     "profit": 0,
     "roi": 0
@@ -12,60 +12,10 @@
   "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 30,
+    "values": 128,
     "boosts": 0
   },
   "history": [
-    {
-      "date": "",
-      "match": "Napoli vs Como",
-      "bet": "Napoli",
-      "odds": 2.52,
-      "score": "1-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "Atletico Paranaense vs Fluminense",
-      "bet": "Atletico Paranaense",
-      "odds": 2.12,
-      "score": "3-3",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "FC St. Pauli vs 1. FC Kaiserslautern",
-      "bet": "Under 2.5",
-      "odds": 2.15,
-      "score": "1-2",
-      "won": false,
-      "pending": false,
-      "profit": -10
-    },
-    {
-      "date": "",
-      "match": "FC Inter Turku vs KuPS Kuopio",
-      "bet": "FC Inter Turku",
-      "odds": 2.25,
-      "score": "1-0",
-      "won": true,
-      "pending": false,
-      "profit": 12.5
-    },
-    {
-      "date": "",
-      "match": "CA Osasuna vs Getafe",
-      "bet": "CA Osasuna",
-      "odds": 2.17,
-      "score": "1-0",
-      "won": true,
-      "pending": false,
-      "profit": 11.7
-    },
     {
       "date": "",
       "match": "Estudiantes vs Newells Old Boys",
@@ -515,6 +465,56 @@
       "won": false,
       "pending": false,
       "profit": -10
+    },
+    {
+      "date": "",
+      "match": "Le Mans FC vs RC Lens",
+      "bet": "Le Mans FC",
+      "odds": 4.8,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Manchester United vs Manchester City",
+      "bet": "Manchester United",
+      "odds": 3.2,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Elversberg vs Bayern Munich",
+      "bet": "Elversberg",
+      "odds": 14,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Amed SK vs Basaksehir",
+      "bet": "Amed SK",
+      "odds": 2.5,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Brest vs Paris Saint Germain",
+      "bet": "Brest",
+      "odds": 11,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
     }
   ],
   "all_bets": [
@@ -1866,6 +1866,101 @@
       "score": "1-2",
       "date": "",
       "published": true
+    },
+    {
+      "id": "pro_1789379093662_f7ai68",
+      "match": "Le Mans FC vs RC Lens",
+      "home": "Le Mans FC",
+      "away": "RC Lens",
+      "sport": "soccer",
+      "competition": "Ligue 1 - France",
+      "time": "2026-09-13T15:15:00Z",
+      "matchId": null,
+      "betOn": "Le Mans FC",
+      "betOnType": "home",
+      "cote": 4.8,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "pro_1789379093662_4yczsw",
+      "match": "Manchester United vs Manchester City",
+      "home": "Manchester United",
+      "away": "Manchester City",
+      "sport": "soccer",
+      "competition": "EPL",
+      "time": "2026-09-13T15:30:00Z",
+      "matchId": null,
+      "betOn": "Manchester United",
+      "betOnType": "home",
+      "cote": 3.2,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": true
+    },
+    {
+      "id": "pro_1789379093662_2dcaio",
+      "match": "Elversberg vs Bayern Munich",
+      "home": "Elversberg",
+      "away": "Bayern Munich",
+      "sport": "soccer",
+      "competition": "Bundesliga - Germany",
+      "time": "2026-09-13T15:30:00Z",
+      "matchId": null,
+      "betOn": "Elversberg",
+      "betOnType": "home",
+      "cote": 14,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "pro_1789379093662_v6hsp7",
+      "match": "Amed SK vs Basaksehir",
+      "home": "Amed SK",
+      "away": "Basaksehir",
+      "sport": "soccer",
+      "competition": "Turkey Super League",
+      "time": "2026-09-13T17:00:00Z",
+      "matchId": null,
+      "betOn": "Amed SK",
+      "betOnType": "home",
+      "cote": 2.5,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "pro_1789379093662_ojb50g",
+      "match": "Brest vs Paris Saint Germain",
+      "home": "Brest",
+      "away": "Paris Saint Germain",
+      "sport": "soccer",
+      "competition": "Ligue 1 - France",
+      "time": "2026-09-13T18:45:00Z",
+      "matchId": null,
+      "betOn": "Brest",
+      "betOnType": "home",
+      "cote": 11,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
     }
   ]
 }
