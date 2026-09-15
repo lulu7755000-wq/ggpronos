@@ -1931,9 +1931,9 @@
     "betOnType": "away",
     "cote": 3.8,
     "stake": 11,
-    "result": "pending",
-    "pnl": 0,
-    "score": "",
+    "result": "win",
+    "pnl": 30.799999999999997,
+    "score": "1-2",
     "date": "",
     "published": false
   }
