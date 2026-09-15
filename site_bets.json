@@ -1936,5 +1936,24 @@
     "score": "1-2",
     "date": "",
     "published": false
+  },
+  {
+    "id": "pro_1789465392422_3iu5nc",
+    "match": "Elche CF vs Real Madrid",
+    "home": "Elche CF",
+    "away": "Real Madrid",
+    "sport": "soccer",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-15T19:30:00Z",
+    "matchId": null,
+    "betOn": "Elche CF",
+    "betOnType": "home",
+    "cote": 12,
+    "stake": 11,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
