@@ -1,10 +1,10 @@
 {
-  "last_update": "2026-09-17T13:06:32.850045",
+  "last_update": "2026-09-17T13:06:46.843556",
   "stats": {
-    "total": 18,
+    "total": 17,
     "won": 7,
     "lost": 10,
-    "pending": 1,
+    "pending": 0,
     "win_rate": 41,
     "profit": -32.88,
     "roi": 0
@@ -216,16 +216,6 @@
       "won": false,
       "pending": false,
       "profit": -11
-    },
-    {
-      "date": "",
-      "match": "Real Betis vs Getafe",
-      "bet": "Real Betis",
-      "odds": 1.79,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
     }
   ],
   "all_bets": [
