@@ -1,41 +1,52 @@
 {
-  "last_update": "2026-09-16T09:52:19.024Z",
+  "last_update": "2026-09-17T10:37:06.547Z",
   "stats": {
-    "total": 17,
+    "total": 18,
     "won": 7,
     "lost": 10,
-    "pending": 0,
+    "pending": 1,
     "win_rate": 41,
     "profit": 0,
     "roi": 0
   },
-  "pronos_today": [],
+  "pronos_today": [
+    {
+      "match": "Real Betis vs Getafe",
+      "home": "Real Betis",
+      "away": "Getafe",
+      "league": "La Liga - Spain",
+      "time": "2026-09-17T17:00:00Z",
+      "hours_until": 6.4,
+      "has_bet": true,
+      "top_pick": true,
+      "analysis": {
+        "home_xg": 1.5,
+        "away_xg": 1.2,
+        "home_win": 50,
+        "draw": 25,
+        "away_win": 25,
+        "over_25": 50,
+        "btts_yes": 50,
+        "confidence": 84,
+        "score": 82.1139240506329,
+        "grade": "green"
+      },
+      "best_bet": {
+        "bet_type": "home",
+        "outcome": "Real Betis",
+        "odds": 1.79,
+        "edge": 21.9,
+        "ev": 21.9,
+        "bookmaker": "pmu_fr"
+      }
+    }
+  ],
   "summary": {
     "surebets": 0,
-    "values": 70,
+    "values": 44,
     "boosts": 0
   },
   "history": [
-    {
-      "date": "",
-      "match": "Anderlecht vs KV Kortrijk",
-      "bet": "Anderlecht",
-      "odds": 1.4,
-      "score": "1-0",
-      "won": true,
-      "pending": false,
-      "profit": 4
-    },
-    {
-      "date": "",
-      "match": "Toulouse vs Lille",
-      "bet": "Lille",
-      "odds": 1.96,
-      "score": "0-1",
-      "won": true,
-      "pending": false,
-      "profit": 9.600000000000001
-    },
     {
       "date": "",
       "match": "Gent vs Leuven",
@@ -515,6 +526,26 @@
       "won": true,
       "pending": false,
       "profit": 30.799999999999997
+    },
+    {
+      "date": "",
+      "match": "Málaga vs Villarreal",
+      "bet": "Málaga",
+      "odds": 3.5,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "Real Betis vs Getafe",
+      "bet": "Real Betis",
+      "odds": 1.79,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
     }
   ],
   "all_bets": [
@@ -1980,6 +2011,44 @@
       "score": "1-2",
       "date": "",
       "published": false
+    },
+    {
+      "id": "pro_1789641426400_9vhrkt",
+      "match": "Málaga vs Villarreal",
+      "home": "Málaga",
+      "away": "Villarreal",
+      "sport": "soccer",
+      "competition": "La Liga - Spain",
+      "time": "2026-09-17T19:30:00Z",
+      "matchId": null,
+      "betOn": "Málaga",
+      "betOnType": "home",
+      "cote": 3.5,
+      "stake": 10,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "sim_1789641426451_dh3wzn",
+      "match": "Real Betis vs Getafe",
+      "home": "Real Betis",
+      "away": "Getafe",
+      "sport": "soccer_spain_la_liga",
+      "competition": "La Liga - Spain",
+      "time": "2026-09-17T17:00:00Z",
+      "matchId": "7f644eca099054612d9a7e7e5d8787da",
+      "betOn": "Real Betis",
+      "betOnType": "home",
+      "cote": 1.79,
+      "stake": 11,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": true
     }
   ]
 }

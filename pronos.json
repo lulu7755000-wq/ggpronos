@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "match": "Real Betis vs Getafe",
+    "home": "Real Betis",
+    "away": "Getafe",
+    "league": "La Liga - Spain",
+    "time": "2026-09-17T17:00:00Z",
+    "hours_until": 6.4,
+    "has_bet": true,
+    "top_pick": true,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 84,
+      "score": 82.1139240506329,
+      "grade": "green"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "Real Betis",
+      "odds": 1.79,
+      "edge": 21.9,
+      "ev": 21.9,
+      "bookmaker": "pmu_fr"
+    }
+  }
+]

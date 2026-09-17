@@ -1955,5 +1955,43 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "pro_1789641426400_9vhrkt",
+    "match": "Málaga vs Villarreal",
+    "home": "Málaga",
+    "away": "Villarreal",
+    "sport": "soccer",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-17T19:30:00Z",
+    "matchId": null,
+    "betOn": "Málaga",
+    "betOnType": "home",
+    "cote": 3.5,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
+  },
+  {
+    "id": "sim_1789641426451_dh3wzn",
+    "match": "Real Betis vs Getafe",
+    "home": "Real Betis",
+    "away": "Getafe",
+    "sport": "soccer_spain_la_liga",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-17T17:00:00Z",
+    "matchId": "7f644eca099054612d9a7e7e5d8787da",
+    "betOn": "Real Betis",
+    "betOnType": "home",
+    "cote": 1.79,
+    "stake": 11,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
   }
 ]
