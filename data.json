@@ -1,12 +1,12 @@
 {
-  "last_update": "2026-09-18T22:13:40.700889",
+  "last_update": "2026-09-19T11:00:24.251862",
   "stats": {
     "total": 20,
-    "won": 8,
-    "lost": 10,
-    "pending": 2,
-    "win_rate": 44,
-    "profit": -23.58,
+    "won": 9,
+    "lost": 11,
+    "pending": 0,
+    "win_rate": 45,
+    "profit": -20.78,
     "roi": 0
   },
   "pronos_today": [],
@@ -201,20 +201,20 @@
       "match": "AS Monaco vs RC Lens",
       "bet": "AS Monaco",
       "odds": 2.28,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
+      "score": "2-1",
+      "won": true,
+      "pending": false,
+      "profit": 12.799999999999997
     },
     {
       "date": "",
       "match": "Espanyol vs Elche CF",
       "bet": "Espanyol",
       "odds": 1.88,
-      "score": "",
+      "score": "1-3",
       "won": false,
-      "pending": true,
-      "profit": 0
+      "pending": false,
+      "profit": -10
     }
   ],
   "all_bets": [
