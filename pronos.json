@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "match": "AS Roma vs Inter Milan",
+    "home": "AS Roma",
+    "away": "Inter Milan",
+    "league": "Serie A - Italy",
+    "time": "2026-09-19T16:00:00Z",
+    "hours_until": 6.9,
+    "has_bet": true,
+    "top_pick": true,
+    "analysis": {
+      "home_xg": 1.5,
+      "away_xg": 1.2,
+      "home_win": 50,
+      "draw": 25,
+      "away_win": 25,
+      "over_25": 50,
+      "btts_yes": 50,
+      "confidence": 76,
+      "score": 65,
+      "grade": "orange"
+    },
+    "best_bet": {
+      "bet_type": "home",
+      "outcome": "AS Roma",
+      "odds": 2.63,
+      "edge": 73.6,
+      "ev": 73.6,
+      "bookmaker": "pmu_fr"
+    }
+  }
+]

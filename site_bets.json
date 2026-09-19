@@ -2088,5 +2088,43 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "sim_1789808717767_c961kp",
+    "match": "AS Roma vs Inter Milan",
+    "home": "AS Roma",
+    "away": "Inter Milan",
+    "sport": "soccer_italy_serie_a",
+    "competition": "Serie A - Italy",
+    "time": "2026-09-19T16:00:00Z",
+    "matchId": "b455cbf28072fc1f1a46796b1b652f69",
+    "betOn": "AS Roma",
+    "betOnType": "home",
+    "cote": 2.63,
+    "stake": 10,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": true
+  },
+  {
+    "id": "pro_1789808717798_3s47x3",
+    "match": "Sevilla vs Barcelona",
+    "home": "Sevilla",
+    "away": "Barcelona",
+    "sport": "soccer_spain_la_liga",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-19T19:00:00Z",
+    "matchId": null,
+    "betOn": "Sevilla",
+    "betOnType": "home",
+    "cote": 10,
+    "stake": 8,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
