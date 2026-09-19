@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-19T09:05:17.975Z",
+  "last_update": "2026-09-19T09:18:13.433Z",
   "stats": {
     "total": 21,
     "won": 9,
@@ -9,41 +9,10 @@
     "profit": 0,
     "roi": 0
   },
-  "pronos_today": [
-    {
-      "match": "AS Roma vs Inter Milan",
-      "home": "AS Roma",
-      "away": "Inter Milan",
-      "league": "Serie A - Italy",
-      "time": "2026-09-19T16:00:00Z",
-      "hours_until": 6.9,
-      "has_bet": true,
-      "top_pick": true,
-      "analysis": {
-        "home_xg": 1.5,
-        "away_xg": 1.2,
-        "home_win": 50,
-        "draw": 25,
-        "away_win": 25,
-        "over_25": 50,
-        "btts_yes": 50,
-        "confidence": 76,
-        "score": 65,
-        "grade": "orange"
-      },
-      "best_bet": {
-        "bet_type": "home",
-        "outcome": "AS Roma",
-        "odds": 2.63,
-        "edge": 73.6,
-        "ev": 73.6,
-        "bookmaker": "pmu_fr"
-      }
-    }
-  ],
+  "pronos_today": [],
   "summary": {
     "surebets": 0,
-    "values": 415,
+    "values": 424,
     "boosts": 0
   },
   "history": [
@@ -519,16 +488,6 @@
     },
     {
       "date": "",
-      "match": "CA Osasuna vs Rayo Vallecano",
-      "bet": "Rayo Vallecano",
-      "odds": 3,
-      "score": "",
-      "won": false,
-      "pending": true,
-      "profit": 0
-    },
-    {
-      "date": "",
       "match": "AS Roma vs Inter Milan",
       "bet": "AS Roma",
       "odds": 2.63,
@@ -542,6 +501,16 @@
       "match": "Sevilla vs Barcelona",
       "bet": "Sevilla",
       "odds": 10,
+      "score": "",
+      "won": false,
+      "pending": true,
+      "profit": 0
+    },
+    {
+      "date": "",
+      "match": "CA Osasuna vs Rayo Vallecano",
+      "bet": "Rayo Vallecano",
+      "odds": 2.8,
       "score": "",
       "won": false,
       "pending": true,
@@ -2070,25 +2039,6 @@
       "published": true
     },
     {
-      "id": "pro_1789735821350_w2x793",
-      "match": "CA Osasuna vs Rayo Vallecano",
-      "home": "CA Osasuna",
-      "away": "Rayo Vallecano",
-      "sport": "soccer_spain_la_liga",
-      "competition": "La Liga - Spain",
-      "time": "2026-09-19T12:00:00Z",
-      "matchId": null,
-      "betOn": "Rayo Vallecano",
-      "betOnType": "away",
-      "cote": 3,
-      "stake": 8,
-      "result": "pending",
-      "pnl": 0,
-      "score": "",
-      "date": "",
-      "published": false
-    },
-    {
       "id": "sim_1789808717767_c961kp",
       "match": "AS Roma vs Inter Milan",
       "home": "AS Roma",
@@ -2119,6 +2069,25 @@
       "betOn": "Sevilla",
       "betOnType": "home",
       "cote": 10,
+      "stake": 8,
+      "result": "pending",
+      "pnl": 0,
+      "score": "",
+      "date": "",
+      "published": false
+    },
+    {
+      "id": "pro_1789809493256_fgi014",
+      "match": "CA Osasuna vs Rayo Vallecano",
+      "home": "CA Osasuna",
+      "away": "Rayo Vallecano",
+      "sport": "soccer_spain_la_liga",
+      "competition": "La Liga - Spain",
+      "time": "2026-09-19T12:00:00Z",
+      "matchId": null,
+      "betOn": "Rayo Vallecano",
+      "betOnType": "away",
+      "cote": 2.8,
       "stake": 8,
       "result": "pending",
       "pnl": 0,

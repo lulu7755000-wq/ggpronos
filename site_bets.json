@@ -2126,5 +2126,24 @@
     "score": "",
     "date": "",
     "published": false
+  },
+  {
+    "id": "pro_1789809493256_fgi014",
+    "match": "CA Osasuna vs Rayo Vallecano",
+    "home": "CA Osasuna",
+    "away": "Rayo Vallecano",
+    "sport": "soccer_spain_la_liga",
+    "competition": "La Liga - Spain",
+    "time": "2026-09-19T12:00:00Z",
+    "matchId": null,
+    "betOn": "Rayo Vallecano",
+    "betOnType": "away",
+    "cote": 2.8,
+    "stake": 8,
+    "result": "pending",
+    "pnl": 0,
+    "score": "",
+    "date": "",
+    "published": false
   }
 ]
