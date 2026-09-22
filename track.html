@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>Track Record Public — GG Pronos / BetScan Pro</title>
 <meta name="description" content="Historique public transparent des paris : ROI, winrate, drawdown, courbe. Aucun pari effacé.">
-<script data-goatcounter="https://tjm-facile.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
 <link rel="stylesheet" href="style.css?v=20260922">
 <style>
 .track-hero{text-align:center;padding:110px 20px 40px;background:var(--gradient)}
@@ -116,9 +116,17 @@ BetScan Pro / GG Pronos · Simulation et suivi à des fins d'information.<br>
 Aucune garantie de gain · Les paris sportifs comportent un risque de perte · Interdit aux mineurs (18+).<br>
 En France, jouez uniquement sur des opérateurs autorisés par l'ANJ.<br>
 Dernière synchronisation : <span id="foot-upd">—</span> ·
-👁️ <span data-goatcounter="true">…</span> visites
+👁️ <span id="gc-visits">…</span> visites
 </p>
 </main>
+
+<script data-goatcounter="https://tjm-facile.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+fetch('https://tjm-facile.goatcounter.com/counter/TOTAL.json')
+.then(function(r){return r.json();})
+.then(function(d){var el=document.getElementById('gc-visits');if(el&&d.count)el.textContent=d.count;})
+.catch(function(){});
+</script>
 
 <script>
 var bets=[],filter='all';
