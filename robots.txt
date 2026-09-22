@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lulu7755000-wq.github.io/ggpronos/sitemap.xml
