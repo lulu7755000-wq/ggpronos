@@ -186,7 +186,7 @@ pnl.className='v '+(st.pnl>0?'good':st.pnl<0?'bad':'mid');
 document.getElementById('s-odds').textContent=st.avgOdds||'—';
 document.getElementById('s-dd').textContent='-'+st.maxDD+'€';
 document.getElementById('s-clv').textContent=st.clvAvg!==null?(st.clvAvg>0?'+':'')+st.clvAvg+'%':'—';
-document.getElementById('s-pending').textContent=st.pending+(st.voided?' <small style="opacity:.7">(+'+st.voided+' void)</small>':'');
+document.getElementById('s-pending').textContent=st.pending+(st.voided?' (+'+st.voided+' void)':'');
 document.getElementById('sig-badge').textContent='Significativité : '+st.significance;
 var w=document.getElementById('sample-warn');
 if(st.n<100){w.style.display='block';w.textContent='⚠️ Échantillon '+st.n+' paris réglés — sous 100 paris, les stats ne sont pas encore significatives.';}
