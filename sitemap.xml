@@ -24,4 +24,22 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://lulu7755000-wq.github.io/ggpronos/mentions.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lulu7755000-wq.github.io/ggpronos/confidentialite.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lulu7755000-wq.github.io/ggpronos/jeu-responsable.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
