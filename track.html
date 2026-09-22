@@ -6,6 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <title>Track Record Public — GG Pronos / BetScan Pro</title>
 <meta name="description" content="Historique public transparent des paris : ROI, winrate, drawdown, courbe. Aucun pari effacé.">
+<script data-goatcounter="https://ggpronos.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="stylesheet" href="style.css?v=20260922">
 <style>
 .track-hero{text-align:center;padding:110px 20px 40px;background:var(--gradient)}
@@ -91,6 +92,7 @@ tr:last-child td{border-bottom:none}
 <button class="chip" data-f="win">✅ Gagnés</button>
 <button class="chip" data-f="loss">❌ Perdus</button>
 <button class="chip" data-f="pending">⏳ En attente</button>
+<button class="chip" data-f="void">🚫 Void</button>
 <button class="chip" data-f="published">⭐ Publiés</button>
 </div>
 
@@ -113,7 +115,8 @@ tr:last-child td{border-bottom:none}
 BetScan Pro / GG Pronos · Simulation et suivi à des fins d'information.<br>
 Aucune garantie de gain · Les paris sportifs comportent un risque de perte · Interdit aux mineurs (18+).<br>
 En France, jouez uniquement sur des opérateurs autorisés par l'ANJ.<br>
-Dernière synchronisation : <span id="foot-upd">—</span>
+Dernière synchronisation : <span id="foot-upd">—</span> ·
+👁️ <span data-goatcounter="true">…</span> visites
 </p>
 </main>
 
@@ -147,6 +150,7 @@ maxDD:num(maxDD,2),
 clvAvg:clvN>0?num(clvSum/clvN,1):null,
 clvN:clvN,
 pending:bets.filter(function(b){return b.result==='pending';}).length,
+voided:bets.filter(function(b){return b.result==='void'||b.result==='canceled';}).length,
 significance:n>=300?'haute':n>=100?'moyenne':'faible',
 curve:curve
 };
@@ -164,7 +168,7 @@ pnl.className='v '+(st.pnl>0?'good':st.pnl<0?'bad':'mid');
 document.getElementById('s-odds').textContent=st.avgOdds||'—';
 document.getElementById('s-dd').textContent='-'+st.maxDD+'€';
 document.getElementById('s-clv').textContent=st.clvAvg!==null?(st.clvAvg>0?'+':'')+st.clvAvg+'%':'—';
-document.getElementById('s-pending').textContent=st.pending;
+document.getElementById('s-pending').textContent=st.pending+(st.voided?' <small style="opacity:.7">(+'+st.voided+' void)</small>':'');
 document.getElementById('sig-badge').textContent='Significativité : '+st.significance;
 var w=document.getElementById('sample-warn');
 if(st.n<100){w.style.display='block';w.textContent='⚠️ Échantillon '+st.n+' paris réglés — sous 100 paris, les stats ne sont pas encore significatives.';}
@@ -207,6 +211,7 @@ ctx.fillText(min+'€',8,Y(min)+8);
 function pill(b){
 if(b.result==='win'||b.result==='won')return '<span class="pill win">Gagné</span>';
 if(b.result==='loss'||b.result==='lost')return '<span class="pill loss">Perdu</span>';
+if(b.result==='void'||b.result==='canceled')return '<span class="pill pending">Annulé</span>';
 return '<span class="pill pending">En attente</span>';
 }
 
@@ -215,6 +220,7 @@ var list=bets.slice().sort(function(a,b){return String(b.time||b.date||'').local
 if(filter==='win')list=list.filter(function(b){return b.result==='win'||b.result==='won';});
 else if(filter==='loss')list=list.filter(function(b){return b.result==='loss'||b.result==='lost';});
 else if(filter==='pending')list=list.filter(function(b){return b.result==='pending';});
+else if(filter==='void')list=list.filter(function(b){return b.result==='void'||b.result==='canceled';});
 else if(filter==='published')list=list.filter(function(b){return b.published;});
 var tb=document.getElementById('rows');
 if(!list.length){tb.innerHTML='<tr><td colspan="9" class="empty-note">Aucun pari dans ce filtre</td></tr>';return;}
