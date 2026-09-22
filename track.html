@@ -60,7 +60,7 @@ tr:last-child td{border-bottom:none}
 
 <section class="track-hero">
 <h1>📈 Track Record <span class="accent">Public</span></h1>
-<p>Historique transparent BetScan Pro — mise fixe 10€, aucun résultat effacé, calculé hors-ligne depuis les paris réglés.</p>
+<p>Historique transparent BetScan Pro — mises unitaires 8–11€, aucun résultat effacé, calculé hors-ligne depuis les paris réglés.</p>
 <div class="badge-row">
 <span class="badge" id="sig-badge">Significativité : —</span>
 <span class="badge" id="upd-badge">Màj : …</span>
@@ -235,7 +235,7 @@ return '<tr>'+
 '<td>'+(b.stake||10)+'€</td>'+
 '<td>'+(b.score||'—')+'</td>'+
 '<td>'+pill(b)+'</td>'+
-'<td style="color:'+(pnl>0?'#00c853':pnl<0?'#ff5252':'#8b9bb4')+'">'+(pnl>0?'+':'')+pnl+'€</td>'+
+	'<td style="color:'+(pnl>0?'#00c853':pnl<0?'#ff5252':'#8b9bb4')+'">'+(pnl>0?'+':'')+num(pnl,2)+'€</td>'+
 '<td>'+(b.published?'<span class="pill pub">★</span>':'—')+'</td>'+
 '</tr>';
 }).join('');
