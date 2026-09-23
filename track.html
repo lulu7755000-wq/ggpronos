@@ -84,7 +84,12 @@ tr:last-child td{border-bottom:none}
 <div class="tcard"><div class="v" id="s-odds">—</div><div class="l">Cote moy.</div></div>
 <div class="tcard"><div class="v" id="s-dd">—</div><div class="l">Max drawdown</div></div>
 <div class="tcard"><div class="v" id="s-clv">—</div><div class="l">CLV moyen</div></div>
+<div class="tcard"><div class="v" id="s-dec">—</div><div class="l">Bonnes décisions</div></div>
 <div class="tcard"><div class="v" id="s-pending">—</div><div class="l">En attente</div></div>
+</div>
+
+<div id="dec-note" style="display:none;background:rgba(0,200,83,.06);border:1px solid rgba(0,200,83,.25);color:#9fd6b0;padding:12px 16px;border-radius:10px;font-size:.88rem;margin-bottom:18px;line-height:1.6">
+<b>🧠 Qualité des décisions</b> — indépendant du résultat : une perte avec CLV + edge + bonnes données compte comme <b>bonne décision</b> (variance du sport). Une victoire sans edge = mauvaise décision (chance).
 </div>
 
 <div id="sample-warn" style="display:none;background:rgba(255,193,7,.08);border:1px solid rgba(255,193,7,.35);color:#ffc107;padding:12px 16px;border-radius:10px;font-size:.88rem;margin-bottom:18px"></div>
@@ -167,6 +172,18 @@ avgOdds:n>0?num(oddsSum/n,2):0,
 maxDD:num(maxDD,2),
 clvAvg:clvN>0?num(clvSum/clvN,1):null,
 clvN:clvN,
+decisionN:(function(){var n=0;resolved.forEach(function(b){if(b.decision)n++;});return n;})(),
+decisionGood:(function(){var n=0;resolved.forEach(function(b){if(b.decision==='good')n++;});return n;})(),
+decisionGoodPct:(function(){
+var n=0,g=0,s=0;
+resolved.forEach(function(b){
+if(!b.decision)return;
+n++;
+if(b.decision==='good')g++;
+s+=parseFloat(b.decisionScore)||0;
+});
+return n>0?{n:n,good:g,pct:Math.round(g/n*100),avg:Math.round(s/n)}:null;
+})(),
 pending:bets.filter(function(b){return b.result==='pending';}).length,
 voided:bets.filter(function(b){return b.result==='void'||b.result==='canceled';}).length,
 significance:n>=300?'haute':n>=100?'moyenne':'faible',
@@ -186,6 +203,16 @@ pnl.className='v '+(st.pnl>0?'good':st.pnl<0?'bad':'mid');
 document.getElementById('s-odds').textContent=st.avgOdds||'—';
 document.getElementById('s-dd').textContent='-'+st.maxDD+'€';
 document.getElementById('s-clv').textContent=st.clvAvg!==null?(st.clvAvg>0?'+':'')+st.clvAvg+'%':'—';
+var decEl=document.getElementById('s-dec');
+if(decEl){
+if(st.decisionGoodPct){
+decEl.textContent=st.decisionGoodPct.pct+'%';
+decEl.className='v '+(st.decisionGoodPct.pct>=60?'good':st.decisionGoodPct.pct<40?'bad':'mid');
+decEl.title=st.decisionGoodPct.good+' bonnes / '+st.decisionGoodPct.n+' · score '+st.decisionGoodPct.avg+'/100';
+var dn=document.getElementById('dec-note');
+if(dn)dn.style.display='block';
+}else{decEl.textContent='—';}
+}
 document.getElementById('s-pending').textContent=st.pending+(st.voided?' (+'+st.voided+' void)':'');
 document.getElementById('sig-badge').textContent='Significativité : '+st.significance;
 var w=document.getElementById('sample-warn');
@@ -233,6 +260,13 @@ if(b.result==='void'||b.result==='canceled')return '<span class="pill pending">A
 return '<span class="pill pending">En attente</span>';
 }
 
+function decPill(b){
+if(!b.decision)return '';
+var t=b.decision==='good'?'Bonne décision':b.decision==='bad'?'Mauvaise décision':'Neutre';
+var c=b.decision==='good'?'win':b.decision==='bad'?'loss':'pending';
+return ' <span class="pill '+c+'" title="'+(b.decisionScore||0)+'/100'+(b.trust?' · trust '+b.trust:'')+(b.clv!=null?' · CLV '+b.clv:'')+'">'+(b.decision==='good'?'🧠✓':b.decision==='bad'?'🧠✗':'🧠~')+'</span>';
+}
+
 function renderTable(){
 var list=bets.slice().sort(function(a,b){return String(b.time||b.date||'').localeCompare(String(a.time||a.date||''));});
 if(filter==='win')list=list.filter(function(b){return b.result==='win'||b.result==='won';});
@@ -252,7 +286,7 @@ return '<tr>'+
 '<td>'+(b.cote||'—')+'</td>'+
 '<td>'+(b.stake||10)+'€</td>'+
 '<td>'+(b.score||'—')+'</td>'+
-'<td>'+pill(b)+'</td>'+
+'<td>'+pill(b)+decPill(b)+'</td>'+
 	'<td style="color:'+(pnl>0?'#00c853':pnl<0?'#ff5252':'#8b9bb4')+'">'+(pnl>0?'+':'')+num(pnl,2)+'€</td>'+
 '<td>'+(b.published?'<span class="pill pub">★</span>':'—')+'</td>'+
 '</tr>';
