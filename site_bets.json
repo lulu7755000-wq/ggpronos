@@ -16,6 +16,11 @@
     "pnl": 4.5,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -35,6 +40,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -54,6 +64,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -73,6 +88,11 @@
     "pnl": 22,
     "score": "2-3",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -92,6 +112,11 @@
     "pnl": 7,
     "score": "4-0",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -111,6 +136,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -130,6 +160,11 @@
     "pnl": 6.599999999999998,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -149,6 +184,11 @@
     "pnl": -10,
     "score": "0-1",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 58,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -168,6 +208,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -187,6 +232,11 @@
     "pnl": 8.2,
     "score": "2-3",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -206,6 +256,11 @@
     "pnl": 11.8,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -225,6 +280,11 @@
     "pnl": 4.699999999999999,
     "score": "4-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -244,6 +304,11 @@
     "pnl": -10,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -263,6 +328,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -282,6 +352,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -301,6 +376,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -320,6 +400,11 @@
     "pnl": 16,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -339,6 +424,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -358,6 +448,11 @@
     "pnl": 10.2,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -377,6 +472,11 @@
     "pnl": 7.300000000000001,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -396,6 +496,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -415,6 +520,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -434,6 +544,11 @@
     "pnl": -10,
     "score": "3-3",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -453,6 +568,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -472,6 +592,11 @@
     "pnl": 12.5,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -491,6 +616,11 @@
     "pnl": 11.7,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -510,6 +640,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -529,6 +664,11 @@
     "pnl": 4,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -548,6 +688,11 @@
     "pnl": 9.600000000000001,
     "score": "0-1",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -567,6 +712,11 @@
     "pnl": 6.699999999999999,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -586,6 +736,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -605,6 +760,11 @@
     "pnl": 10.5,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -624,6 +784,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -643,6 +808,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -662,6 +832,11 @@
     "pnl": -10,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -681,6 +856,11 @@
     "pnl": 4.299999999999999,
     "score": "3-1",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -700,6 +880,11 @@
     "pnl": 4.699999999999999,
     "score": "4-1",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -719,6 +904,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -738,6 +928,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -757,6 +952,11 @@
     "pnl": 9.3,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -776,6 +976,11 @@
     "pnl": 7.5,
     "score": "1-4",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -795,6 +1000,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -814,6 +1024,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 50,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -833,6 +1048,11 @@
     "pnl": 11,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -852,6 +1072,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -871,6 +1096,11 @@
     "pnl": 14,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -890,6 +1120,11 @@
     "pnl": 8.3,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -909,6 +1144,11 @@
     "pnl": 6,
     "score": "2-3",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -928,6 +1168,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -947,6 +1192,11 @@
     "pnl": 8.3,
     "score": "0-5",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -966,6 +1216,11 @@
     "pnl": -10,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -985,6 +1240,11 @@
     "pnl": 8.100000000000001,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1004,6 +1264,11 @@
     "pnl": 7.800000000000001,
     "score": "2-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 40,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1023,6 +1288,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1042,6 +1312,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 58,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1061,6 +1336,11 @@
     "pnl": 4.9,
     "score": "0-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1080,6 +1360,11 @@
     "pnl": 15.2,
     "score": "0-2",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 58,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1099,6 +1384,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1118,6 +1408,11 @@
     "pnl": 8.799999999999997,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1137,6 +1432,11 @@
     "pnl": -10,
     "score": "3-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1156,6 +1456,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "neutral",
+    "decisionScore": 63,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1175,6 +1480,11 @@
     "pnl": 8.5,
     "score": "0-2",
     "date": "",
+    "clv": null,
+    "decision": "bad",
+    "decisionScore": 32,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1194,6 +1504,11 @@
     "pnl": 8.5,
     "score": "3-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1536,6 +1851,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1555,6 +1875,11 @@
     "pnl": 8,
     "score": "3-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1574,6 +1899,11 @@
     "pnl": -10,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1669,6 +1999,11 @@
     "pnl": 9.5,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1688,6 +2023,11 @@
     "pnl": 7.52,
     "score": "1-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1707,6 +2047,11 @@
     "pnl": 11.600000000000001,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1726,6 +2071,11 @@
     "pnl": -10,
     "score": "0-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1745,6 +2095,11 @@
     "pnl": -10,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1764,6 +2119,11 @@
     "pnl": -11,
     "score": "0-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1821,6 +2181,11 @@
     "pnl": -11,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1840,6 +2205,11 @@
     "pnl": -11,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1859,6 +2229,11 @@
     "pnl": 16.5,
     "score": "5-0",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1878,6 +2253,11 @@
     "pnl": -11,
     "score": "0-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1897,6 +2277,11 @@
     "pnl": 30.799999999999997,
     "score": "1-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": false
   },
   {
@@ -1973,6 +2358,11 @@
     "pnl": 9.3,
     "score": "1-3",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -1992,6 +2382,11 @@
     "pnl": 12.799999999999997,
     "score": "2-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -2011,6 +2406,11 @@
     "pnl": -10,
     "score": "1-3",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -2049,6 +2449,11 @@
     "pnl": -10,
     "score": "2-2",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 70,
+    "trust": null,
+    "edge": null,
     "published": true
   },
   {
@@ -2087,6 +2492,11 @@
     "pnl": -8,
     "score": "1-1",
     "date": "",
+    "clv": null,
+    "decision": "good",
+    "decisionScore": 85,
+    "trust": "high",
+    "edge": null,
     "published": false
   }
 ]
