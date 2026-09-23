@@ -128,6 +128,10 @@ function createProntoCard(prono) {
                     <span>Probabilités</span>
                     <span>${analysis.home_win || '?'}% / ${analysis.draw || '?'}% / ${analysis.away_win || '?'}%</span>
                 </div>
+                ${analysis.weather ? `<div class="prono-analysis-row"><span>🌤️ Météo</span><span>${analysis.weather.label || '—'}${analysis.weather.temp_c!=null?' · '+analysis.weather.temp_c+'°C':''}${analysis.weather.city?' · '+analysis.weather.city:''}</span></div>` : ''}
+                ${analysis.injuries && (analysis.injuries.home || analysis.injuries.away) ? `<div class="prono-analysis-row"><span>🏥 Blessures</span><span>${(analysis.injuries.home||0)} dom / ${(analysis.injuries.away||0)} ext</span></div>` : ''}
+                ${analysis.home_rank || analysis.away_rank ? `<div class="prono-analysis-row"><span>📌 Rang</span><span>${analysis.home_rank||'—'} dom / ${analysis.away_rank||'—'} ext</span></div>` : ''}
+                ${analysis.xg_season && (analysis.xg_season.home != null || analysis.xg_season.away != null) ? `<div class="prono-analysis-row"><span>📐 xG saison</span><span>${analysis.xg_season.home ?? '—'} - ${analysis.xg_season.away ?? '—'}${analysis.xg_season.home_h!=null && analysis.xg_season.away_a!=null ? ' · H/A '+analysis.xg_season.home_h+'/'+analysis.xg_season.away_a : ''}</span></div>` : ''}
             </div>
             
             <div class="prono-bet">
