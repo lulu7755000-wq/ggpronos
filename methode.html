@@ -1,94 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Méthode Value Bet — GG Pronos</title>
-    <meta name="description" content="Comment GG Pronos détecte les value bets : xG, cotes, edge et EV expliqués simplement. Méthode transparente, 18+ Jouez responsable.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Méthode de simulation — GG Pronos</title>
+    <meta name="description" content="La méthode GG Pronos : probabilités, cotes, edge, EV et filtre strict des top picks. Simulation, aucune garantie de gain, 18+.">
     <link rel="canonical" href="https://lulu7755000-wq.github.io/ggpronos/methode.html">
-    <meta property="og:title" content="Méthode Value Bet — GG Pronos">
-    <meta property="og:description" content="Comment GG Pronos détecte les value bets : xG, cotes, edge et EV.">
-    <meta property="og:url" content="https://lulu7755000-wq.github.io/ggpronos/methode.html">
-    <meta property="og:image" content="https://lulu7755000-wq.github.io/ggpronos/ggpronos_banner.png">
-    <link rel="stylesheet" href="style.css?v=20260901">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .page-hero{background:var(--gradient);padding:120px 0 60px;text-align:center}
-        .page-hero h1{font-size:2.6rem;margin-bottom:12px}
-        .page-hero p{opacity:.9;max-width:720px;margin:0 auto}
-        .content{max-width:820px;margin:0 auto;padding:50px 20px}
-        .content h2{font-size:1.6rem;margin:36px 0 14px;color:var(--accent)}
-        .content h3{font-size:1.2rem;margin:22px 0 10px}
-        .callout{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:12px;padding:18px 20px;margin:22px 0}
-        .example{background:linear-gradient(135deg,#0f1a2e,#0d1b2a);border:1px solid var(--border);border-radius:14px;padding:22px;margin:22px 0}
-        .example .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06)}
-        .badge{display:inline-block;background:var(--accent);color:#fff;padding:4px 12px;border-radius:20px;font-size:.8rem;font-weight:700}
-        .warn{background:rgba(255,82,82,.08);border:1px solid rgba(255,82,82,.25);border-radius:12px;padding:16px;margin:22px 0}
-    </style>
+    <link rel="stylesheet" href="style.css?v=20260925a">
+    <script src="app.js?v=20260925a" defer></script>
 </head>
-<body>
-<header class="header">
-    <div class="container">
-        <a href="index.html" class="logo"><span class="logo-icon">⚽</span><span class="logo-text">GG<span class="accent">Pronos</span></span></a>
-        <nav class="nav">
-            <a href="index.html#pronos" class="nav-link">Pronos du Jour</a>
-            <a href="track.html" class="nav-link">Track Record</a>
-            <a href="methode.html" class="nav-link">Méthode</a>
-            <a href="bankroll.html" class="nav-link">Bankroll</a>
-            <a href="index.html#affiliations" class="nav-link">Bookmakers</a>
-        </nav>
-        <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
-    </div>
-</header>
+<body data-page="method">
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="GG Pronos, accueil"><span class="brand-mark" aria-hidden="true">GG</span><span>GG <span class="brand-accent">Pronos</span></span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-bars" aria-hidden="true"></span></button>
+            <nav id="primary-nav" class="site-nav" aria-label="Navigation principale">
+                <a class="nav-link" href="index.html">Accueil</a><a class="nav-link" href="index.html#pronos">Pronos publics</a><a class="nav-link" href="track.html">Track record</a><a class="nav-link" href="methode.html" aria-current="page">Méthode</a><a class="nav-link" href="bankroll.html">Bankroll</a><a class="nav-link" href="index.html#affiliations">Partenaires</a>
+            </nav>
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Données publiques</span>
+        </div>
+    </header>
 
-<section class="page-hero">
-    <div class="container">
-        <h1>La Méthode Value Bet</h1>
-        <p>Pas de feeling. Des cotes, des modèles, et de la discipline. Voilà comment BetScan Pro trouve ses paris.</p>
-    </div>
-</section>
+    <main id="contenu">
+        <section class="page-hero" aria-labelledby="method-title">
+            <div class="container">
+                <h1 id="method-title">La méthode, sans promesse</h1>
+                <p class="page-hero-copy">La méthode GG Pronos est une simulation d'analyse statistique. Elle explique comment un top pick est filtré, sans garantir un gain et sans remplacer une décision responsable.</p>
+                <div class="badge-row"><span class="badge">Value bet expliquée</span><span class="badge">Source publique</span><span class="badge badge-warning">18+ · risque de perte</span></div>
+            </div>
+        </section>
 
-<div class="content">
-    <p><span class="badge">18+ • Jouez responsable</span></p>
+        <div class="container page-content prose">
+            <h2>1. Qu'est-ce qu'une value bet ?</h2>
+            <p>Une value bet est une estimation où la probabilité attribuée à un résultat est supérieure à la probabilité implicite donnée par la cote. Cet écart peut être intéressant sur une série de simulations, mais il ne rend pas un résultat futur certain.</p>
+            <div class="callout">Probabilité implicite = 1 ÷ cote. Cette conversion sert à comparer une estimation et une cote, pas à prédire l'issue.</div>
 
-    <h2>1. C'est quoi une value bet ?</h2>
-    <p>Une value bet, c'est quand <strong>notre probabilité estimée</strong> est supérieure à celle implicite dans la cote du bookmaker.</p>
-    <div class="callout">Probabilité implicite = 1 / cote. Exemple cote 2.13 → 1/2.13 = 46,9%.</div>
-    <div class="example">
-        <h3>Exemple réel : Juventus vs AC Milan — 06/09</h3>
-        <div class="row"><span>Notre modèle estime Juventus à</span><strong>50%</strong></div>
-        <div class="row"><span>Meilleure cote Betclic</span><strong>2.13</strong></div>
-        <div class="row"><span>Probabilité implicite bookmaker</span><strong>46,9%</strong></div>
-        <div class="row"><span><strong>Edge = (50% × 2.13) − 1</strong></span><strong style="color:var(--accent)">+6,5% → value</strong></div>
-        <p style="margin-top:12px;color:var(--text-muted)">Si edge &gt; 0, le pari est mathématiquement rentable long terme. Nous ne postons que si edge significatif et confiance suffisante.</p>
-    </div>
+            <div class="example-card">
+                <h3>Illustration pédagogique</h3>
+                <p>Cet exemple est une illustration de calcul, pas un pari du dataset public et pas une recommandation.</p>
+                <div class="example-row"><span>Probabilité estimée</span><strong>52,0 %</strong></div>
+                <div class="example-row"><span>Cote illustrée</span><strong>2,13</strong></div>
+                <div class="example-row"><span>Probabilité implicite</span><strong>46,9 %</strong></div>
+                <div class="example-row"><span>Edge = (probabilité × cote) − 1</span><strong class="tone-positive">+10,8 %</strong></div>
+            </div>
 
-    <h2>2. Comment on calcule ?</h2>
-    <h3>xG + forme + H2H + domicile</h3>
-    <p>BetScan récupère les cotes de 10+ bookmakers, calcule les xG attendus, la forme récente, l'historique face-à-face et l'avantage domicile pour sortir une probabilité propre, puis compare à la meilleure cote disponible.</p>
-    <ul style="margin:12px 0 0 18px;color:var(--text-muted)">
-        <li><strong>Confiance</strong> = solidité du modèle (nombre de bookmakers + edge)</li>
-        <li><strong>EV</strong> = espérance de gain = (probabilité × cote) − 1</li>
-        <li><strong>Edge</strong> = EV en % — on filtre edge &gt; 30% pour la publication</li>
-    </ul>
+            <h2>2. Quelles données sont analysées ?</h2>
+            <p>BetScan regroupe les cotes disponibles et des variables de contexte telles que les xG, la forme, l'historique face-à-face et l'avantage domicile. Ces éléments servent à produire une estimation qui doit ensuite passer les filtres de publication.</p>
+            <ul>
+                <li><strong>Probabilité :</strong> estimation du résultat, avec une confiance propre au modèle.</li>
+                <li><strong>Cote :</strong> prix proposé par l'opérateur au moment de l'analyse.</li>
+                <li><strong>Edge :</strong> écart entre la probabilité estimée et la probabilité implicite.</li>
+                <li><strong>EV :</strong> espérance théorique de la sélection, pas une garantie de résultat.</li>
+            </ul>
 
-    <h2>3. Pourquoi si peu de paris ?</h2>
-    <p>La discipline fait le profit. Sur 30 matchs analysés, le bot peut ne retenir que 1 ou 2 values. Certains jours : <strong>zéro value</strong> → on poste <em>“Aucune value aujourd'hui”</em>. On préfère skip qu'inventer.</p>
-    <div class="callout"><i class="fas fa-shield-alt"></i> Règle BetScan : 1 pari = 10€, edge &gt; 30% minimum, cote ≥ 1.40. Jamais plus.</div>
+            <h2>3. Quel est le filtre public ?</h2>
+            <p>Le filtre de publication est strict : probabilité estimée supérieure à 50 %, cote d'au moins 1,40, edge d'au moins 4 % et EV positive. L'affichage public ne montre ensuite que les enregistrements dont <code>top_pick === true</code>.</p>
+            <div class="callout">Une absence de top pick est une information valide. Elle ne doit pas être remplacée par un exemple, un autre fichier ou une statistique inventée.</div>
 
-    <h2>4. Transparence</h2>
-    <p>Tous les résultats sont publiés, <strong>gagnés ET perdus</strong> (ex: Juventus 1-1 → PERDU -10€). <a href="bankroll.html">Voir la courbe bankroll →</a></p>
+            <h2>4. Comment lire les résultats ?</h2>
+            <p>Les gains, pertes, paris void et paris pending sont comptés séparément. Le taux de réussite et le ROI utilisent uniquement les paris réglés ; le profit est affiché en euros et le ROI en pourcentage.</p>
+            <p>Le track record est une simulation historique publique. Il ne prédit pas les résultats futurs et ne doit pas être utilisé pour décider d'une mise.</p>
 
-    <div class="warn"><strong>⚠️ Jouez responsable.</strong> Les paris sportifs comportent des risques : endettement, isolement, dépendance. Besoin d'aide ? <a href="https://www.joueurs-info-service.fr" target="_blank">Joueurs Info Service — 09 74 75 13 13</a> (appel non surtaxé). Interdit aux moins de 18 ans. <a href="jeu-responsable.html">En savoir plus →</a></div>
+            <div class="warning"><strong>18+ et aucune garantie.</strong> Les paris sportifs comportent un risque de perte financière et de dépendance. Ne misez jamais ce que vous ne pouvez pas perdre et consultez les ressources de jeu responsable.</div>
+            <div class="button-row"><a class="button" href="track.html">Voir le track record</a><a class="button button-secondary" href="jeu-responsable.html">Lire les règles de jeu responsable</a></div>
+        </div>
+    </main>
 
-    <p style="text-align:center;margin-top:30px"><a href="bankroll.html" style="display:inline-block;background:var(--accent);color:#fff;padding:12px 22px;border-radius:25px;text-decoration:none;font-weight:700">Voir la bankroll →</a></p>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <p>© 2026 GG Pronos — <a href="index.html">Accueil</a> · <a href="track.html">Track Record</a> · <a href="methode.html">Méthode</a> · <a href="bankroll.html">Bankroll</a></p>
-        <p style="margin-top:10px;color:var(--text-muted);font-size:.9rem">18+ • Jouez responsable — Les paris comportent des risques.</p>
-    </div>
-</footer>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">GG</span><span>GG <span class="brand-accent">Pronos</span></span></a><p>Simulation publique, sans promesse de résultat.</p></div>
+            <div><h2 class="footer-heading">Navigation</h2><nav class="footer-links" aria-label="Navigation de pied de page"><a href="index.html#pronos">Pronos publics</a><a href="track.html">Track record</a><a href="bankroll.html">Bankroll</a></nav></div>
+            <div><h2 class="footer-heading">Informations</h2><nav class="footer-links" aria-label="Informations légales"><a href="mentions.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="jeu-responsable.html">Jeu responsable</a></nav></div>
+        </div>
+        <div class="container footer-bottom"><p>© 2026 GG Pronos · Simulation et informations publiques.</p><p>18+ · Jouez responsablement.</p></div>
+    </footer>
 </body>
 </html>

@@ -1,51 +1,53 @@
 {
-  "total": 21,
+  "total": 31,
   "won": 9,
-  "lost": 12,
+  "lost": 15,
+  "void": 7,
   "pending": 0,
-  "win_rate": 43,
-  "profit": 0,
-  "roi": 0,
-  "last_update": "2026-09-24T18:56:19.758Z",
+  "win_rate": 37.5,
+  "profit": -60.78,
+  "roi": -25.6,
+  "staked": 237.0,
+  "settled_stake": 237.0,
+  "last_update": "2026-09-25T10:02:14.650Z",
   "verified": {
-    "n": 82,
-    "wins": 40,
-    "winRate": "48.8",
-    "avgOdds": "2.33",
-    "staked": 820,
-    "pnl": -27.48,
-    "roi": "-3.4",
-    "maxDD": 72.68,
-    "bestWinRun": 3,
-    "bestLossRun": 5,
-    "curRun": -3,
-    "clvAvg": null,
-    "clvN": 0,
-    "decisionN": 82,
-    "decisionGood": 41,
-    "decisionBad": 26,
-    "decisionGoodPct": 50,
-    "decisionScoreAvg": 57,
+    "n": 24,
+    "total": 31,
+    "wins": 9,
+    "losses": 15,
+    "void": 7,
+    "pending": 0,
+    "winRate": 37.5,
+    "avgOdds": 2.1,
+    "staked": 237.0,
+    "settled_stake": 237.0,
+    "pnl": -60.78,
+    "roi": -25.6,
+    "maxDD": 62.88,
     "byType": {
       "auto": {
-        "n": 75,
-        "winRate": 51,
-        "roi": "-3.1",
-        "pnl": -22.78
+        "n": 23,
+        "wins": 9,
+        "staked": 226.0,
+        "pnl": -49.78,
+        "winRate": 39.1,
+        "roi": -22.0
       },
       "pro": {
-        "n": 7,
-        "winRate": 29,
-        "roi": "-6.4",
-        "pnl": -4.7
+        "n": 1,
+        "wins": 0,
+        "staked": 11.0,
+        "pnl": -11.0,
+        "winRate": 0.0,
+        "roi": -100.0
       }
     },
-    "significance": "faible",
     "v2": {
-      "n": 0,
-      "winRate": "0.0",
-      "roi": "0.0",
-      "pnl": 0
-    }
+      "n": 24,
+      "winRate": 37.5,
+      "roi": -25.6,
+      "pnl": -60.78
+    },
+    "significance": "faible"
   }
 }

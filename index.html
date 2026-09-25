@@ -1,289 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>GG Pronos - Pronostics Football Gratuits & Fiables</title>
-    <meta name="description" content="Pronostics football gratuits avec analyse statistique avancée. BetScan Pro détecte les value bets pour maximiser vos gains.">
-<link rel="canonical" href="https://lulu7755000-wq.github.io/ggpronos/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="GG Pronos - Pronostics Football Gratuits & Fiables">
-<meta property="og:description" content="Historique transparent, track record public, méthode value bet expliquée. 18+.">
-<meta property="og:url" content="https://lulu7755000-wq.github.io/ggpronos/">
-<meta property="og:image" content="https://lulu7755000-wq.github.io/ggpronos/ggpronos_banner.png">
-<meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
-    <link rel="stylesheet" href="style.css?v=20260901">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script data-goatcounter="https://tjm-facile.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GG Pronos : analyse football publique, top picks de simulation et track record transparent. Aucune garantie de gain, 18+.">
+    <link rel="canonical" href="https://lulu7755000-wq.github.io/ggpronos/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GG Pronos — Analyse football publique">
+    <meta property="og:description" content="Top picks de simulation, track record public et méthode expliquée. 18+, aucune garantie de gain.">
+    <meta property="og:url" content="https://lulu7755000-wq.github.io/ggpronos/">
+    <meta property="og:image" content="https://lulu7755000-wq.github.io/ggpronos/ggpronos_banner.png">
+    <link rel="stylesheet" href="style.css?v=20260925a">
+    <script src="app.js?v=20260925a" defer></script>
 </head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <span class="logo-icon">⚽</span>
-                <span class="logo-text">GG<span class="accent">Pronos</span></span>
+<body data-page="home">
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="GG Pronos, accueil">
+                <span class="brand-mark" aria-hidden="true">GG</span>
+                <span>GG <span class="brand-accent">Pronos</span></span>
             </a>
-            <nav class="nav">
-                <a href="#pronos" class="nav-link">Pronos du Jour</a>
-                <a href="track.html" class="nav-link">Track Record</a>
-                <a href="methode.html" class="nav-link">Méthode</a>
-                <a href="bankroll.html" class="nav-link">Bankroll</a>
-                <a href="#affiliations" class="nav-link">Bookmakers</a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span>Menu</span>
+                <span class="menu-bars" aria-hidden="true"></span>
+            </button>
+            <nav id="primary-nav" class="site-nav" aria-label="Navigation principale">
+                <a class="nav-link" href="index.html" aria-current="page">Accueil</a>
+                <a class="nav-link" href="index.html#pronos">Pronos publics</a>
+                <a class="nav-link" href="track.html">Track record</a>
+                <a class="nav-link" href="methode.html">Méthode</a>
+                <a class="nav-link" href="bankroll.html">Bankroll</a>
+                <a class="nav-link" href="#affiliations">Partenaires</a>
             </nav>
-            <div class="header-right">
-                <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
-            </div>
+            <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Données publiques</span>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div style="display:inline-block;background:rgba(212,175,55,.15);border:1px solid rgba(212,175,55,.3);color:#d4af37;padding:6px 14px;border-radius:20px;font-size:.8rem;font-weight:700;margin-bottom:18px">🔒 100% Transparent • 18+ • Mise unitaire 8-11€ • Aucun pari effacé</div>
-            <h1>Pronostics Football <span class="accent">Rentables</span> — Pas du Feeling</h1>
-            <p class="hero-subtitle">BetScan Pro scanne 8 ligues en <strong>1X2 + Over 2.5 + BTTS</strong>, ne garde que <strong>proba &gt;50% + cote ≥1.40 + edge 4-22%</strong>. Le reste est jeté.</p>
-            
-            <div class="hero-stats">
-                <div class="stat-card">
-                    <div class="stat-value" id="win-rate">—</div>
-                    <div class="stat-label">Taux de Réussite</div>
+    <main id="contenu">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-inner">
+                <p class="eyebrow">Simulation publique · 18+ · aucune garantie</p>
+                <h1 id="hero-title">Des analyses lisibles. Des résultats vérifiables.</h1>
+                <p class="hero-copy">GG Pronos présente une simulation d'analyse football publiée de façon transparente. Les indicateurs sont recalculés uniquement à partir des paris explicitement publiés, sans masquer les pertes.</p>
+                <div class="hero-actions">
+                    <a class="button" href="#pronos">Voir les pronos publics</a>
+                    <a class="button button-secondary" href="track.html">Consulter le track record</a>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="total-bets">0</div>
-                    <div class="stat-label">Paris Analysés</div>
+                <div class="hero-stats" aria-label="Indicateurs publics">
+                    <div class="stat-card"><div class="stat-value" id="win-rate">—</div><div class="stat-label">Taux de réussite</div></div>
+                    <div class="stat-card"><div class="stat-value" id="total-bets">—</div><div class="stat-label">Paris publiés</div></div>
+                    <div class="stat-card"><div class="stat-value" id="profit">—</div><div class="stat-label">Profit en euros</div></div>
+                    <div class="stat-card"><div class="stat-value" id="edge">—</div><div class="stat-label">Edge moyen</div></div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="profit">0%</div>
-                    <div class="stat-label">Profit</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="edge">—</div>
-                    <div class="stat-label">Edge Moyen</div>
-                </div>
+                <p id="stats-source" class="source-note" role="status" aria-live="polite">Chargement des données publiques…</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Pronos du Jour -->
-    <section id="pronos" class="section pronos-section">
-        <div class="container">
-            <h2 class="section-title">🎯 Pronos du Jour</h2>
-            <p class="section-subtitle">Analyses mis à jour à 12h00 et 20h00</p>
-            
-            <div class="pronos-grid" id="pronos-container">
-                <!-- Les pronos seront chargés ici via JavaScript -->
-                <div class="loading">
-                    <i class="fas fa-spinner fa-spin"></i>
-                    Chargement des pronos...
+        <section id="pronos" class="section pronos-section" aria-labelledby="pronos-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Sélection du jour</p>
+                    <h2 id="pronos-title" class="section-title">Pronos publics</h2>
+                    <p class="section-subtitle">Seuls les enregistrements dont <code>top_pick === true</code> peuvent être affichés. Les autres analyses restent hors de la source publique.</p>
+                    <p id="pronos-source" class="source-note" role="status" aria-live="polite">Chargement des pronos publics…</p>
+                </div>
+                <div id="pronos-container" class="pronos-grid" aria-live="polite">
+                    <div class="loading-state" role="status"><strong>Chargement des pronos publics</strong><p>Lecture de data.json en cours.</p></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Comment ça marche -->
-    <section class="section how-section">
-        <div class="container">
-            <h2 class="section-title">🧠 Comment ça marche ?</h2>
-            
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <div class="step-icon">📡</div>
-                    <h3>Récupération</h3>
-                    <p>BetScan récupère les cotes de 10+ bookmakers pour chaque match</p>
+        <section class="section" aria-labelledby="methode-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Cadre public</p>
+                    <h2 id="methode-title" class="section-title">Une méthode lisible</h2>
+                    <p class="section-subtitle">Le filtre de publication est strict : probabilité estimée supérieure à 50 %, cote d'au moins 1,40, edge d'au moins 4 % et EV positive.</p>
                 </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <div class="step-icon">📊</div>
-                    <h3>Analyse</h3>
-                    <p>Notre modèle calcule les xG, la forme, le H2H et l'avantage domicile</p>
+                <div class="steps-grid">
+                    <article class="step-card"><div class="step-number">1</div><h3>Récupérer</h3><p>Les cotes publiques et les variables de match sont regroupées pour former une analyse reproductible.</p></article>
+                    <article class="step-card"><div class="step-number">2</div><h3>Comparer</h3><p>La probabilité estimée est confrontée à la probabilité implicite de la cote, sans promettre un résultat.</p></article>
+                    <article class="step-card"><div class="step-number">3</div><h3>Filtrer</h3><p>Seuls les top picks qui respectent les seuils publics sont conservés pour l'affichage du jour.</p></article>
+                    <article class="step-card"><div class="step-number">4</div><h3>Mesurer</h3><p>Les gains, pertes, annulations et paris en attente restent séparés dans le track record.</p></article>
                 </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <div class="step-icon">🎯</div>
-                    <h3>Comparaison</h3>
-                    <p>On compare notre analyse avec les cotes pour trouver la valeur</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">4</div>
-                    <div class="step-icon">✅</div>
-                    <h3>Sélection</h3>
-                    <p>Seuls les paris avec edge > 3% et EV positive sont retenus</p>
-                </div>
+                <div class="button-row"><a class="button button-secondary" href="methode.html">Lire la méthode complète</a></div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Statistiques -->
-    <section id="stats" class="section stats-section">
-        <div class="container">
-            <h2 class="section-title">📈 Statistiques</h2>
-            
-            <div class="stats-grid">
-                <div class="stat-detail-card">
-                    <h3>Bilan Global</h3>
-                    <div class="stat-row">
-                        <span>Total paris</span>
-                        <span class="stat-value" id="stats-total">0</span>
-                    </div>
-                    <div class="stat-row">
-                        <span>Gagnés</span>
-                        <span class="stat-value won" id="stats-won">0</span>
-                    </div>
-                    <div class="stat-row">
-                        <span>Perdus</span>
-                        <span class="stat-value lost" id="stats-lost">0</span>
-                    </div>
-                    <div class="stat-row highlight">
-                        <span>Taux réussite</span>
-                        <span class="stat-value" id="stats-winrate">—</span>
-                    </div>
+        <section id="stats" class="section stats-section" aria-labelledby="stats-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Mesure commune</p>
+                    <h2 id="stats-title" class="section-title">Statistiques publiques</h2>
+                    <p class="section-subtitle">Les mêmes entrées published=true alimentent les compteurs, le profit en euros et le ROI en pourcentage.</p>
                 </div>
-                
-                <div class="stat-detail-card">
-                    <h3>Performance</h3>
-                    <div class="stat-row">
-                        <span>Profit</span>
-                        <span class="stat-value profit" id="stats-profit">0%</span>
-                    </div>
-                    <div class="stat-row">
-                        <span>ROI</span>
-                        <span class="stat-value" id="stats-roi">—</span>
-                    </div>
-                    <div class="stat-row">
-                        <span>Paris en cours</span>
-                        <span class="stat-value" id="stats-pending">0</span>
-                    </div>
+                <div class="stats-grid">
+                    <article class="stat-panel">
+                        <h3>Couverture</h3>
+                        <div class="stat-list">
+                            <div class="stat-line"><span>Total publié</span><strong id="stats-total" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Réglés</span><strong id="stats-settled" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Gagnés</span><strong id="stats-won" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Perdus</span><strong id="stats-lost" class="stat-line-value">—</strong></div>
+                        </div>
+                    </article>
+                    <article class="stat-panel">
+                        <h3>États distincts</h3>
+                        <div class="stat-list">
+                            <div class="stat-line"><span>Annulés (void)</span><strong id="stats-void" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>En attente</span><strong id="stats-pending" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Taux de réussite</span><strong id="stats-winrate" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Mise totale réglée</span><strong id="stats-staked" class="stat-line-value">—</strong></div>
+                        </div>
+                    </article>
+                    <article class="stat-panel">
+                        <h3>Performance</h3>
+                        <div class="stat-list">
+                            <div class="stat-line"><span>Profit net</span><strong id="stats-profit" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>ROI</span><strong id="stats-roi" class="stat-line-value">—</strong></div>
+                            <div class="stat-line"><span>Cote moyenne</span><strong id="stats-odds" class="stat-line-value">—</strong></div>
+                        </div>
+                    </article>
+                    <article class="stat-panel">
+                        <h3>Lecture responsable</h3>
+                        <p class="section-subtitle">Un résultat passé ne prédit pas un résultat futur. Les performances affichées sont une simulation et ne constituent pas une garantie de gain.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Historique -->
-    <section id="historique" class="section history-section">
-        <div class="container">
-            <h2 class="section-title">🏆 Historique des Pronos</h2>
-            
-            <div class="history-table-container">
-                <table class="history-table" id="history-table">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Match</th>
-                            <th>Pari</th>
-                            <th>Cote</th>
-                            <th>Score</th>
-                            <th>Résultat</th>
-                        </tr>
-                    </thead>
-                    <tbody id="history-body">
-                        <!-- L'historique sera chargé ici -->
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Affiliations -->
-    <section id="affiliations" class="section affiliations-section">
-        <div class="container">
-            <h2 class="section-title">💰 Nos Partenaires</h2>
-            <p class="section-subtitle">Inscrivez-vous via nos liens pour nous soutenir</p>
-            
-            <div class="affiliations-grid">
-                <a href="https://www.winamax.fr/parrainage/invite.php?code=GG7H9E" target="_blank" class="affiliation-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Winamax_logo.svg/1200px-Winamax_logo.svg.png" alt="Winamax">
-                    <div class="affiliation-info">
-                        <h3>Winamax</h3>
-                        <p>Meilleure app de paris sportifs en France</p>
-                        <span class="bonus">Jusqu'à 100€ de bonus</span>
-                    </div>
-                </a>
-                
-                <a href="https://www.betclic.fr/" target="_blank" class="affiliation-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5c/Betclic_logo_2021.svg/1200px-Betclic_logo_2021.svg.png" alt="Betclic">
-                    <div class="affiliation-info">
-                        <h3>Betclic</h3>
-                        <p>Les meilleures cotes du marché</p>
-                        <span class="bonus">100€ remboursés</span>
-                    </div>
-                </a>
-                
-                <a href="https://www.unibet.fr/" target="_blank" class="affiliation-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Unibet_logo.svg/1200px-Unibet_logo.svg.png" alt="Unibet">
-                    <div class="affiliation-info">
-                        <h3>Unibet</h3>
-                        <p>Le leader européen des paris</p>
-                        <span class="bonus">100€ de bonus</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section cta-section">
-        <div class="container">
-            <h2>Rejoignez notre communauté</h2>
-            <p>Suivez-nous sur les réseaux sociaux pour ne rien manquer</p>
-            
-            <div class="social-links">
-                <a href="https://t.me/ggpronos" target="_blank" class="social-btn telegram">
-                    <i class="fab fa-telegram"></i> Telegram
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <span class="logo-icon">⚽</span>
-                    <span class="logo-text">GG<span class="accent">Pronos</span></span>
-                    <p>Pronostics football gratuits avec analyse statistique avancée</p>
+        <section id="historique" class="section history-section" aria-labelledby="history-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Journal public</p>
+                    <h2 id="history-title" class="section-title">Derniers paris publiés</h2>
+                    <p class="section-subtitle">Tri chronologique inverse, résultats réglés, void et pending distingués.</p>
+                    <p id="history-source" class="source-note" role="status" aria-live="polite">Chargement de l'historique public…</p>
                 </div>
-                
-                <div class="footer-links">
-                    <h4>Navigation</h4>
-                    <a href="methode.html">Méthode</a>
-                    <a href="bankroll.html">Bankroll</a>
-                    <a href="#pronos">Pronos du Jour</a>
-                    <a href="track.html">Track Record</a>
-                    <a href="#historique">Historique</a>
-                    <a href="#affiliations">Bookmakers</a>
-                    <a href="mentions.html">Mentions légales</a>
-                    <a href="confidentialite.html">Confidentialité</a>
-                    <a href="jeu-responsable.html">Jeu responsable</a>
+                <div class="table-card">
+                    <div class="table-wrap">
+                        <table class="data-table">
+                            <caption>Derniers paris publics</caption>
+                            <thead><tr><th scope="col">Date</th><th scope="col">Match</th><th scope="col">Pari</th><th scope="col">Cote</th><th scope="col">Score</th><th scope="col">Résultat</th></tr></thead>
+                            <tbody id="history-body"><tr class="empty-row"><td colspan="6">Chargement de l'historique public…</td></tr></tbody>
+                        </table>
+                    </div>
                 </div>
-                
-                <div class="footer-links">
-                    <h4>Légal</h4>
-                    <a href="mentions.html">Mentions légales</a>
-                    <a href="confidentialite.html">Politique de confidentialité</a>
-                    <a href="jeu-responsable.html">Jeu responsable</a>
+                <div class="button-row"><a class="button button-secondary" href="track.html">Ouvrir le track record complet</a></div>
+            </div>
+        </section>
+
+        <section id="affiliations" class="section" aria-labelledby="partners-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Liens externes</p>
+                    <h2 id="partners-title" class="section-title">Partenaires</h2>
+                    <p class="section-subtitle">Certains liens sont affiliés et peuvent rémunérer le site. Ils ne modifient pas le calcul des statistiques et n'offrent aucune garantie de gain. Les destinations sont limitées à une allowlist HTTPS.</p>
+                </div>
+                <div class="partner-grid">
+                    <a class="partner-card" href="https://www.winamax.fr/parrainage/invite.php?code=GG7H9E" target="_blank" rel="noopener noreferrer"><span class="partner-mark" aria-hidden="true">W</span><span class="partner-copy"><strong>Winamax</strong><span>Lien partenaire · HTTPS</span></span></a>
+                    <a class="partner-card" href="https://www.betclic.fr/" target="_blank" rel="noopener noreferrer"><span class="partner-mark" aria-hidden="true">B</span><span class="partner-copy"><strong>Betclic</strong><span>Lien partenaire · HTTPS</span></span></a>
+                    <a class="partner-card" href="https://www.unibet.fr/" target="_blank" rel="noopener noreferrer"><span class="partner-mark" aria-hidden="true">U</span><span class="partner-copy"><strong>Unibet</strong><span>Lien partenaire · HTTPS</span></span></a>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <p>⚠️ Les paris sportifs comportent des risques. Jouez responsablement. Interdit aux moins de 18 ans.</p>
-                <p>© 2026 GG Pronos - Tous droits réservés · <span style="opacity:.7">👁️ <span id="gc-visits">…</span> visites</span></p>
+        </section>
+
+        <section class="section" aria-labelledby="responsibility-title">
+            <div class="container">
+                <div class="cta-panel">
+                    <h2 id="responsibility-title">Jouez avec des limites</h2>
+                    <p>18+ et interdit aux mineurs. Les paris sportifs comportent un risque de perte financière. Consultez les repères de jeu responsable avant toute décision.</p>
+                    <div class="social-links">
+                        <a class="social-link" href="jeu-responsable.html">Lire les règles de jeu responsable</a>
+                        <a class="social-link" href="https://t.me/ggpronos" target="_blank" rel="noopener noreferrer">Contacter la communauté</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">GG</span><span>GG <span class="brand-accent">Pronos</span></span></a>
+                <p>Analyse football publique et simulation. Aucune garantie de gain.</p>
+            </div>
+            <div>
+                <h2 class="footer-heading">Navigation</h2>
+                <nav class="footer-links" aria-label="Navigation de pied de page"><a href="index.html#pronos">Pronos publics</a><a href="track.html">Track record</a><a href="bankroll.html">Bankroll</a><a href="methode.html">Méthode</a></nav>
+            </div>
+            <div>
+                <h2 class="footer-heading">Informations</h2>
+                <nav class="footer-links" aria-label="Informations légales"><a href="mentions.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="jeu-responsable.html">Jeu responsable</a></nav>
             </div>
         </div>
+        <div class="container footer-bottom"><p>© 2026 GG Pronos · Simulation et informations publiques.</p><p>18+ · Jouez responsablement.</p></div>
     </footer>
-
-    <script src="app.js?v=20260923d"></script>
-    <script>
-    fetch('https://tjm-facile.goatcounter.com/counter/TOTAL.json')
-    .then(function(r){return r.json();})
-    .then(function(d){var el=document.getElementById('gc-visits');if(el&&d.count)el.textContent=d.count;})
-    .catch(function(){});
-    </script>
 </body>
 </html>

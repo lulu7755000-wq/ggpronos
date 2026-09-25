@@ -1,0 +1,10 @@
+data/
+ggpronos.log
+google*.html
+gg_state.json
+x_posted.json
+betscan-private/
+.env
+.env.*
+*.local
+*.tmp

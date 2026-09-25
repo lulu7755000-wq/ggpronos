@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /gg_state.json
+Disallow: /x_posted.json
+Disallow: /ggpronos.log
+Disallow: /google
 
 Sitemap: https://lulu7755000-wq.github.io/ggpronos/sitemap.xml
