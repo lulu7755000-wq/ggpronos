@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_update": "2026-10-11T12:23:43.147Z",
+  "last_update": "2026-10-11T12:24:55.862Z",
   "stats": {
     "total": 31,
     "won": 13,
@@ -12,7 +12,7 @@
     "roi": -11.0,
     "staked": 296.0,
     "settled_stake": 296.0,
-    "last_update": "2026-10-11T12:23:43.147Z"
+    "last_update": "2026-10-11T12:24:55.862Z"
   },
   "verified": {
     "n": 30,
